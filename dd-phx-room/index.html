@@ -92,6 +92,8 @@
           updateSigninStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
           authorizeButton.onclick = handleAuthClick;
           signoutButton.onclick = handleSignoutClick;
+        }).catch(function(error) {
+          console.log(error);
         });
         setupRoomSchedules();
       }
