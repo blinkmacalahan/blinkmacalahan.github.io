@@ -165,7 +165,7 @@
             return resources;
 
         }).then(function(resources) {
-            var start = new Date(1522686643423); //new Date();
+            var start = new Date();//new Date(1522686643423); 
             var end = new Date(start);
             end.setHours(end.getHours() + 1);
             var ids = resources.map(function(resource) {
