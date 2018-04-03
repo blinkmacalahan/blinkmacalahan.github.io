@@ -103,12 +103,12 @@
        *  appropriately. After a sign-in, the API is called.
        */
        function updateSigninStatus(isSignedIn) {
+        welcomeScreen.style.display = 'block';
         if (isSignedIn) {
           authorizeButton.style.display = 'none';
           //signoutButton.style.display = 'block';
           showRoomSchedules();
         } else {
-          welcomeScreen.style.display = 'block';        
           signoutButton.style.display = 'none';
         }
       }
@@ -152,7 +152,6 @@
         gapi.client.directory.resources.calendars.list({
           'customer': 'my_customer'
         }).then(function(response) {
-            //console.log(response.body);
             var data = JSON.parse(response.body);
             var resources = data.items.map(function(item) {
               var resource = {};
@@ -166,7 +165,7 @@
             return resources;
 
         }).then(function(resources) {
-            var start = new Date();
+            var start = new Date(1522686643423); //new Date();
             var end = new Date(start);
             end.setHours(end.getHours() + 1);
             var ids = resources.map(function(resource) {
@@ -183,7 +182,7 @@
             });
 
             Promise.all(promises).then(function(values) {
-              console.log(values);
+              var usedRooms = [];
               var availableRoomSet = new Set(calendarResources.map(room => room.name));
               appendPre("Booked Rooms")
               values.forEach(function(element) {
@@ -191,14 +190,42 @@
                 console.log(item.items);
                 var eventETagSet = new Set();
 
+                
                 item.items.reverse().forEach(function(e) {
                   if (eventETagSet.has(e.eTag)) return;
-                  var startTime = new Date(e.start.dateTime).toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'});
-                  var endTime = new Date(e.end.dateTime).toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'});
-                  appendPre(`${item.summary}: ${startTime} - ${endTime} | ${e.summary} by ${e.creator.displayName || e.creator.email}`);
+                  e.startTime = new Date(e.start.dateTime).toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'});
+                  e.endTime = new Date(e.end.dateTime).toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'});
+                  e.title = item.summary;
                   availableRoomSet.delete(item.summary);
                   eventETagSet.add(e.eTag);
+                  usedRooms.push(e);
                 });
+
+              });
+              usedRooms.sort(function(a, b) {
+                var aStart = parseInt(a.startTime.replace(/\D/g, ''));
+                var bStart = parseInt(b.startTime.replace(/\D/g, ''));
+                var aEnd = parseInt(a.endTime.replace(/\D/g, ''));
+                var bEnd = parseInt(b.endTime.replace(/\D/g, ''));
+                if (aStart < bStart) {
+                  return -1;
+                } else if (aStart > bStart) {
+                  return 1;
+                } else {
+                  if (aEnd < bEnd) {
+                    return -1;
+                  }  else if (aEnd > bEnd) {
+                    return 1;
+                  } else {
+                    return 0;
+                  }
+                }
+                
+              });
+
+              usedRooms.forEach(function(usedRoom) {
+                var summary = usedRoom.summary || "Booked";
+                appendPre(`${usedRoom.title}: ${usedRoom.startTime} - ${usedRoom.endTime} | ${summary.trim()} by ${usedRoom.creator.displayName || usedRoom.creator.email}`);
               });
 
               appendPre("");
