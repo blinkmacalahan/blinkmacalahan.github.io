@@ -32,6 +32,10 @@
       font-size: 2em;
     }
 
+    #progressBar {
+      display: none;
+    }
+
     body {
       margin: 1em;
     }
@@ -40,7 +44,18 @@
 <body>
   <div id="welcomeScreen">
     <p>DD PHX Room Schedules</p>
-
+    <div id="progressBar" class="preloader-wrapper big active">
+      <div class="spinner-layer spinner-blue-only">
+        <div class="circle-clipper left">
+          <div class="circle"></div>
+        </div><div class="gap-patch">
+          <div class="circle"></div>
+        </div><div class="circle-clipper right">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </div>
+    <br/>
     <!--Add buttons to initiate auth sequence and sign out-->
     <a id="authorize-button" class="waves-effect waves-light btn">Get Started</a>  
   </div>
@@ -64,6 +79,7 @@
       var authorizeButton = document.getElementById('authorize-button');
       var signoutButton = document.getElementById('signout-button');
       var welcomeScreen = document.getElementById('welcomeScreen');
+      var progressBar = document.getElementById('progressBar');
 
       /**
        *  On load, called to load the auth2 library and API client library.
@@ -149,6 +165,7 @@
       }
 
       function showRoomSchedules() {
+        progressBar.style.display = "inline-block";
         gapi.client.directory.resources.calendars.list({
           'customer': 'my_customer'
         }).then(function(response) {
@@ -237,6 +254,7 @@
                   appendPre("");
               });
               document.getElementById('roomSchedules').style.display = 'block';
+              progressBar.style.display = 'none';
             }).catch(function(error) {
               console.log(error);
             });
