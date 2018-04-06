@@ -165,7 +165,7 @@
             return resources;
 
         }).then(function(resources) {
-            var start = new Date();//new Date(1522686643423); 
+            var start = new Date(); //new Date(1522944009904);
             var end = new Date(start);
             end.setHours(end.getHours() + 1);
             var ids = resources.map(function(resource) {
@@ -177,7 +177,8 @@
               return gapi.client.calendar.events.list({
                 "calendarId": item.id,
                 "timeMin": start.toISOString(),
-                "timeMax": end.toISOString()
+                "timeMax": end.toISOString(),
+                "singleEvents": true
               });
             });
 
