@@ -10,10 +10,6 @@
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
   <style type="text/css">
-    #roomSchedules {
-      display: none;
-      margin-top: 2em;
-    }
     #authorize-button {
       background-color: #0091EA;
     }
@@ -44,6 +40,14 @@
     body {
       margin: 1em;
     }
+
+    table {
+      font-size: 14px;
+    }
+
+    td {
+      padding: 8px 5px;
+    }
   </style>
 </head>
 <body>
@@ -67,276 +71,255 @@
 
   <button id="signout-button" style="display: none;">Sign Out</button>
 
-  <pre id="content"></pre>
   <div id="room-display">
-  <h5>Booked Rooms</h5>
-  <table>
-    <thead>
-      <tr>
-          <th>Room</th>
-          <th>Time</th>
-          <th>Desc</th>
-          <th>Creator</th>
-      </tr>
-    </thead>
+    <h5>Free Rooms</h5>
+    <table>
+      <tbody id="free-rooms-table">
+      </tbody>
+    </table>
 
-    <tbody id="booked-rooms-table">
-    </tbody>
-  </table>
+    <h5 style="margin-top: 2em;">Booked Rooms</h5>
+    <table>
+      <thead>
+        <tr>
+            <th>Room</th>
+            <th>Time</th>
+            <th>Desc</th>
+            <th>Creator</th>
+        </tr>
+      </thead>
 
-  <h5 style="margin-top: 3em;">Free Rooms</h5>
-  <table>
-    <tbody id="free-rooms-table">
-    </tbody>
-  </table>
-</div>
+      <tbody id="booked-rooms-table">
+      </tbody>
+    </table>
 
-  <script type="text/javascript">
-      // Client ID and API key from the Developer Console
-      var CLIENT_ID = '851325500119-6u2fmuf26egn0dueoa6574b0gtecesj1.apps.googleusercontent.com';
-      var API_KEY = 'AIzaSyCEAeg7cwwpzQm05uu8ZRLw6M4NhJX0xdQ';
+    <script type="text/javascript">
+        // Client ID and API key from the Developer Console
+        var CLIENT_ID = '851325500119-6u2fmuf26egn0dueoa6574b0gtecesj1.apps.googleusercontent.com';
+        var API_KEY = 'AIzaSyCEAeg7cwwpzQm05uu8ZRLw6M4NhJX0xdQ';
 
-      // Array of API discovery doc URLs for APIs used by the quickstart
-      var DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/admin/directory_v1/rest", "https://content.googleapis.com/discovery/v1/apis/calendar/v3/rest"];
+        // Array of API discovery doc URLs for APIs used by the quickstart
+        var DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/admin/directory_v1/rest", "https://content.googleapis.com/discovery/v1/apis/calendar/v3/rest"];
 
-      // Authorization scopes required by the API; multiple scopes can be
-      // included, separated by spaces.
-      var SCOPES = 'https://www.googleapis.com/auth/admin.directory.resource.calendar.readonly https://www.googleapis.com/auth/admin.directory.resource.calendar https://www.googleapis.com/auth/calendar https://www.googleapis.com/auth/calendar.readonly';
+        // Authorization scopes required by the API; multiple scopes can be
+        // included, separated by spaces.
+        var SCOPES = 'https://www.googleapis.com/auth/admin.directory.resource.calendar.readonly https://www.googleapis.com/auth/admin.directory.resource.calendar https://www.googleapis.com/auth/calendar https://www.googleapis.com/auth/calendar.readonly';
 
-      var authorizeButton = document.getElementById('authorize-button');
-      var signoutButton = document.getElementById('signout-button');
-      var welcomeScreen = document.getElementById('welcomeScreen');
-      var progressBar = document.getElementById('progressBar');
-      var bookedRoomsTableBody = document.getElementById('booked-rooms-table');
-      var freeRoomsTableBody = document.getElementById('free-rooms-table');
-      var roomDisplay = document.getElementById('room-display');
+        var authorizeButton = document.getElementById('authorize-button');
+        var signoutButton = document.getElementById('signout-button');
+        var welcomeScreen = document.getElementById('welcomeScreen');
+        var progressBar = document.getElementById('progressBar');
+        var bookedRoomsTableBody = document.getElementById('booked-rooms-table');
+        var freeRoomsTableBody = document.getElementById('free-rooms-table');
+        var roomDisplay = document.getElementById('room-display');
 
-      /**
-       *  On load, called to load the auth2 library and API client library.
-       */
-       function handleClientLoad() {
-        gapi.load('client:auth2', initClient);
-      }
-
-      var calendarResources;
-
-      /**
-       *  Initializes the API client library and sets up sign-in state
-       *  listeners.
-       */
-       function initClient() {
-        gapi.client.init({
-          apiKey: API_KEY,
-          clientId: CLIENT_ID,
-          discoveryDocs: DISCOVERY_DOCS,
-          scope: SCOPES
-        }).then(function () {
-          // Listen for sign-in state changes.
-          gapi.auth2.getAuthInstance().isSignedIn.listen(updateSigninStatus);
-
-          // Handle the initial sign-in state.
-          updateSigninStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
-          authorizeButton.onclick = handleAuthClick;
-          signoutButton.onclick = handleSignoutClick;
-        }).catch(function(error) {
-          console.log(error);
-        });
-        setupRoomSchedules();
-      }
-
-      /**
-       *  Called when the signed in status changes, to update the UI
-       *  appropriately. After a sign-in, the API is called.
-       */
-       function updateSigninStatus(isSignedIn) {
-        welcomeScreen.style.display = 'block';
-        if (isSignedIn) {
-          authorizeButton.style.display = 'none';
-          //signoutButton.style.display = 'block';
-          showRoomSchedules();
-        } else {
-          signoutButton.style.display = 'none';
+        /**
+         *  On load, called to load the auth2 library and API client library.
+         */
+         function handleClientLoad() {
+          gapi.load('client:auth2', initClient);
         }
-      }
 
-      /**
-       *  Sign in the user upon button click.
-       */
-       function handleAuthClick(event) {
-        gapi.auth2.getAuthInstance().signIn();
-      }
+        var calendarResources;
 
-      /**
-       *  Sign out the user upon button click.
-       */
-       function handleSignoutClick(event) {
-        gapi.auth2.getAuthInstance().signOut();
-      }
+        /**
+         *  Initializes the API client library and sets up sign-in state
+         *  listeners.
+         */
+         function initClient() {
+          gapi.client.init({
+            apiKey: API_KEY,
+            clientId: CLIENT_ID,
+            discoveryDocs: DISCOVERY_DOCS,
+            scope: SCOPES
+          }).then(function () {
+            // Listen for sign-in state changes.
+            gapi.auth2.getAuthInstance().isSignedIn.listen(updateSigninStatus);
 
-      /**
-       * Append a pre element to the body containing the given message
-       * as its text node. Used to display the results of the API call.
-       *
-       * @param {string} message Text to be placed in pre element.
-       */
-       function appendPre(message) {
-        var pre = document.getElementById('content');
-        var textContent = document.createTextNode(message + '\n');
-        pre.appendChild(textContent);
-      }
+            // Handle the initial sign-in state.
+            updateSigninStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
+            authorizeButton.onclick = handleAuthClick;
+            signoutButton.onclick = handleSignoutClick;
+          }).catch(function(error) {
+            console.log(error);
+          });
+          setupRoomSchedules();
+        }
 
-      function appendAnchor(text, url) {
-        var pre = document.getElementById('content');
-        var anchor = document.createElement("a");
-        anchor.setAttribute("href", url);
-        var textContent = document.createTextNode(text);
-        anchor.appendChild(textContent)
-        pre.appendChild(anchor);
-      }
+        /**
+         *  Called when the signed in status changes, to update the UI
+         *  appropriately. After a sign-in, the API is called.
+         */
+         function updateSigninStatus(isSignedIn) {
+          welcomeScreen.style.display = 'block';
+          if (isSignedIn) {
+            authorizeButton.style.display = 'none';
+            //signoutButton.style.display = 'block';
+            showRoomSchedules();
+          } else {
+            signoutButton.style.display = 'none';
+          }
+        }
 
-      function showRoomSchedules() {
-        progressBar.style.display = "inline-block";
-        gapi.client.directory.resources.calendars.list({
-          'customer': 'my_customer'
-        }).then(function(response) {
-            var data = JSON.parse(response.body);
-            var resources = data.items.map(function(item) {
-              var resource = {};
-              resource.name = item.resourceName;
-              resource.id = item.resourceId;
-              resource.email = item.resourceEmail;
-              return resource;
-            }).filter(resource => resource.name.search("Phoenix") >= 0);
-            console.log(resources);
-            calendarResources = resources;
-            return resources;
+        /**
+         *  Sign in the user upon button click.
+         */
+         function handleAuthClick(event) {
+          gapi.auth2.getAuthInstance().signIn();
+        }
 
-        }).then(function(resources) {
-            var start = new Date(1522944009904); //new Date();
-            var end = new Date(start);
-            end.setHours(end.getHours() + 1);
-            var ids = resources.map(function(resource) {
-              var item = {};
-              item.id = resource.email;
-              return item;
-            });
-            var promises = ids.map(function(item) {
-              return gapi.client.calendar.events.list({
-                "calendarId": item.id,
-                "timeMin": start.toISOString(),
-                "timeMax": end.toISOString(),
-                "singleEvents": true
+        /**
+         *  Sign out the user upon button click.
+         */
+         function handleSignoutClick(event) {
+          gapi.auth2.getAuthInstance().signOut();
+        }
+
+        function showRoomSchedules() {
+          progressBar.style.display = "inline-block";
+          gapi.client.directory.resources.calendars.list({
+            'customer': 'my_customer'
+          }).then(function(response) {
+              var data = JSON.parse(response.body);
+              var resources = data.items.map(function(item) {
+                var resource = {};
+                resource.name = item.resourceName;
+                resource.id = item.resourceId;
+                resource.email = item.resourceEmail;
+                return resource;
+              }).filter(resource => resource.name.search("Phoenix") >= 0);
+              console.log(resources);
+              calendarResources = resources;
+              return resources;
+
+          }).then(function(resources) {
+              var start = new Date(1522944009904); //new Date();
+              var end = new Date(start);
+              end.setHours(end.getHours() + 1);
+              var ids = resources.map(function(resource) {
+                var item = {};
+                item.id = resource.email;
+                return item;
               });
-            });
-
-            Promise.all(promises).then(function(values) {
-              var usedRooms = [];
-              var availableRoomSet = new Set(calendarResources.map(room => room.name));
-              values.forEach(function(element) {
-                var item = JSON.parse(element.body);
-                console.log(item.items);
-                var eventETagSet = new Set();
-
-                
-                item.items.reverse().forEach(function(e) {
-                  if (eventETagSet.has(e.eTag) || e.status === "cancelled") return;
-                  e.startTime = new Date(e.start.dateTime).toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'});
-                  e.endTime = new Date(e.end.dateTime).toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'});
-                  e.title = item.summary;
-                  availableRoomSet.delete(item.summary);
-                  eventETagSet.add(e.eTag);
-                  usedRooms.push(e);
+              var promises = ids.map(function(item) {
+                return gapi.client.calendar.events.list({
+                  "calendarId": item.id,
+                  "timeMin": start.toISOString(),
+                  "timeMax": end.toISOString(),
+                  "singleEvents": true
                 });
-
               });
-              usedRooms.sort(function(a, b) {
-                var aStart = parseInt(a.startTime.replace(/\D/g, ''));
-                var bStart = parseInt(b.startTime.replace(/\D/g, ''));
-                var aEnd = parseInt(a.endTime.replace(/\D/g, ''));
-                var bEnd = parseInt(b.endTime.replace(/\D/g, ''));
-                if (aStart < bStart) {
-                  return -1;
-                } else if (aStart > bStart) {
-                  return 1;
-                } else {
-                  if (aEnd < bEnd) {
+
+              Promise.all(promises).then(function(values) {
+                var usedRooms = [];
+                var availableRoomSet = new Set(calendarResources.map(room => room.name));
+                values.forEach(function(element) {
+                  var item = JSON.parse(element.body);
+                  console.log(item.items);
+                  var eventETagSet = new Set();
+
+                  
+                  item.items.reverse().forEach(function(e) {
+                    if (eventETagSet.has(e.eTag) || e.status === "cancelled") return;
+                    e.startTime = new Date(e.start.dateTime).toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'});
+                    e.endTime = new Date(e.end.dateTime).toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'});
+                    e.title = item.summary;
+                    availableRoomSet.delete(item.summary);
+                    eventETagSet.add(e.eTag);
+                    usedRooms.push(e);
+                  });
+
+                });
+                usedRooms.sort(function(a, b) {
+                  var aStart = parseInt(a.startTime.replace(/\D/g, ''));
+                  var bStart = parseInt(b.startTime.replace(/\D/g, ''));
+                  var aEnd = parseInt(a.endTime.replace(/\D/g, ''));
+                  var bEnd = parseInt(b.endTime.replace(/\D/g, ''));
+                  if (aStart < bStart) {
                     return -1;
-                  }  else if (aEnd > bEnd) {
+                  } else if (aStart > bStart) {
                     return 1;
                   } else {
-                    return 0;
+                    if (aEnd < bEnd) {
+                      return -1;
+                    }  else if (aEnd > bEnd) {
+                      return 1;
+                    } else {
+                      return 0;
+                    }
                   }
-                }
-                
+                  
+                });
+
+                usedRooms.forEach(function(usedRoom) {
+                  addBookedRoomItem(usedRoom);
+                });
+
+                calendarResources.forEach(function(room) {
+                    if (!availableRoomSet.has(room.name)) return;
+                    addFreeRoomItem(room);
+                });
+                document.getElementById('roomSchedules').style.display = 'block';
+                progressBar.style.display = 'none';
+                roomDisplay.style.display = 'block';
+              }).catch(function(error) {
+                console.log(error);
               });
+          });
+        }
 
-              usedRooms.forEach(function(usedRoom) {
-                addBookedRoomItem(usedRoom);
-              });
+        function setupRoomSchedules() {
+          var today = new Date().toISOString().replace(/T.*/, '').replace(/[-:\.]/g, "");
+          var str = `&dates=${today}/${today}`;
+          var calendar = document.getElementById('roomSchedules');
+          calendar.src += str;
+        }
 
-              calendarResources.forEach(function(room) {
-                  if (!availableRoomSet.has(room.name)) return;
-                  addFreeRoomItem(room);
-              });
-              document.getElementById('roomSchedules').style.display = 'block';
-              progressBar.style.display = 'none';
-              roomDisplay.style.display = 'block';
-            }).catch(function(error) {
-              console.log(error);
-            });
-        });
-      }
+        function addBookedRoomItem(bookedRoom) {
+          var summary = bookedRoom.summary || "";
+          var creator = bookedRoom.creator.displayName || bookedRoom.creator.email;
+          
+          var tableRow = document.createElement("tr");
+          tableRow.appendChild(createTd(bookedRoom.title));
+          tableRow.appendChild(createTd(`${bookedRoom.startTime} - ${bookedRoom.endTime}`));
+          tableRow.appendChild(createTd(summary.trim()));
+          tableRow.appendChild(createTd(creator));
+          bookedRoomsTableBody.appendChild(tableRow);
+        }
 
-      function setupRoomSchedules() {
-        var today = new Date().toISOString().replace(/T.*/, '').replace(/[-:\.]/g, "");
-        var str = `&dates=${today}/${today}`;
-        var calendar = document.getElementById('roomSchedules');
-        calendar.src += str;
-      }
+        function addFreeRoomItem(freeRoom) {
+          var tableRow = document.createElement("tr");
+          var anchor = `<a id="authorize-button" class="waves-effect waves-light btn" href="https://calendar.google.com/calendar/r/eventedit?add=${freeRoom.email}">Book</a>`;
+          tableRow.appendChild(createTd(freeRoom.name));
+          tableRow.appendChild(createTd(anchor));
+          freeRoomsTableBody.appendChild(tableRow);
+        }
 
-      function addBookedRoomItem(bookedRoom) {
-        var summary = bookedRoom.summary || "";
-        var creator = bookedRoom.creator.displayName || bookedRoom.creator.email;
-        
-        var tableRow = document.createElement("tr");
-        tableRow.appendChild(createTd(bookedRoom.title));
-        tableRow.appendChild(createTd(`${bookedRoom.startTime} - ${bookedRoom.endTime}`));
-        tableRow.appendChild(createTd(summary.trim()));
-        tableRow.appendChild(createTd(creator));
-        bookedRoomsTableBody.appendChild(tableRow);
-      }
+        function createTd(itemText) {
+          var td = document.createElement("td");
+          td.innerHTML = itemText;
+          return td;
+        }
 
-      function addFreeRoomItem(freeRoom) {
-        var tableRow = document.createElement("tr");
-        var anchor = `<a id="authorize-button" class="waves-effect waves-light btn" href="https://calendar.google.com/calendar/r/eventedit?add=${freeRoom.email}">Book</a>`;
-        tableRow.appendChild(createTd(freeRoom.name));
-        tableRow.appendChild(createTd(anchor));
-        freeRoomsTableBody.appendChild(tableRow);
-      }
+      </script>
 
-      function createTd(itemText) {
-        var td = document.createElement("td");
-        td.innerHTML = itemText;
-        return td;
-      }
-
+      <script async defer src="https://apis.google.com/js/api.js"
+      onload="this.onload=function(){};handleClientLoad()"
+      onreadystatechange="if (this.readyState === 'complete') this.onload()">
     </script>
 
-    <script async defer src="https://apis.google.com/js/api.js"
-    onload="this.onload=function(){};handleClientLoad()"
-    onreadystatechange="if (this.readyState === 'complete') this.onload()">
-  </script>
+    <h5 style="margin-top: 3em;">Room Schedules</h5>
+    <iframe id="roomSchedules" src="https://calendar.google.com/calendar/embed?mode=DAY&amp;showTitle=0&amp;showPrint=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=doubledutch.me_2d35343434383634312d343032@resource.calendar.google.com&amp;color=%23AB8B00&amp;
+  src=doubledutch.me_2d373731323835352d383732@resource.calendar.google.com&amp;color=%23B1365F&amp;
+  src=doubledutch.me_3135393138343936353739@resource.calendar.google.com&amp;color=%237A367A&amp;
+  src=doubledutch.me_3537353634343534313033@resource.calendar.google.com&amp;color=%235229A3&amp;
+  src=doubledutch.me_35393134333536363332@resource.calendar.google.com&amp;color=%2329527A&amp;
+  src=doubledutch.me_3634363837393039373633@resource.calendar.google.com&amp;color=%232952A3&amp;
+  src=doubledutch.me_38333832343938362d333535@resource.calendar.google.com&amp;color=%231B887A&amp;
+  src=doubledutch.me_39343935393434332d373937@resource.calendar.google.com&amp;color=%23BE6D00"
+  style="border-width:0; margin: 3em auto 0 auto;" width="75%" height="600" frameborder="0" scrolling="no"></iframe>
+  </div>
 </body>
 </html>
-
-<iframe id="roomSchedules" src="https://calendar.google.com/calendar/embed?mode=DAY&amp;showTitle=0&amp;showPrint=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=doubledutch.me_2d35343434383634312d343032@resource.calendar.google.com&amp;color=%23AB8B00&amp;
-src=doubledutch.me_2d373731323835352d383732@resource.calendar.google.com&amp;color=%23B1365F&amp;
-src=doubledutch.me_3135393138343936353739@resource.calendar.google.com&amp;color=%237A367A&amp;
-src=doubledutch.me_3537353634343534313033@resource.calendar.google.com&amp;color=%235229A3&amp;
-src=doubledutch.me_35393134333536363332@resource.calendar.google.com&amp;color=%2329527A&amp;
-src=doubledutch.me_3634363837393039373633@resource.calendar.google.com&amp;color=%232952A3&amp;
-src=doubledutch.me_38333832343938362d333535@resource.calendar.google.com&amp;color=%231B887A&amp;
-src=doubledutch.me_39343935393434332d373937@resource.calendar.google.com&amp;color=%23BE6D00"
-style="border-width:0" width="90%" height="600" frameborder="0" scrolling="no"></iframe>
 
 
