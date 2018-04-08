@@ -12,6 +12,7 @@
   <style type="text/css">
     #roomSchedules {
       display: none;
+      margin-top: 2em;
     }
     #authorize-button {
       background-color: #0091EA;
@@ -33,6 +34,10 @@
     }
 
     #progressBar {
+      display: none;
+    }
+
+    #room-display {
       display: none;
     }
 
@@ -63,6 +68,28 @@
   <button id="signout-button" style="display: none;">Sign Out</button>
 
   <pre id="content"></pre>
+  <div id="room-display">
+  <h5>Booked Rooms</h5>
+  <table>
+    <thead>
+      <tr>
+          <th>Room</th>
+          <th>Time</th>
+          <th>Desc</th>
+          <th>Creator</th>
+      </tr>
+    </thead>
+
+    <tbody id="booked-rooms-table">
+    </tbody>
+  </table>
+
+  <h5 style="margin-top: 3em;">Free Rooms</h5>
+  <table>
+    <tbody id="free-rooms-table">
+    </tbody>
+  </table>
+</div>
 
   <script type="text/javascript">
       // Client ID and API key from the Developer Console
@@ -80,6 +107,9 @@
       var signoutButton = document.getElementById('signout-button');
       var welcomeScreen = document.getElementById('welcomeScreen');
       var progressBar = document.getElementById('progressBar');
+      var bookedRoomsTableBody = document.getElementById('booked-rooms-table');
+      var freeRoomsTableBody = document.getElementById('free-rooms-table');
+      var roomDisplay = document.getElementById('room-display');
 
       /**
        *  On load, called to load the auth2 library and API client library.
@@ -182,7 +212,7 @@
             return resources;
 
         }).then(function(resources) {
-            var start = new Date(); //new Date(1522944009904);
+            var start = new Date(1522944009904); //new Date();
             var end = new Date(start);
             end.setHours(end.getHours() + 1);
             var ids = resources.map(function(resource) {
@@ -202,7 +232,6 @@
             Promise.all(promises).then(function(values) {
               var usedRooms = [];
               var availableRoomSet = new Set(calendarResources.map(room => room.name));
-              appendPre("Booked Rooms")
               values.forEach(function(element) {
                 var item = JSON.parse(element.body);
                 console.log(item.items);
@@ -242,19 +271,16 @@
               });
 
               usedRooms.forEach(function(usedRoom) {
-                var summary = usedRoom.summary || "Booked";
-                appendPre(`${usedRoom.title}: ${usedRoom.startTime} - ${usedRoom.endTime} | ${summary.trim()} by ${usedRoom.creator.displayName || usedRoom.creator.email}`);
+                addBookedRoomItem(usedRoom);
               });
 
-              appendPre("");
-              appendPre("Free Rooms");
               calendarResources.forEach(function(room) {
                   if (!availableRoomSet.has(room.name)) return;
-                  appendAnchor(room.name, `https://calendar.google.com/calendar/r/eventedit?add=${room.email}`);
-                  appendPre("");
+                  addFreeRoomItem(room);
               });
               document.getElementById('roomSchedules').style.display = 'block';
               progressBar.style.display = 'none';
+              roomDisplay.style.display = 'block';
             }).catch(function(error) {
               console.log(error);
             });
@@ -266,6 +292,32 @@
         var str = `&dates=${today}/${today}`;
         var calendar = document.getElementById('roomSchedules');
         calendar.src += str;
+      }
+
+      function addBookedRoomItem(bookedRoom) {
+        var summary = bookedRoom.summary || "";
+        var creator = bookedRoom.creator.displayName || bookedRoom.creator.email;
+        
+        var tableRow = document.createElement("tr");
+        tableRow.appendChild(createTd(bookedRoom.title));
+        tableRow.appendChild(createTd(`${bookedRoom.startTime} - ${bookedRoom.endTime}`));
+        tableRow.appendChild(createTd(summary.trim()));
+        tableRow.appendChild(createTd(creator));
+        bookedRoomsTableBody.appendChild(tableRow);
+      }
+
+      function addFreeRoomItem(freeRoom) {
+        var tableRow = document.createElement("tr");
+        var anchor = `<a id="authorize-button" class="waves-effect waves-light btn" href="https://calendar.google.com/calendar/r/eventedit?add=${freeRoom.email}">Book</a>`;
+        tableRow.appendChild(createTd(freeRoom.name));
+        tableRow.appendChild(createTd(anchor));
+        freeRoomsTableBody.appendChild(tableRow);
+      }
+
+      function createTd(itemText) {
+        var td = document.createElement("td");
+        td.innerHTML = itemText;
+        return td;
       }
 
     </script>
@@ -286,3 +338,5 @@ src=doubledutch.me_3634363837393039373633@resource.calendar.google.com&amp;color
 src=doubledutch.me_38333832343938362d333535@resource.calendar.google.com&amp;color=%231B887A&amp;
 src=doubledutch.me_39343935393434332d373937@resource.calendar.google.com&amp;color=%23BE6D00"
 style="border-width:0" width="90%" height="600" frameborder="0" scrolling="no"></iframe>
+
+
