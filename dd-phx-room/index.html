@@ -10,10 +10,10 @@
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
   <style type="text/css">
-    #authorize-button {
+    .btn {
       background-color: #0091EA;
     }
-    #authorize-button.btn:hover {
+    .btn:hover {
         background-color: #3aa6e8;
     }
     #welcomeScreen {
@@ -289,7 +289,11 @@
 
         function addFreeRoomItem(freeRoom) {
           var tableRow = document.createElement("tr");
-          var anchor = `<a id="authorize-button" class="waves-effect waves-light btn" href="https://calendar.google.com/calendar/r/eventedit?add=${freeRoom.email}">Book</a>`;
+          var startTime = new Date();
+          var endTime = new Date();
+          endTime.setMinutes(endTime.getMinutes() + 30);
+          var dates = `dates=${startTime.toISOString().replace(/\.[0-9]{3}/,"").replace(/[-:\.]/g, "")}/${endTime.toISOString().replace(/\.[0-9]{3}/,"").replace(/[-:\.]/g, "")}`;
+          var anchor = `<a class="waves-effect waves-light btn" href="https://calendar.google.com/calendar/r/eventedit?add=${freeRoom.email}&${dates}">Book</a>`;
           tableRow.appendChild(createTd(freeRoom.name));
           tableRow.appendChild(createTd(anchor));
           freeRoomsTableBody.appendChild(tableRow);
