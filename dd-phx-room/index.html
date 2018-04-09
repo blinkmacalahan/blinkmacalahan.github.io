@@ -155,6 +155,7 @@
           if (isSignedIn) {
             authorizeButton.style.display = 'none';
             //signoutButton.style.display = 'block';
+            progressBar.style.display = "inline-block";
             showRoomSchedules();
           } else {
             signoutButton.style.display = 'none';
@@ -175,8 +176,7 @@
           gapi.auth2.getAuthInstance().signOut();
         }
 
-        function showRoomSchedules() {
-          progressBar.style.display = "inline-block";
+        function showRoomSchedules() {    
           gapi.client.directory.resources.calendars.list({
             'customer': 'my_customer'
           }).then(function(response) {
@@ -211,6 +211,10 @@
               });
 
               Promise.all(promises).then(function(values) {
+                //clear previous elements
+                deleteChildNodes(bookedRoomsTableBody);
+                deleteChildNodes(freeRoomsTableBody);
+
                 var usedRooms = [];
                 var availableRoomSet = new Set(calendarResources.map(room => room.name));
                 values.forEach(function(element) {
@@ -262,6 +266,8 @@
                 document.getElementById('roomSchedules').style.display = 'block';
                 progressBar.style.display = 'none';
                 roomDisplay.style.display = 'block';
+
+                window.setTimeout(refresh, 60000);
               }).catch(function(error) {
                 console.log(error);
               });
@@ -305,6 +311,20 @@
           return td;
         }
 
+        function deleteChildNodes(parent) {
+          while (parent.firstChild) {
+            parent.removeChild(parent.firstChild);
+          }
+        }
+
+        function refresh() {
+          if (document.hidden) {
+            timeoutID = window.setTimeout(refresh, 60000);
+          } else {
+            showRoomSchedules();
+          }
+        }
+
       </script>
 
       <script async defer src="https://apis.google.com/js/api.js"
@@ -313,17 +333,8 @@
     </script>
 
     <h5 style="margin-top: 3em;">Room Schedules</h5>
-    <iframe id="roomSchedules" src="https://calendar.google.com/calendar/embed?mode=DAY&amp;showTitle=0&amp;showPrint=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=doubledutch.me_2d35343434383634312d343032@resource.calendar.google.com&amp;color=%23AB8B00&amp;
-  src=doubledutch.me_2d373731323835352d383732@resource.calendar.google.com&amp;color=%23B1365F&amp;
-  src=doubledutch.me_3135393138343936353739@resource.calendar.google.com&amp;color=%237A367A&amp;
-  src=doubledutch.me_3537353634343534313033@resource.calendar.google.com&amp;color=%235229A3&amp;
-  src=doubledutch.me_35393134333536363332@resource.calendar.google.com&amp;color=%2329527A&amp;
-  src=doubledutch.me_3634363837393039373633@resource.calendar.google.com&amp;color=%232952A3&amp;
-  src=doubledutch.me_38333832343938362d333535@resource.calendar.google.com&amp;color=%231B887A&amp;
-  src=doubledutch.me_39343935393434332d373937@resource.calendar.google.com&amp;color=%23BE6D00"
+    <iframe id="roomSchedules" src="https://calendar.google.com/calendar/embed?mode=DAY&amp;showTitle=0&amp;showPrint=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=doubledutch.me_2d35343434383634312d343032%40resource.calendar.google.com&amp;color=%23AB8B00&amp;src=doubledutch.me_2d373731323835352d383732%40resource.calendar.google.com&amp;color=%23B1365F&amp;src=doubledutch.me_3135393138343936353739%40resource.calendar.google.com&amp;color=%237A367A&amp;src=doubledutch.me_3537353634343534313033%40resource.calendar.google.com&amp;color=%235229A3&amp;src=doubledutch.me_35393134333536363332%40resource.calendar.google.com&amp;color=%2329527A&amp;src=doubledutch.me_3634363837393039373633%40resource.calendar.google.com&amp;color=%232952A3&amp;src=doubledutch.me_38333832343938362d333535%40resource.calendar.google.com&amp;color=%231B887A&amp;src=doubledutch.me_39343935393434332d373937%40resource.calendar.google.com&amp;color=%23BE6D00"
   style="border-width:0; margin: 3em auto 0 auto;" width="75%" height="600" frameborder="0" scrolling="no"></iframe>
   </div>
 </body>
 </html>
-
-
