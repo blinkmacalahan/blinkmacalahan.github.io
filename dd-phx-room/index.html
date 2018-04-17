@@ -272,6 +272,9 @@
               }).catch(function(error) {
                 console.log(error);
               });
+          }).catch(function(error) {
+            progressBar.style.display = 'none';
+            alert("Unable to pull room data. Are you signed into the correct Google Account?");
           });
         }
 
