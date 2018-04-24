@@ -400,7 +400,7 @@
             "Icon": "globe_71B882",
             "Title": "New URL-Scheme Open Natively",
             "Url": {
-              "Android": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FBdtyng_F1V_%2F%3Fhl%3Den%26taken-by%3Dromainguy?useNativeApp=true",
+              "Android": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FBdtyng_F1V_%2F%3Fhl%3Den%26taken-by%3Dromainguy&useNativeApp=true",
               "Web": null,
               "WindowsPhone": null,
               "iPhone": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FBdtyng_F1V_%2F%3Fhl%3Den%26taken-by%3Dromainguy?useNativeApp=true"
