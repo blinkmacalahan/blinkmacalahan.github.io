@@ -410,30 +410,30 @@
             "Icon": "globe_71B882",
             "Title": "New URL-Scheme Integrator Website",
             "Url": {
-              "Android": "dd://web?url=https%3A%2F%2Fwww.nintendo.com?jssdk=true&useNativeApp=true&externalBrowser=true",
+              "Android": "dd://web?url=https%3A%2F%2Fwww.nintendo.com&jssdk=true&useNativeApp=true&externalBrowser=true",
               "Web": null,
               "WindowsPhone": null,
-              "iPhone": "dd://web?url=https%3A%2F%2Fwww.nintendo.com?jssdk=true&useNativeApp=true&externalBrowser=true"
+              "iPhone": "dd://web?url=https%3A%2F%2Fwww.nintendo.com&jssdk=true&useNativeApp=true&externalBrowser=true"
             }
           },
           {
             "Icon": "globe_71B882",
             "Title": "New URL-Scheme External Website",
             "Url": {
-              "Android": "dd://web?url=https%3A%2F%2Fwww.nintendo.com?externalBrowser=true&useNativeApp=true",
+              "Android": "dd://web?url=https%3A%2F%2Fwww.nintendo.com&externalBrowser=true&useNativeApp=true",
               "Web": null,
               "WindowsPhone": null,
-              "iPhone": "dd://web?url=https%3A%2F%2Fwww.nintendo.com?externalBrowser=true&useNativeApp=true"
+              "iPhone": "dd://web?url=https%3A%2F%2Fwww.nintendo.com&externalBrowser=true&useNativeApp=true"
             }
           },
           {
             "Icon": "globe_71B882",
             "Title": "New URL-Scheme Multi Website",
             "Url": {
-              "Android": "dd://web?url=https%3A%2F%2Fwww.nintendo.com?externalBrowser=true",
+              "Android": "dd://web?url=https%3A%2F%2Fwww.nintendo.com&externalBrowser=true",
               "Web": null,
               "WindowsPhone": null,
-              "iPhone": "dd://web?url=https%3A%2F%2Fwww.nintendo.com?externalBrowser=true"
+              "iPhone": "dd://web?url=https%3A%2F%2Fwww.nintendo.com&externalBrowser=true"
             }
           },
           {
