@@ -377,6 +377,16 @@
             }
           },
           {
+            "Icon": "accessibility_71B882",
+            "Title": "Nintendo Internal",
+            "Url": {
+              "Android": "dd://web?url=https%3A%2F%2Fwww.nintendo.com%2F",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://web?url=https%3A%2F%2Fwww.nintendo.com%2F"
+            }
+          },
+          {
             "Icon": "02_71B882",
             "Title": "Messages",
             "Url": {
@@ -484,16 +494,6 @@
               "Web": null,
               "WindowsPhone": null,
               "iPhone": "dd://web?url=https%3A%2F%2Fwww.nintendo.com&externalBrowser=true"
-            }
-          },
-          {
-            "Icon": "accessibility_71B882",
-            "Title": "Nintendo Internal",
-            "Url": {
-              "Android": "dd://web?url=https%3A%2F%2Fwww.nintendo.com%2F",
-              "Web": null,
-              "WindowsPhone": null,
-              "iPhone": "dd://web?url=https%3A%2F%2Fwww.nintendo.com%2F"
             }
           },
           {
