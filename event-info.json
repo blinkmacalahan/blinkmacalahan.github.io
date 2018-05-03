@@ -1,0 +1,820 @@
+{
+  "Value": [
+    {
+      "Updated": "2018-04-09T18:37:53.778Z",
+      "Id": "12f8dd98-8984-4956-b5d9-dee17625810c",
+      "BundleId": "f0c4b2db-a743-4fb2-9e8f-a80463e52b55",
+      "Name": "Cats Will Rule the World",
+      "Description": "Cats Will Rule the World",
+      "Configuration": {
+        "Colors": [
+          {
+            "Name": "kPrimaryColor",
+            "Value": "#cc1482"
+          },
+          {
+            "Name": "kIconColor",
+            "Value": "#71b882"
+          },
+          {
+            "Name": "kLinkTextColor",
+            "Value": "#0000F5"
+          }
+        ],
+        "Settings": [
+          {
+            "Name": "MessagingEnabled",
+            "Value": "True"
+          },
+          {
+            "Name": "AdsInActivityFeed",
+            "Value": "False"
+          },
+          {
+            "Name": "CompanyFiltering",
+            "Value": "False"
+          },
+          {
+            "Name": "TwitterHashtag",
+            "Value": ""
+          },
+          {
+            "Name": "DisableItemAdditions",
+            "Value": "False"
+          },
+          {
+            "Name": "EnableUnreadItems",
+            "Value": "False"
+          },
+          {
+            "Name": "PrivacyPolicyURL",
+            "Value": "https://doubledutch.me/privacy.html"
+          },
+          {
+            "Name": "EnablePeopleRecommendation",
+            "Value": "True"
+          },
+          {
+            "Name": "ExhibitorRequestInformationEnabled",
+            "Value": "True"
+          },
+          {
+            "Name": "ExhibitorMessagingEnabled",
+            "Value": "False"
+          },
+          {
+            "Name": "FavoritesEnabled",
+            "Value": "True"
+          },
+          {
+            "Name": "NowButtonEnabled",
+            "Value": "True"
+          },
+          {
+            "Name": "EnableWayfinding",
+            "Value": "True"
+          },
+          {
+            "Name": "DisplayFullName",
+            "Value": "False"
+          },
+          {
+            "Name": "MapForLocals",
+            "Value": "False"
+          },
+          {
+            "Name": "ShowCheckInLeaderboard",
+            "Value": "True"
+          },
+          {
+            "Name": "ShowUserLeaderboard",
+            "Value": "False"
+          },
+          {
+            "Name": "ApplicationName",
+            "Value": ""
+          },
+          {
+            "Name": "AppStoreLink",
+            "Value": ""
+          },
+          {
+            "Name": "URLScheme",
+            "Value": "hyve"
+          },
+          {
+            "Name": "PersonalProductivityAnalyticsEnabled",
+            "Value": "False"
+          },
+          {
+            "Name": "HiddenInviteAllAddressBookFriends",
+            "Value": "True"
+          },
+          {
+            "Name": "AddFriendsOnlyFromAddressBook",
+            "Value": "False"
+          },
+          {
+            "Name": "FrequentItemsEnabled",
+            "Value": "False"
+          },
+          {
+            "Name": "RegisterToAccessContent",
+            "Value": "False"
+          },
+          {
+            "Name": "DontShareByDefault",
+            "Value": "False"
+          },
+          {
+            "Name": "TurnOffSharingAfterUse",
+            "Value": "False"
+          },
+          {
+            "Name": "GeoFencingEnabled",
+            "Value": "True"
+          },
+          {
+            "Name": "SupportEmail",
+            "Value": "customersupport@doubledutch.me"
+          },
+          {
+            "Name": "EnableRatings",
+            "Value": "True"
+          },
+          {
+            "Name": "DisableStatusUpdate",
+            "Value": "False"
+          },
+          {
+            "Name": "SessionChannelsEnabled",
+            "Value": "True"
+          },
+          {
+            "Name": "EnableSessionScans",
+            "Value": "True"
+          },
+          {
+            "Name": "EnableDirectMessaging",
+            "Value": "True"
+          },
+          {
+            "Name": "DeleteNotesOnLogout",
+            "Value": "False"
+          },
+          {
+            "Name": "ExhibitorPayments",
+            "Value": "False"
+          },
+          {
+            "Name": "AccountTargeting",
+            "Value": "False"
+          },
+          {
+            "Name": "ProfileEdits",
+            "Value": "False"
+          },
+          {
+            "Name": "EnableAvailability",
+            "Value": "Show No Availability"
+          },
+          {
+            "Name": "DisableGameDay",
+            "Value": "False"
+          },
+          {
+            "Name": "DisableBeaconMessage",
+            "Value": "False"
+          },
+          {
+            "Name": "DisableMessagingInCMS",
+            "Value": "False"
+          },
+          {
+            "Name": "EnableExhibitorDataSync",
+            "Value": "False"
+          },
+          {
+            "Name": "DisableShareButtonIOS",
+            "Value": "False"
+          },
+          {
+            "Name": "EnableOfflineFilesDownload",
+            "Value": "False"
+          },
+          {
+            "Name": "EnableMyAgenda",
+            "Value": "True"
+          },
+          {
+            "Name": "SocialNetworks",
+            "Value": ",FacebookPlugin,TwitterPlugin,LinkedInPlugin"
+          },
+          {
+            "Name": "EnableSearchAllUsers",
+            "Value": "False"
+          },
+          {
+            "Name": "EnableSessionNotes",
+            "Value": "True"
+          },
+          {
+            "Name": "PrivateAchievements",
+            "Value": "True"
+          },
+          {
+            "Name": "EnableLinkedInProfileImport",
+            "Value": "False"
+          },
+          {
+            "Name": "ShowUserBadges",
+            "Value": "True"
+          },
+          {
+            "Name": "EnableSessionNotifications",
+            "Value": "True"
+          },
+          {
+            "Name": "EnableSessionRecommendation",
+            "Value": "True"
+          },
+          {
+            "Name": "EmailInviteTitle",
+            "Value": "%@ has recommended HYVE"
+          },
+          {
+            "Name": "EmailInviteBody",
+            "Value": "Check out HYVE iPhone app. To learn more about HYVE for iPhone and download for free, visit this <a href=\"http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=430984830&mt=8\">link</a>."
+          },
+          {
+            "Name": "EmailInviteURL",
+            "Value": "http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=430984830&mt=8"
+          },
+          {
+            "Name": "TreatClearedNotificationsAsDeleted",
+            "Value": "True"
+          },
+          {
+            "Name": "MinimumRadiusFilter",
+            "Value": "1.0"
+          },
+          {
+            "Name": "NoAccessRedirection",
+            "Value": "http://ddut.ch/noaccesswithjoin"
+          },
+          {
+            "Name": "AppRatingEnabled",
+            "Value": "False"
+          },
+          {
+            "Name": "CheckWebAuthorization",
+            "Value": "False"
+          },
+          {
+            "Name": "LogOutOnOAuthError",
+            "Value": "True"
+          },
+          {
+            "Name": "RequiredFieldsForSettings",
+            "Value": "Company,Title"
+          },
+          {
+            "Name": "RequiredFieldsForRegistration",
+            "Value": ""
+          },
+          {
+            "Name": "UseMyAgendaAsAgenda",
+            "Value": "False"
+          },
+          {
+            "Name": "BadgeScanParseExpression",
+            "Value": "(.+)"
+          },
+          {
+            "Name": "BadgeScanParseGroups",
+            "Value": "id"
+          },
+          {
+            "Name": "WelcomeEmailTemplate",
+            "Value": "Welcome"
+          },
+          {
+            "Name": "UseOldMaps",
+            "Value": "False"
+          },
+          {
+            "Name": "BadgeScanLoginEnabled",
+            "Value": "False"
+          },
+          {
+            "Name": "GuestRegistrationEnabled",
+            "Value": "False"
+          },
+          {
+            "Name": "EnableFavoriteCustomErrors",
+            "Value": "False"
+          },
+          {
+            "Name": "Enable AMEX Dashboard",
+            "Value": "True"
+          },
+          {
+            "Name": "EnableSmsPolling",
+            "Value": "True"
+          },
+          {
+            "Name": "NewUserProfileEnabled",
+            "Value": "True"
+          },
+          {
+            "Name": "WaitlistEnabled",
+            "Value": "True"
+          },
+          {
+            "Name": "TargetedOffersEmailTextEnabled",
+            "Value": "False"
+          },
+          {
+            "Name": "LeadScanningEmailTextEnabled",
+            "Value": "False"
+          },
+          {
+            "Name": "RegistrationEnabled",
+            "Value": "True"
+          },
+          {
+            "Name": "EnableUnreadCount",
+            "Value": "False"
+          },
+          {
+            "Name": "UpdateAssociations",
+            "Value": "[]"
+          },
+          {
+            "Name": "ReactActivityFeedCardsURL",
+            "Value": ""
+          }
+        ],
+        "Grid": [
+          {
+            "Icon": "activity_71B882",
+            "Title": "Activity",
+            "Url": {
+              "Android": "dd://activityfeed/",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://activityfeed/"
+            }
+          },
+          {
+            "Icon": "megaphone_71B882",
+            "Title": "SpeakersAn162",
+            "Url": {
+              "Android": "dd://topic/10267894",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://topic/10267894"
+            }
+          },
+          {
+            "Icon": "accessibility_71B882",
+            "Title": "Nintendo Internal",
+            "Url": {
+              "Android": "dd://web?url=https%3A%2F%2Fwww.nintendo.com%2F",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://web?url=https%3A%2F%2Fwww.nintendo.com%2F"
+            }
+          },
+          {
+            "Icon": "02_71B882",
+            "Title": "Messages",
+            "Url": {
+              "Android": "dd://messages/",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://messages/"
+            }
+          },
+          {
+            "Icon": "02_71B882",
+            "Title": "Reddit",
+            "Url": {
+              "Android": "https://www.reddit.com",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "https://www.reddit.com"
+            }
+          },
+          {
+            "Icon": "globe_71B882",
+            "Title": "Instagram Native",
+            "Url": {
+              "Android": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FBdtyng_F1V_%2F%3Fhl%3Den%26taken-by%3Dromainguy&useNativeApp=true",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FBdtyng_F1V_%2F%3Fhl%3Den%26taken-by%3Dromainguy&useNativeApp=true"
+            }
+          },
+          {
+            "Icon": "globe_71B882",
+            "Title": "Nintendo JSSDK, Native, Ext",
+            "Url": {
+              "Android": "dd://web?url=https%3A%2F%2Fwww.nintendo.com&jssdk=true&useNativeApp=true&externalBrowser=true",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://web?url=https%3A%2F%2Fwww.nintendo.com&jssdk=true&useNativeApp=true&externalBrowser=true"
+            }
+          },
+          {
+            "Icon": "globe_71B882",
+            "Title": "Nintendo Native, Ext",
+            "Url": {
+              "Android": "dd://web?url=https%3A%2F%2Fwww.nintendo.com&useNativeApp=true&externalBrowser=true",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://web?url=https%3A%2F%2Fwww.nintendo.com&useNativeApp=true&externalBrowser=true"
+            }
+          },
+          {
+            "Icon": "globe_71B882",
+            "Title": "Instagram Falsey",
+            "Url": {
+              "Android": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FBdtyng_F1V_%2F%3Fhl%3Den%26taken-by%3Dromainguy&jssdk=false&externalBrowser=false&useNativeApp=false",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FBdtyng_F1V_%2F%3Fhl%3Den%26taken-by%3Dromainguy&jssdk=false&externalBrowser=false&useNativeApp=false"
+            }
+          },
+          {
+            "Icon": "globe_71B882",
+            "Title": "Instagram Native, Ext",
+            "Url": {
+              "Android": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FBdtyng_F1V_%2F%3Fhl%3Den%26taken-by%3Dromainguy&externalBrowser=true&useNativeApp=true",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FBdtyng_F1V_%2F%3Fhl%3Den%26taken-by%3Dromainguy&externalBrowser=true&useNativeApp=true"
+            }
+          },
+          {
+            "Icon": "globe_71B882",
+            "Title": "Instagram Internal",
+            "Url": {
+              "Android": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FBdtyng_F1V_%2F%3Fhl%3Den%26taken-by%3Dromainguy",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FBdtyng_F1V_%2F%3Fhl%3Den%26taken-by%3Dromainguy"
+            }
+          },
+          {
+            "Icon": "globe_71B882",
+            "Title": "Instagram Internal",
+            "Url": {
+              "Android": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FBdtyng_F1V_%2F%3Fhl%3Den%26taken-by%3Dromainguy",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FBdtyng_F1V_%2F%3Fhl%3Den%26taken-by%3Dromainguy"
+            }
+          },
+          {
+            "Icon": "globe_71B882",
+            "Title": "Instagram External",
+            "Url": {
+              "Android": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FBdtyng_F1V_%2F%3Fhl%3Den%26taken-by%3Dromainguy&externalBrowser=true",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FBdtyng_F1V_%2F%3Fhl%3Den%26taken-by%3Dromainguy&externalBrowser=true"
+            }
+          },
+          {
+            "Icon": "globe_71B882",
+            "Title": "Nintendo External",
+            "Url": {
+              "Android": "dd://web?url=https%3A%2F%2Fwww.nintendo.com&externalBrowser=true",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://web?url=https%3A%2F%2Fwww.nintendo.com&externalBrowser=true"
+            }
+          },
+          {
+            "Icon": "21_71B882",
+            "Title": "Agenda #2",
+            "Url": {
+              "Android": "dd://agenda/10267909",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://agenda/10267909"
+            }
+          },
+          {
+            "Icon": "21_71B882",
+            "Title": "Agenda #1",
+            "Url": {
+              "Android": "dd://agenda/10267908",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://agenda/10267908"
+            }
+          },
+          {
+            "Icon": "agenda_71B882",
+            "Title": "Agenda",
+            "Url": {
+              "Android": "dd://agenda/10267891",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://agenda/10267891"
+            }
+          },
+          {
+            "Icon": "09_71B882",
+            "Title": "Attendees",
+            "Url": {
+              "Android": "dd://users/",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://users/"
+            }
+          },
+          {
+            "Icon": "globe_71B882",
+            "Title": "wEB VIEW 13",
+            "Url": {
+              "Android": "http://qa.webapp.doubledutch.me/templates/EventBadge.aspx",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "http://qa.webapp.doubledutch.me/templates/EventBadge.aspx"
+            }
+          },
+          {
+            "Icon": "07_71B882",
+            "Title": "Info",
+            "Url": {
+              "Android": "dd://item/201276",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://item/201276"
+            }
+          },
+          {
+            "Icon": "21_71B882",
+            "Title": "Files and links",
+            "Url": {
+              "Android": "dd://topicinfo/10267899",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://topicinfo/10267899"
+            }
+          },
+          {
+            "Icon": "07_71B882",
+            "Title": "test info",
+            "Url": {
+              "Android": "dd://item/201277",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://item/201277"
+            }
+          },
+          {
+            "Icon": "21_71B882",
+            "Title": "test",
+            "Url": {
+              "Android": "dd://topic/10267902",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://topic/10267902"
+            }
+          },
+          {
+            "Icon": "21_71B882",
+            "Title": "Custom 6767",
+            "Url": {
+              "Android": "dd://topic/10267901",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://topic/10267901"
+            }
+          },
+          {
+            "Icon": "attendees_71B882",
+            "Title": "Exhibitor 123",
+            "Url": {
+              "Android": "dd://topic/10267900",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://topic/10267900"
+            }
+          },
+          {
+            "Icon": "cloudupload_71B882",
+            "Title": "Session_new1",
+            "Url": {
+              "Android": "dd://topic/10267896",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://topic/10267896"
+            }
+          },
+          {
+            "Icon": "attendees_71B882",
+            "Title": "Exhibitors",
+            "Url": {
+              "Android": "dd://topic/10267895",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://topic/10267895"
+            }
+          },
+          {
+            "Icon": "list_71B882",
+            "Title": "Files and Links",
+            "Url": {
+              "Android": "dd://topic/10267892",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://topic/10267892"
+            }
+          },
+          {
+            "Icon": "25_71B882",
+            "Title": "Leaderboard",
+            "Url": {
+              "Android": "dd://leaderboard/",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://leaderboard/"
+            }
+          },
+          {
+            "Icon": "01_71B882",
+            "Title": "Polls",
+            "Url": {
+              "Android": "dd://poll/",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://poll/"
+            }
+          },
+          {
+            "Icon": "21_71B882",
+            "Title": "Session_new2",
+            "Url": {
+              "Android": "dd://topic/10267897",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://topic/10267897"
+            }
+          },
+          {
+            "Icon": "21_71B882",
+            "Title": "Test Topic",
+            "Url": {
+              "Android": "dd://topic/10267889",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://topic/10267889"
+            }
+          },
+          {
+            "Icon": "11_71B882",
+            "Title": "Channels",
+            "Url": {
+              "Android": "dd://channels/",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://channels/"
+            }
+          },
+          {
+            "Icon": "01_71B882",
+            "Title": "Surveys",
+            "Url": {
+              "Android": "dd://survey/",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://survey/"
+            }
+          },
+          {
+            "Icon": "photo-feed_71B882",
+            "Title": "Photo Feed",
+            "Url": {
+              "Android": "dd://photofeed/",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://photofeed/"
+            }
+          },
+          {
+            "Icon": "21_71B882",
+            "Title": "Agenda1",
+            "Url": {
+              "Android": "dd://agenda/10267893",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://agenda/10267893"
+            }
+          },
+          {
+            "Icon": "21_71B882",
+            "Title": "Speakers1",
+            "Url": {
+              "Android": "dd://topic/10267905",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://topic/10267905"
+            }
+          },
+          {
+            "Icon": "23_71B882",
+            "Title": "Bookmarks",
+            "Url": {
+              "Android": "dd://favorites/",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://favorites/"
+            }
+          },
+          {
+            "Icon": "26_71B882",
+            "Title": "Map",
+            "Url": {
+              "Android": "dd://map/",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://map/"
+            }
+          },
+          {
+            "Icon": "17_71B882",
+            "Title": "QR Scanner",
+            "Url": {
+              "Android": "dd://qrcodescanner/",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://qrcodescanner/"
+            }
+          },
+          {
+            "Icon": "21_71B882",
+            "Title": "Test File and links ",
+            "Url": {
+              "Android": "dd://topicinfo/10267907",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://topicinfo/10267907"
+            }
+          },
+          {
+            "Icon": "qrscanner_71B882",
+            "Title": "Personal Leads2",
+            "Url": {
+              "Android": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fpersonalleads%2F0.0.3%2Fmobile%2Findex.__platform__.0.46.4.manifest.bundle?module=personalleads&alt=media#plugin",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fpersonalleads%2F0.0.3%2Fmobile%2Findex.__platform__.0.46.4.manifest.bundle?module=personalleads&alt=media#plugin"
+            }
+          },
+          {
+            "Icon": "21_71B882",
+            "Title": "Files&external",
+            "Url": {
+              "Android": "dd://topicinfo/10267898",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://topicinfo/10267898"
+            }
+          },
+          {
+            "Icon": "zdd",
+            "Title": "App By DoubleDutch",
+            "Url": {
+              "Android": "https://doubledutch.me/mobile-about.html",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "https://doubledutch.me/mobile-about.html"
+            }
+          }
+        ],
+        "UpdateObjects": []
+      },
+      "Icon": "https://d27z76th86wcg3.cloudfront.net/config/assets/12f8dd98-8984-4956-b5d9-dee17625810c/1a04c387-8817-4f4a-9668-55de0013ec09/icon.png",
+      "AssetPackageUrl": "https://d27z76th86wcg3.cloudfront.net/config/assets/12f8dd98-8984-4956-b5d9-dee17625810c/e1f4ec6b-3dcc-4d3a-8ca2-a299acf82508_XHigh.zip",
+      "AssetPackageUpdated": "2018-04-06T23:14:07.634Z",
+      "StartDate": "2018-01-01T00:00:00.000Z",
+      "EndDate": "2019-01-01T00:00:00.000Z",
+      "IsLinkedWithCurrentUser": true,
+      "Location": null,
+      "TimeZoneOffset": -480,
+      "TimeZone": "America/Los_Angeles",
+      "ShortName": "cats-will-rule-the-world",
+      "ContextId": "wggEs4XehGh3Rb87YVx6wB",
+      "EventId": "gGnS9RCKFc3fbhxEsozYh5VKChY7qn8wHYXtmagWCJsK"
+    }
+  ],
+  "IsSuccess": true,
+  "Message": null,
+  "ErrorCode": 0,
+  "Purge": false
+}
