@@ -110,6 +110,10 @@
 			transform: scale(1.5);
 			box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
 		}
+
+		#current-degree {
+			text-decoration: underline
+		}
 	</style>
 </head>
 <body>
@@ -151,7 +155,7 @@
 			<div class="triangle"></div>
 		</div>
 	</div>
-	<p>Rotate the shape from 0&deg; to 360&deg;</p>
+	<p>Rotate the shape from 0&deg; to 360&deg;. Current value is <span id="current-degree">0</span>&deg;</p>
 	<input type="range" min="0" max="360" value="0" style="width: 45%; height: 60px;" id="degree-selection">
 	<div id="active-shape" class="square"></div>
 </body>
@@ -161,6 +165,7 @@
 	const activeShapeId = "#active-shape";
 	const degreeSelectionId = "#degree-selection";
 	const colorOptionId = ".color-option";
+	const currentDegreeId = "#current-degree";
 	var activeShapeChoice = "square";
 	var activeColor = "#555";
 
@@ -184,6 +189,7 @@
 	$(degreeSelectionId).on('input', function() {
 		var transformValue = `scale(2) rotate(${this.value}deg)`;
 		$(activeShapeId).css("transform", transformValue);
+		$(currentDegreeId).html(this.value);
 	});
 
 	function setColor(color) {
