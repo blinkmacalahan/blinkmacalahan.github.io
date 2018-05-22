@@ -367,13 +367,13 @@
             }
           },
           {
-            "Icon": "megaphone_71B882",
-            "Title": "SpeakersAn162",
+            "Icon": "globe_71B882",
+            "Title": "SSDK, Native, Ext",
             "Url": {
-              "Android": "dd://topic/10267894",
+              "Android": "dd://web?url=https%3A%2F%2Feventualize.herokuapp.com%2Fpages%2Ftemp%2Fvakitax&jssdk=true&useNativeApp=true&externalBrowser=true",
               "Web": null,
               "WindowsPhone": null,
-              "iPhone": "dd://topic/10267894"
+              "iPhone": "dd://web?url=https%3A%2F%2Feventualize.herokuapp.com%2Fpages%2Ftemp%2Fvakitax&jssdk=true&useNativeApp=true&externalBrowser=true"
             }
           },
           {
@@ -414,16 +414,6 @@
               "Web": null,
               "WindowsPhone": null,
               "iPhone": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FBdtyng_F1V_%2F%3Fhl%3Den%26taken-by%3Dromainguy&useNativeApp=true"
-            }
-          },
-          {
-            "Icon": "globe_71B882",
-            "Title": "SSDK, Native, Ext",
-            "Url": {
-              "Android": "dd://web?url=https%3A%2F%2Feventualize.herokuapp.com%2Fpages%2Ftemp%2Fvakitax&jssdk=true&useNativeApp=true&externalBrowser=true",
-              "Web": null,
-              "WindowsPhone": null,
-              "iPhone": "dd://web?url=https%3A%2F%2Feventualize.herokuapp.com%2Fpages%2Ftemp%2Fvakitax&jssdk=true&useNativeApp=true&externalBrowser=true"
             }
           },
           {
@@ -804,6 +794,16 @@
               "Web": null,
               "WindowsPhone": null,
               "iPhone": "dd://topicinfo/10267898"
+            }
+          },
+          {
+            "Icon": "megaphone_71B882",
+            "Title": "SpeakersAn162",
+            "Url": {
+              "Android": "dd://topic/10267894",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://topic/10267894"
             }
           },
           {
