@@ -507,6 +507,16 @@
             }
           },
           {
+            "Icon": "globe_71B882",
+            "Title": "Bad Links",
+            "Url": {
+              "Android": "dd://web?url=https%3A%2F%2Fblinkmacalahan.github.io%2F&jssdk=true",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://web?url=https%3A%2F%2Fblinkmacalahan.github.io%2F&jssdk=true"
+            }
+          },
+          {
             "Icon": "21_71B882",
             "Title": "Agenda #2",
             "Url": {
