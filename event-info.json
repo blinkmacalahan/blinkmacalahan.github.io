@@ -169,7 +169,6 @@
           {
             "Name": "AccountTargeting",
             "Value": "False"
-          },
           {
             "Name": "ProfileEdits",
             "Value": "False"
@@ -368,7 +367,7 @@
           },
           {
             "Icon": "globe_71B882",
-            "Title": "SSDK, Native, Ext",
+            "Title": "JSSDK",
             "Url": {
               "Android": "dd://web?url=https%3A%2F%2Feventualize.herokuapp.com%2Fpages%2Ftemp%2Fvakitax&jssdk=true&useNativeApp=true&externalBrowser=true",
               "Web": null,
@@ -378,7 +377,7 @@
           },
           {
             "Icon": "accessibility_71B882",
-            "Title": "Nintendo Internal",
+            "Title": "Nintendo Int",
             "Url": {
               "Android": "dd://web?url=https%3A%2F%2Fwww.nintendo.com%2F",
               "Web": null,
@@ -387,28 +386,8 @@
             }
           },
           {
-            "Icon": "02_71B882",
-            "Title": "Messages",
-            "Url": {
-              "Android": "dd://messages/",
-              "Web": null,
-              "WindowsPhone": null,
-              "iPhone": "dd://messages/"
-            }
-          },
-          {
-            "Icon": "02_71B882",
-            "Title": "Reddit",
-            "Url": {
-              "Android": "https://www.reddit.com",
-              "Web": null,
-              "WindowsPhone": null,
-              "iPhone": "https://www.reddit.com"
-            }
-          },
-          {
             "Icon": "globe_71B882",
-            "Title": "Instagram Native",
+            "Title": "Instagram",
             "Url": {
               "Android": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FBdtyng_F1V_%2F%3Fhl%3Den%26taken-by%3Dromainguy&useNativeApp=true",
               "Web": null,
@@ -418,7 +397,7 @@
           },
           {
             "Icon": "globe_71B882",
-            "Title": "SSDK, Native-F, Ext-F",
+            "Title": "JSSDK 2",
             "Url": {
               "Android": "dd://web?url=https%3A%2F%2Feventualize.herokuapp.com%2Fpages%2Ftemp%2Fvakitax&jssdk=true&useNativeApp=false&externalBrowser=false",
               "Web": null,
@@ -428,7 +407,7 @@
           },
           {
             "Icon": "globe_71B882",
-            "Title": "Nintendo Native, Ext",
+            "Title": "Nintendo External",
             "Url": {
               "Android": "dd://web?url=https%3A%2F%2Fwww.nintendo.com&useNativeApp=true&externalBrowser=true",
               "Web": null,
@@ -438,7 +417,7 @@
           },
           {
             "Icon": "globe_71B882",
-            "Title": "Instagram Falsey",
+            "Title": "Instagram Internal",
             "Url": {
               "Android": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FBdtyng_F1V_%2F%3Fhl%3Den%26taken-by%3Dromainguy&jssdk=false&externalBrowser=false&useNativeApp=false",
               "Web": null,
@@ -448,7 +427,7 @@
           },
           {
             "Icon": "globe_71B882",
-            "Title": "Instagram Native, Ext",
+            "Title": "Instagram Native/External",
             "Url": {
               "Android": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FBdtyng_F1V_%2F%3Fhl%3Den%26taken-by%3Dromainguy&externalBrowser=true&useNativeApp=true",
               "Web": null,
@@ -458,17 +437,7 @@
           },
           {
             "Icon": "globe_71B882",
-            "Title": "Instagram Internal",
-            "Url": {
-              "Android": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FBdtyng_F1V_%2F%3Fhl%3Den%26taken-by%3Dromainguy",
-              "Web": null,
-              "WindowsPhone": null,
-              "iPhone": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FBdtyng_F1V_%2F%3Fhl%3Den%26taken-by%3Dromainguy"
-            }
-          },
-          {
-            "Icon": "globe_71B882",
-            "Title": "Instagram Internal",
+            "Title": "Instagram Internal 2",
             "Url": {
               "Android": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FBdtyng_F1V_%2F%3Fhl%3Den%26taken-by%3Dromainguy",
               "Web": null,
@@ -488,7 +457,7 @@
           },
           {
             "Icon": "globe_71B882",
-            "Title": "Nintendo Ext, Native-F",
+            "Title": "Nintendo External 3",
             "Url": {
               "Android": "dd://web?url=https%3A%2F%2Fwww.nintendo.com&externalBrowser=true&useNativeApp=false",
               "Web": null,
@@ -498,7 +467,7 @@
           },
           {
             "Icon": "globe_71B882",
-            "Title": "Nintendo External",
+            "Title": "Nintendo External 4",
             "Url": {
               "Android": "dd://web?url=https%3A%2F%2Fwww.nintendo.com&externalBrowser=true",
               "Web": null,
@@ -514,6 +483,16 @@
               "Web": null,
               "WindowsPhone": null,
               "iPhone": "dd://web?url=https%3A%2F%2Fblinkmacalahan.github.io%2F&jssdk=true"
+            }
+          },
+          {
+            "Icon": "02_71B882",
+            "Title": "Messages",
+            "Url": {
+              "Android": "dd://messages/",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://messages/"
             }
           },
           {
