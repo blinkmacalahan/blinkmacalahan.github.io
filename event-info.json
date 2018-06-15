@@ -491,6 +491,46 @@
             }
           },
           {
+            "Icon": "globe_71B882",
+            "Title": "PDF Internal",
+            "Url": {
+              "Android": "dd://web?url=http%3A%2F%2Fwww.pdf995.com%2Fsamples%2Fpdf.pdf",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://web?url=http%3A%2F%2Fwww.pdf995.com%2Fsamples%2Fpdf.pdf"
+            }
+          },
+          {
+            "Icon": "globe_71B882",
+            "Title": "PDF External",
+            "Url": {
+              "Android": "dd://web?url=http%3A%2F%2Fwww.pdf995.com%2Fsamples%2Fpdf.pdf&externalBrowser=true",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://web?url=http%3A%2F%2Fwww.pdf995.com%2Fsamples%2Fpdf.pdf&externalBrowser=true"
+            }
+          },
+          {
+            "Icon": "globe_71B882",
+            "Title": "PDF Native App",
+            "Url": {
+              "Android": "dd://web?url=http%3A%2F%2Fwww.pdf995.com%2Fsamples%2Fpdf.pdf&useNativeApp=true",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://web?url=http%3A%2F%2Fwww.pdf995.com%2Fsamples%2Fpdf.pdf&useNativeApp=true"
+            }
+          },
+          {
+            "Icon": "globe_71B882",
+            "Title": "PDF JSSDK",
+            "Url": {
+              "Android": "dd://web?url=http%3A%2F%2Fwww.pdf995.com%2Fsamples%2Fpdf.pdf&jssdk=true",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://web?url=http%3A%2F%2Fwww.pdf995.com%2Fsamples%2Fpdf.pdf&jssdk=true"
+            }
+          },
+          {
             "Icon": "02_71B882",
             "Title": "Messages",
             "Url": {
