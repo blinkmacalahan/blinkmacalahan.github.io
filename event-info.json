@@ -531,6 +531,56 @@
             }
           },
           {
+            "Icon": "globe_71B882",
+            "Title": "Reddit Internal",
+            "Url": {
+              "Android": "dd://web?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fentertainment%2F",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://web?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fentertainment%2F"
+            }
+          },
+          {
+            "Icon": "globe_71B882",
+            "Title": "Reddit External",
+            "Url": {
+              "Android": "dd://web?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fentertainment%2F&externalBrowser=true",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://web?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fentertainment%2F&externalBrowser=true"
+            }
+          },
+          {
+            "Icon": "globe_71B882",
+            "Title": "Reddit Native",
+            "Url": {
+              "Android": "dd://web?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fentertainment%2F&useNativeApp=true",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://web?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fentertainment%2F&useNativeApp=true"
+            }
+          },
+          {
+            "Icon": "globe_71B882",
+            "Title": "Reddit JSSDK",
+            "Url": {
+              "Android": "dd://web?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fentertainment%2F&jssdk=true",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://web?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fentertainment%2F&jssdk=true"
+            }
+          },
+          {
+            "Icon": "globe_71B882",
+            "Title": "Reddit HTTP",
+            "Url": {
+              "Android": "https://www.reddit.com/r/entertainment/",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "https://www.reddit.com/r/entertainment/"
+            }
+          },
+          {
             "Icon": "02_71B882",
             "Title": "Messages",
             "Url": {
