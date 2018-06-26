@@ -404,7 +404,7 @@
             "Icon": "globe_71B882",
             "Title": "JSSDK 2",
             "Url": {
-              "Android": "dd://web?url=https%3A%2F%2Feventualize.herokuapp.com%2Fpages%2Ftemp%2Fvakitax&jssdk=true&useNativeApp=false&externalBrowser=false",
+              "Android": "dd://web?jssdk=true",
               "Web": null,
               "WindowsPhone": null,
               "iPhone": "dd://web?jssdk=true"
