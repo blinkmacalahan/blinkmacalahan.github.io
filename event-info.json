@@ -407,7 +407,7 @@
               "Android": "dd://web?url=https%3A%2F%2Feventualize.herokuapp.com%2Fpages%2Ftemp%2Fvakitax&jssdk=true&useNativeApp=false&externalBrowser=false",
               "Web": null,
               "WindowsPhone": null,
-              "iPhone": "dd://web?url=https%3A%2F%2Feventualize.herokuapp.com%2Fpages%2Ftemp%2Fvakitax&jssdk=true&useNativeApp=false&externalBrowser=false"
+              "iPhone": "dd://web?jssdk=true"
             }
           },
           {
