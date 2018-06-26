@@ -372,6 +372,16 @@
           },
           {
             "Icon": "globe_71B882",
+            "Title": "JSSDK 2",
+            "Url": {
+              "Android": "dd://web?jssdk=true",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://web?jssdk=true"
+            }
+          },
+          {
+            "Icon": "globe_71B882",
             "Title": "JSSDK",
             "Url": {
               "Android": "dd://web?url=https%3A%2F%2Feventualize.herokuapp.com%2Fpages%2Ftemp%2Fvakitax&jssdk=true&useNativeApp=true&externalBrowser=true",
@@ -398,16 +408,6 @@
               "Web": null,
               "WindowsPhone": null,
               "iPhone": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fp%2FBdtyng_F1V_%2F%3Fhl%3Den%26taken-by%3Dromainguy&useNativeApp=true"
-            }
-          },
-          {
-            "Icon": "globe_71B882",
-            "Title": "JSSDK 2",
-            "Url": {
-              "Android": "dd://web?jssdk=true",
-              "Web": null,
-              "WindowsPhone": null,
-              "iPhone": "dd://web?jssdk=true"
             }
           },
           {
