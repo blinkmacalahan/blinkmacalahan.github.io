@@ -580,7 +580,6 @@
               "iPhone": "https://www.reddit.com/r/entertainment/"
             }
           },
-          
           {
             "Icon": "globe_71B882",
             "Title": "Facebook",
@@ -589,6 +588,16 @@
               "Web": null,
               "WindowsPhone": null,
               "iPhone": "dd://web?url=https%3A%2F%2Fwww.facebook.com%2Fmaskedintruder%2F&useNativeApp=true"
+            }
+          },
+          {
+            "Icon": "globe_71B882",
+            "Title": "Facebook Deep Link",
+            "Url": {
+              "Android": "dd://web?url=fb%3A%2F%2Fprofile%2F124567767563753&useNativeApp=true",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://web?url=fb%3A%2F%2Fprofile%2F124567767563753&useNativeApp=true"
             }
           },
           {
