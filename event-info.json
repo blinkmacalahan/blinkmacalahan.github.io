@@ -580,6 +580,17 @@
               "iPhone": "https://www.reddit.com/r/entertainment/"
             }
           },
+          
+          {
+            "Icon": "globe_71B882",
+            "Title": "Facebook",
+            "Url": {
+              "Android": "dd://web?url=https%3A%2F%2Fwww.facebook.com%2Fmaskedintruder%2F&useNativeApp=true",
+              "Web": null,
+              "WindowsPhone": null,
+              "iPhone": "dd://web?url=https%3A%2F%2Fwww.facebook.com%2Fmaskedintruder%2F&useNativeApp=true"
+            }
+          },
           {
             "Icon": "02_71B882",
             "Title": "Messages",
