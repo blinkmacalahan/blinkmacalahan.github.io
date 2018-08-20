@@ -1,0 +1,387 @@
+{
+    "Value": [
+        {
+            "Updated": "2018-08-20T06:56:57.869Z",
+            "Id": "737cd7cd-7686-4f04-aad2-899dd089dd8d",
+            "BundleId": "f0c4b2db-a743-4fb2-9e8f-a80463e52b55",
+            "Name": "Copying-adam 1",
+            "Description": "Copying-adam 1",
+            "Configuration": {
+                "Colors": [
+                    {
+                        "Name": "kPrimaryColor",
+                        "Value": "#323232"
+                    },
+                    {
+                        "Name": "kIconColor",
+                        "Value": "#000000"
+                    },
+                    {
+                        "Name": "kLinkTextColor",
+                        "Value": "#0000F5"
+                    }
+                ],
+                "Settings": [
+                    {
+                        "Name": "LogOutOnOAuthError",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "RequiredFieldsForSettings",
+                        "Value": "Company,Title"
+                    },
+                    {
+                        "Name": "RequiredFieldsForRegistration",
+                        "Value": ""
+                    },
+                    {
+                        "Name": "UseMyAgendaAsAgenda",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "LandingUrls",
+                        "Value": "[]"
+                    },
+                    {
+                        "Name": "BadgeScanParseExpression",
+                        "Value": "(\\w+),(.+),(.+),(.+)"
+                    },
+                    {
+                        "Name": "BadgeScanParseGroups",
+                        "Value": "id,firstname,lastname,email"
+                    },
+                    {
+                        "Name": "TwitterHashtag",
+                        "Value": ""
+                    },
+                    {
+                        "Name": "WelcomeEmailTemplate",
+                        "Value": "Welcome"
+                    },
+                    {
+                        "Name": "UseOldMaps",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "BadgeScanLoginEnabled",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "GuestRegistrationEnabled",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "EnableFavoriteCustomErrors",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "Enable AMEX Dashboard",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "EnableSmsPolling",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "NewUserProfileEnabled",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "WaitlistEnabled",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "DisableStatusUpdate",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "SessionChannelsEnabled",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "EnableRatings",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "EnableMyAgenda",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "SocialNetworks",
+                        "Value": "FacebookPlugin,TwitterPlugin,LinkedInPlugin"
+                    },
+                    {
+                        "Name": "EnableSearchAllUsers",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "MessagingEnabled",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "EnableSessionNotes",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "PrivateAchievements",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "EnableLinkedInProfileImport",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "ShowUserBadges",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "EnableSessionNotifications",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "EnableSessionRecommendation",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "EnablePeopleRecommendation",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "PrivacyPolicyURL",
+                        "Value": "https://doubledutch.me/privacy.html"
+                    },
+                    {
+                        "Name": "RegistrationEnabled",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "ExhibitorRequestInformationEnabled",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "ExhibitorMessagingEnabled",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "FavoritesEnabled",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "NowButtonEnabled",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "EnableOfflineFilesDownload",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "EnableWayfinding",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "EnableUnreadCount",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "DisplayFullName",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "MapForLocals",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "PersonalProductivityAnalyticsEnabled",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "HiddenInviteAllAddressBookFriends",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "AddFriendsOnlyFromAddressBook",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "ShowCheckInLeaderboard",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "ShowUserLeaderboard",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "ApplicationName",
+                        "Value": ""
+                    },
+                    {
+                        "Name": "AppStoreLink",
+                        "Value": ""
+                    },
+                    {
+                        "Name": "URLScheme",
+                        "Value": "hyve"
+                    },
+                    {
+                        "Name": "FrequentItemsEnabled",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "RegisterToAccessContent",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "DisableItemAdditions",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "EnableUnreadItems",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "DontShareByDefault",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "TurnOffSharingAfterUse",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "SupportEmail",
+                        "Value": "customersupport@doubledutch.me"
+                    },
+                    {
+                        "Name": "EmailInviteTitle",
+                        "Value": "%@ has recommended HYVE"
+                    },
+                    {
+                        "Name": "EmailInviteBody",
+                        "Value": "Check out HYVE iPhone app. To learn more about HYVE for iPhone and download for free, visit this <a href=\"http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=430984830&mt=8\">link</a>."
+                    },
+                    {
+                        "Name": "EmailInviteURL",
+                        "Value": "http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=430984830&mt=8"
+                    },
+                    {
+                        "Name": "GeoFencingEnabled",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "TreatClearedNotificationsAsDeleted",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "MinimumRadiusFilter",
+                        "Value": "1.0"
+                    },
+                    {
+                        "Name": "NoAccessRedirection",
+                        "Value": "http://ddut.ch/noaccesswithjoin"
+                    },
+                    {
+                        "Name": "AppRatingEnabled",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "CheckWebAuthorization",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "EnableSessionScans",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "EnableDirectMessaging",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "DeleteNotesOnLogout",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "DisableShareButtonIOS",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "ReactActivityFeedCardsURL",
+                        "Value": ""
+                    },
+                    {
+                        "Name": "ExhibitorPayments",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "AccountTargeting",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "AdsInActivityFeed",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "CompanyFiltering",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "ProfileEdits",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "EnableExhibitorDataSync",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "EnableAvailability",
+                        "Value": "Show No Availability"
+                    },
+                    {
+                        "Name": "DisableGameDay",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "DisableBeaconMessage",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "DisableMessagingInCMS",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "UpdateAssociations",
+                        "Value": "[]"
+                    }
+                ],
+                "Grid": [
+                    {
+                        "Icon": "activity_000000",
+                        "Title": "Activity",
+                        "Url": {
+                            "Android": "dd://activityfeed/",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://activityfeed/"
+                        }
+                    }
+                ],
+                "UpdateObjects": []
+            },
+            "Extensions": [],
+            "Icon": null,
+            "AssetPackageUrl": "https://d27z76th86wcg3.cloudfront.net/config/assets/737cd7cd-7686-4f04-aad2-899dd089dd8d/ecd5b98d-e2ce-4003-b811-15adb87da6c1_XHigh.zip",
+            "AssetPackageUpdated": "2018-08-20T06:56:57.866Z",
+            "StartDate": "2017-08-09T00:00:00.000Z",
+            "EndDate": "2017-08-31T00:00:00.000Z",
+            "IsLinkedWithCurrentUser": true,
+            "Location": null,
+            "TimeZoneOffset": -300,
+            "TimeZone": "America/New_York",
+            "ShortName": "copyingadam-1",
+            "ContextId": "wggEs4XehGh3Rb87YVx6wB",
+            "EventId": "cCE72Yu5jqVULth73kXzbxBYE98fku3GoPWfudJ9qniM"
+        }
+    ],
+    "IsSuccess": true,
+    "Message": null,
+    "ErrorCode": 0,
+    "Purge": false
+}
