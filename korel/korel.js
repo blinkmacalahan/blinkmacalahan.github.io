@@ -386,17 +386,3 @@ function rightIsBlocked() {
 	let world = getWorld();
 	return world[dogIndex[1]][dogIndex[0]] != 0;
 }
-
-// JS FIDDLE METHOD
-function start() {
-	while(rightIsBlocked() || leftIsBlocked() || frontIsBlocked()) {
-		move();
-		if (frontIsClear()) {
-			continue;
-		} else if (rightIsBlocked()) {
-			turnLeft();
-		} else {
-			turnRight();
-		}
-	}
-}
