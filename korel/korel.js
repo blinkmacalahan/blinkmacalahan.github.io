@@ -122,7 +122,11 @@ function replay() {
 			turnDogRight();
 		}
 		draw();
-		setTimeout(replay, 300);
+		if (checkIfDogOnBoundary()) {
+			setTimeout(function() {alert("your dog is on the wall!");}, 300);
+		} else {
+			setTimeout(replay, 300);
+		}
 	} else {
 		var didUserWin = endIndex[0] === dogIndex[0] && endIndex[1] === dogIndex[1];
 		didUserWin &= endDirection == dogDirection;
@@ -140,6 +144,11 @@ function moveDog() {
 	} else if (dogDirection == 3) {
 		dogIndex[0] -= 1;
 	}
+}
+
+function checkIfDogOnBoundary() {
+	let world = game.worlds[currentWorld];
+	return world[dogIndex[1]][dogIndex[0]] != 0;
 }
 
 function turnDogLeft() {
