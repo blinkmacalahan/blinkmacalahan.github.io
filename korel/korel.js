@@ -379,7 +379,14 @@ function rightIsBlocked() {
 
 // JS FIDDLE METHOD
 function start() {
-	for (var i = 0; i < 3; i++) {
+	while(rightIsBlocked() || leftIsBlocked() || frontIsBlocked()) {
 		move();
+		if (frontIsClear()) {
+			continue;
+		} else if (rightIsBlocked()) {
+			turnLeft();
+		} else {
+			turnRight();
+		}
 	}
 }
