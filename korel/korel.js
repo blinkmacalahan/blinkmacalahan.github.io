@@ -137,15 +137,7 @@ function replay() {
 }
 
 function moveDog() {
-	if (dogDirection == 0) {
-		dogIndex[1] -= 1;
-	} else if (dogDirection == 1) {
-		dogIndex[0] += 1;
-	} else if (dogDirection == 2) {
-		dogIndex[1] +=1;
-	} else if (dogDirection == 3) {
-		dogIndex[0] -= 1;
-	}
+	moveIndexInDirection(dogDirection, dogIndex);
 }
 
 function getWorld() {
@@ -162,27 +154,11 @@ function isDogOutsideBoundary(dogIndex) {
 }
 
 function turnDogLeft() {
-	if (dogDirection == 0) {
-		dogDirection = 3;
-	} else if (dogDirection == 1) {
-		dogDirection = 0;
-	} else if (dogDirection == 2) {
-		dogDirection = 1;
-	} else if (dogDirection == 3) {
-		dogDirection = 2;
-	}
+	dogDirection = turnDirectionLeft(dogDirection);
 }
 
 function turnDogRight() {
-	if (dogDirection == 0) {
-		dogDirection = 1;
-	} else if (dogDirection == 1) {
-		dogDirection = 2;
-	} else if (dogDirection == 2) {
-		dogDirection = 3;
-	} else if (dogDirection == 3) {
-		dogDirection = 0;
-	}
+	dogDirection = turnDirectionRight(dogDirection);
 }
 
 // CANVAS
@@ -306,21 +282,51 @@ function reset() {
 	logicalDogDirection = dogDirection;
 }
 
+function moveIndexInDirection(direction, index) {
+	if (direction == 0) {
+		index[1] -= 1;
+	} else if (direction == 1) {
+		index[0] += 1;
+	} else if (direction == 2) {
+		index[1] +=1;
+	} else if (direction == 3) {
+		index[0] -= 1;
+	}
+}
+
+function turnDirectionLeft(direction) {
+	if (direction == 0) {
+		direction = 3;
+	} else if (direction == 1) {
+		direction = 0;
+	} else if (direction == 2) {
+		direction = 1;
+	} else if (direction == 3) {
+		direction = 2;
+	}
+	return direction;
+}
+
+function turnDirectionRight(direction) {
+	if (direction == 0) {
+		direction = 1;
+	} else if (direction == 1) {
+		direction = 2;
+	} else if (direction == 2) {
+		direction = 3;
+	} else if (direction == 3) {
+		direction = 0;
+	}
+	return direction;
+}
+
 // KOREL METHODS
 
 function move() {
 	moves.push(game.movement.MOVE);
 	let dogIndex = logicalDogIndex.slice();
-
-	if (logicalDogDirection == 0) {
-		dogIndex[1] -= 1;
-	} else if (logicalDogDirection == 1) {
-		dogIndex[0] += 1;
-	} else if (logicalDogDirection == 2) {
-		dogIndex[1] +=1;
-	} else if (logicalDogDirection == 3) {
-		dogIndex[0] -= 1;
-	}
+	moveIndexInDirection(logicalDogDirection, dogIndex);
+	
 
 	if (isDogOutsideBoundary(dogIndex)) {
 		console.log("%cCan't move due to leaving boundary", "color: red");
@@ -334,33 +340,46 @@ function move() {
 
 function turnLeft() {
 	moves.push(game.movement.TURN_LEFT);
-	if (logicalDogDirection == 0) {
-		logicalDogDirection = 3;
-	} else if (logicalDogDirection == 1) {
-		logicalDogDirection = 0;
-	} else if (logicalDogDirection == 2) {
-		logicalDogDirection = 1;
-	} else if (logicalDogDirection == 3) {
-		logicalDogDirection = 2;
-	}
+	logicalDogDirection = turnDirectionLeft(logicalDogDirection);
 }
 
 function turnRight() {
 	moves.push(game.movement.TURN_RIGHT);
-	if (logicalDogDirection == 0) {
-		logicalDogDirection = 1;
-	} else if (logicalDogDirection == 1) {
-		logicalDogDirection = 2;
-	} else if (logicalDogDirection == 2) {
-		logicalDogDirection = 3;
-	} else if (logicalDogDirection == 3) {
-		logicalDogDirection = 0;
-	}
+	logicalDogDirection = turnDirectionRight(logicalDogDirection);
+}
+
+function frontIsClear() {
+	let dogIndex = logicalDogIndex.slice();
+	moveIndexInDirection(logicalDogDirection, dogIndex);
+	let world = getWorld();
+	return world[dogIndex[1]][dogIndex[0]] == 0;
+}
+
+function frontIsBlocked() {
+	return !frontIsClear();
+}
+
+function leftIsBlocked() {
+	let dogIndex = logicalDogIndex.slice();
+	let directionToLeft = turnDirectionLeft(logicalDogDirection);
+	moveIndexInDirection(directionToLeft, dogIndex);
+
+	let world = getWorld();
+	return world[dogIndex[1]][dogIndex[0]] != 0;
+}
+
+function rightIsBlocked() {
+	let dogIndex = logicalDogIndex.slice();
+	let directionToRight = turnDirectionRight(logicalDogDirection);
+	moveIndexInDirection(directionToRight, dogIndex);
+
+	let world = getWorld();
+	return world[dogIndex[1]][dogIndex[0]] != 0;
 }
 
 // JS FIDDLE METHOD
 function start() {
-	for (var i = 0; i < 10; i++) {
+	for (var i = 0; i < 3; i++) {
 		move();
 	}
 }
