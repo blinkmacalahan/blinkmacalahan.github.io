@@ -3,19 +3,6 @@ const game = {
 	world1: [
 	  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 	  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-	  [0, 0, -1, 2, 2, 2, 2, -2, 0, 0],
-	  [0, 0, 1, 0, 0, 0, 0, 1, 0, 0],
-	  [0, 0, 1, 0, 0, 0, 0, 1, 0, 0],
-	  [0, 0, 1, 0, 0, 0, 0, 1, 0, 0],
-	  [0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
-	  [0, 0, -3, 2, 2, 2, 2, -4, 0, 0],
-	  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-	  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-	],
-
-	world2: [
-	  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-	  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 	  [0, 0, -1, 2, 2, 2, 0, -2, 0, 0],
 	  [0, 0, 1, 0, 0, 0, 0, 1, 0, 0],
 	  [0, 0, 1, 0, 0, 0, 0, 1, 0, 0],
@@ -26,7 +13,7 @@ const game = {
 	  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 	],
 
-	world3: [
+	world2: [
 	  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 	  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 	  [0, 0, -1, 2, 2, 2, 2, -2, 0, 0],
@@ -39,7 +26,7 @@ const game = {
 	  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 	],
 
-	world4: [
+	world3: [
 	  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 	  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 	  [0, 0, -1, 2, 2, 2, 2, -2, 0, 0],
@@ -51,9 +38,21 @@ const game = {
 	  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 	  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 	],
-	startIndex: [3, 6],
-	endIndices: [[8, 6], [6, 1], [1,3], [3,8]],
-	endDirections: [1, 0, 3, 2],
+	world4: [
+	  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+	  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+	  [0, 0, -1, 2, 2, 2, 2, -2, 0, 0],
+	  [0, 0, 1, 0, 0, 0, 0, 1, 0, 0],
+	  [0, 0, 1, 0, 0, 0, 0, 1, 0, 0],
+	  [0, 0, 1, 0, 0, 0, 0, 1, 0, 0],
+	  [0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+	  [0, 0, -3, 2, 2, 2, 2, -4, 0, 0],
+	  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+	  [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+	],
+	startIndices: [[3, 6], [3, 6], [4, 6], [3, 6]],
+	endIndices: [[6, 1], [1,3], [3,8], [8, 6]],
+	endDirections: [0, 3, 2, 1],
 	startDirection: 1,
 	block: {
 	  width: 40,
@@ -130,9 +129,20 @@ function replay() {
 			setTimeout(replay, 300);
 		}
 	} else {
-		var didUserWin = endIndex[0] === dogIndex[0] && endIndex[1] === dogIndex[1];
-		didUserWin &= endDirection == dogDirection;
-		alert(didUserWin ? "You won!" : "You lost :(");
+		var isCorrectIndex = endIndex[0] === dogIndex[0] && endIndex[1] === dogIndex[1];
+		var isCorrectDirection = endDirection == dogDirection;
+		var errorText = "";
+		let didUserWin = false;
+		if (!isCorrectIndex && !isCorrectDirection) {
+			errorText = " Karel is at the wrong location AND is facing the wrong direction.";
+		} else if (!isCorrectDirection) {
+			errorText = " Karel is facing the wrong direction.";
+		} else if (!isCorrectIndex) {
+			errorText = " Karel is at the wrong location.";
+		} else {
+			didUserWin = true;
+		}
+		alert(didUserWin ? "You won!" : "You lost :(" + errorText);
 	}
 }
 
@@ -276,7 +286,7 @@ function drawDog(dogIndex, dogDirection) {
 function reset() {
 	endIndex = game.endIndices[currentWorld].slice();
 	endDirection = game.endDirections[currentWorld];
-	dogIndex = game.startIndex.slice();
+	dogIndex = game.startIndices[currentWorld].slice();
 	dogDirection = game.startDirection;
 	logicalDogIndex = dogIndex.slice();
 	logicalDogDirection = dogDirection;
