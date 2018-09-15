@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Korel the Dog</title>
+	<style type='text/css'>
+			#grid {
+			  image-rendering: -moz-crisp-edges;
+			  image-rendering: -webkit-crisp-edges;
+			  image-rendering: pixelated;
+			  image-rendering: crisp-edges;
+			}
+			#playButton {
+				margin-left: 2em;
+			}
+	</style>
+</head>
+<body>
+<select id="worldSelection">
+<option value="0">World 1</option>
+<option value="1">World 2</option>
+<option value="2">World 3</option>
+<option value="3">World 4</option>
+</select>
+<input type="button" id="playButton" value="Play"/>
+<br/>
+<canvas id="grid" width="500" height="500">
+
+</canvas>
+
+
+</body>
+<script type="text/javascript" src="korel.js"></script>
+</html>
