@@ -122,7 +122,9 @@ function replay() {
 			turnDogRight();
 		}
 		draw();
-		if (checkIfDogOnBoundary()) {
+		if (isDogOutsideBoundary(dogIndex)) {
+			setTimeout(function() {alert("your dog has left the park!");}, 300);
+		} else if(isDogOnBox(dogIndex)) {
 			setTimeout(function() {alert("your dog is on the wall!");}, 300);
 		} else {
 			setTimeout(replay, 300);
@@ -146,9 +148,17 @@ function moveDog() {
 	}
 }
 
-function checkIfDogOnBoundary() {
-	let world = game.worlds[currentWorld];
-	return world[dogIndex[1]][dogIndex[0]] != 0;
+function getWorld() {
+	return game.worlds[currentWorld];
+}
+function isDogOnBox(dogIndex) {
+	
+	return getWorld()[dogIndex[1]][dogIndex[0]] != 0;
+}
+
+function isDogOutsideBoundary(dogIndex) {
+	let world = getWorld();
+	return dogIndex[0] < 0 || dogIndex[0] >= world[0].length || dogIndex[1] < 0 || dogIndex[1] >= world.length;
 }
 
 function turnDogLeft() {
@@ -300,15 +310,26 @@ function reset() {
 
 function move() {
 	moves.push(game.movement.MOVE);
+	let dogIndex = logicalDogIndex.slice();
+
 	if (logicalDogDirection == 0) {
-		logicalDogIndex[1] -= 1;
+		dogIndex[1] -= 1;
 	} else if (logicalDogDirection == 1) {
-		logicalDogIndex[0] += 1;
+		dogIndex[0] += 1;
 	} else if (logicalDogDirection == 2) {
-		logicalDogIndex[1] +=1;
+		dogIndex[1] +=1;
 	} else if (logicalDogDirection == 3) {
-		logicalDogIndex[0] -= 1;
+		dogIndex[0] -= 1;
 	}
+
+	if (isDogOutsideBoundary(dogIndex)) {
+		console.log("%cCan't move due to leaving boundary", "color: red");
+	} else if(isDogOnBox(dogIndex)) {
+		console.log("%cCan't move due to obstruction", "color: red");
+	} else {
+		logicalDogIndex = dogIndex;
+	}
+	console.log(`logicalDogIndex: [${logicalDogIndex[0]}, ${logicalDogIndex[1]}]`);
 }
 
 function turnLeft() {
@@ -339,8 +360,7 @@ function turnRight() {
 
 // JS FIDDLE METHOD
 function start() {
-	for (var i = 0; i < 5; i++) {
+	for (var i = 0; i < 10; i++) {
 		move();
 	}
-	turnLeft();
 }
