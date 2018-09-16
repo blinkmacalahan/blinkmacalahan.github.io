@@ -83,8 +83,14 @@ var ctx, canvas;
 let korelImg = new Image();
 korelImg.src = "http://www.i2clipart.com/cliparts/3/b/1/c/1280453b1cb6ae270d5117c3c8c6035dab2097.png";
 
-window.onload = function() {
-	// JS GET ELEMENTS
+setTimeout(loadGUI, 300);
+
+function loadGUI() {
+	if (document.readyState !== 'complete') {
+		setTimeout(loadGUI, 300);
+	}
+
+		// JS GET ELEMENTS
 	canvas = document.getElementById("grid");
 	ctx = canvas.getContext('2d');
 	//ctx.imageSmoothingEnabled = false;
