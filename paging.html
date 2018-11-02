@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+</head>
+<body>
+	<script type="text/javascript">
+		var url_string = window.location.href
+		var url = new URL(url_string);
+		var next = url.searchParams.get("next");
+		var pages = [];
+		for (var i = next; i < (next + 5); i++) {
+			pages.push(next + 1);
+		}
+		document.body.innerHTML = JSON.stringify(pages);
+	</script>
+</body>
+</html>
