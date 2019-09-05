@@ -1,0 +1,1847 @@
+{
+    "Value": [
+        {
+            "Updated": "2019-09-04T12:49:22.993Z",
+            "Id": "d32b1ca4-89ab-4f75-ae45-15cf7779eea9",
+            "BundleId": "f0c4b2db-a743-4fb2-9e8f-a80463e52b55",
+            "Name": "DDQA",
+            "Description": "Test description ",
+            "Configuration": {
+                "Colors": [
+                    {
+                        "Name": "kPrimaryColor",
+                        "Value": "#10c7c1"
+                    },
+                    {
+                        "Name": "kIconColor",
+                        "Value": "#fc1414"
+                    },
+                    {
+                        "Name": "kLinkTextColor",
+                        "Value": "#0000F5"
+                    }
+                ],
+                "Settings": [
+                    {
+                        "Name": "RegistrationEnabled",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "EnableRatings",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "EnableMyAgenda",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "SocialNetworks",
+                        "Value": ",FacebookPlugin,TwitterPlugin,LinkedInPlugin"
+                    },
+                    {
+                        "Name": "EnableSearchAllUsers",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "EnableSessionNotes",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "PrivateAchievements",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "EnableLinkedInProfileImport",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "ShowUserBadges",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "EnableSessionNotifications",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "EnableSessionRecommendation",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "EnablePeopleRecommendation",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "ExhibitorRequestInformationEnabled",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "ExhibitorMessagingEnabled",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "FavoritesEnabled",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "NowButtonEnabled",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "EnableOfflineFilesDownload",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "EnableWayfinding",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "EnableUnreadCount",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "DisplayFullName",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "MapForLocals",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "PersonalProductivityAnalyticsEnabled",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "HiddenInviteAllAddressBookFriends",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "AddFriendsOnlyFromAddressBook",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "ShowCheckInLeaderboard",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "ShowUserLeaderboard",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "ApplicationName",
+                        "Value": ""
+                    },
+                    {
+                        "Name": "AppStoreLink",
+                        "Value": ""
+                    },
+                    {
+                        "Name": "URLScheme",
+                        "Value": "hyve"
+                    },
+                    {
+                        "Name": "FrequentItemsEnabled",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "RegisterToAccessContent",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "DisableItemAdditions",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "EnableUnreadItems",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "DontShareByDefault",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "TurnOffSharingAfterUse",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "SupportEmail",
+                        "Value": "customersupport@doubledutch.me"
+                    },
+                    {
+                        "Name": "EmailInviteTitle",
+                        "Value": "%@ has recommended HYVE"
+                    },
+                    {
+                        "Name": "EmailInviteBody",
+                        "Value": "Check out HYVE iPhone app. To learn more about HYVE for iPhone and download for free, visit this <a href=\"http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=430984830&mt=8\">link</a>."
+                    },
+                    {
+                        "Name": "EmailInviteURL",
+                        "Value": "http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=430984830&mt=8"
+                    },
+                    {
+                        "Name": "GeoFencingEnabled",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "TreatClearedNotificationsAsDeleted",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "MinimumRadiusFilter",
+                        "Value": "1.0"
+                    },
+                    {
+                        "Name": "NoAccessRedirection",
+                        "Value": "http://ddut.ch/noaccesswithjoin"
+                    },
+                    {
+                        "Name": "AppRatingEnabled",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "CheckWebAuthorization",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "LogOutOnOAuthError",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "RequiredFieldsForSettings",
+                        "Value": "Company,Title"
+                    },
+                    {
+                        "Name": "RequiredFieldsForRegistration",
+                        "Value": ""
+                    },
+                    {
+                        "Name": "UseMyAgendaAsAgenda",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "LandingUrls",
+                        "Value": "[\"dd://extensions/clientdemo?backgroundColor=%2366FF66\",\"dd://extensions/clientdemo?backgroundColor=%236699FF\",\"dd://extensions/codeofconduct?version=9052c751c01f656dcc28581d7e649a01\"]"
+                    },
+                    {
+                        "Name": "BadgeScanParseExpression",
+                        "Value": "(.+)"
+                    },
+                    {
+                        "Name": "BadgeScanParseGroups",
+                        "Value": "id"
+                    },
+                    {
+                        "Name": "TwitterHashtag",
+                        "Value": ""
+                    },
+                    {
+                        "Name": "WelcomeEmailTemplate",
+                        "Value": "Welcome"
+                    },
+                    {
+                        "Name": "UseOldMaps",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "BadgeScanLoginEnabled",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "GuestRegistrationEnabled",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "EnableFavoriteCustomErrors",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "Enable AMEX Dashboard",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "EnableSmsPolling",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "NewUserProfileEnabled",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "WaitlistEnabled",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "DisableStatusUpdate",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "SessionChannelsEnabled",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "EnableSessionScans",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "EnableDirectMessaging",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "DeleteNotesOnLogout",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "DisableShareButtonIOS",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "ReactActivityFeedCardsURL",
+                        "Value": ""
+                    },
+                    {
+                        "Name": "ExhibitorPayments",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "AccountTargeting",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "AdsInActivityFeed",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "CompanyFiltering",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "ProfileEdits",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "EnableExhibitorDataSync",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "EnableAvailability",
+                        "Value": "Show All Availability to Everyone"
+                    },
+                    {
+                        "Name": "DisableGameDay",
+                        "Value": "True"
+                    },
+                    {
+                        "Name": "DisableMessagingInCMS",
+                        "Value": "False"
+                    },
+                    {
+                        "Name": "UpdateAssociations",
+                        "Value": "[{\"IsPlace\":false,\"TopicId\":10268404,\"Name\":\"list\",\"Update\":\"Which Agendaz?\",\"Controller\":\"TopicsViewController\",\"Icon\":\"iconCustomer\",\"DisabledIcon\":\"iconCustomer\"},{\"IsPlace\":false,\"TopicId\":168,\"Name\":\"list\",\"Update\":\"Which Exhibitors?\",\"Controller\":\"TopicsViewController\",\"Icon\":\"iconCustomer\",\"DisabledIcon\":\"iconCustomer\"},{\"IsPlace\":false,\"TopicId\":10268408,\"Name\":\"list\",\"Update\":\"Which New exhi?\",\"Controller\":\"TopicsViewController\",\"Icon\":\"iconCustomer\",\"DisabledIcon\":\"iconCustomer\"},{\"IsPlace\":false,\"TopicId\":10268405,\"Name\":\"list\",\"Update\":\"Which Speaker - 5 April?\",\"Controller\":\"TopicsViewController\",\"Icon\":\"iconCustomer\",\"DisabledIcon\":\"iconCustomer\"},{\"IsPlace\":false,\"TopicId\":10268406,\"Name\":\"list\",\"Update\":\"Which Exhibitors - 5 April?\",\"Controller\":\"TopicsViewController\",\"Icon\":\"iconCustomer\",\"DisabledIcon\":\"iconCustomer\"},{\"IsPlace\":false,\"TopicId\":10268420,\"Name\":\"list\",\"Update\":\"Which new custom ?\",\"Controller\":\"TopicsViewController\",\"Icon\":\"iconCustomer\",\"DisabledIcon\":\"iconCustomer\"},{\"IsPlace\":false,\"TopicId\":10268409,\"Name\":\"list\",\"Update\":\"Which New speaker 112?\",\"Controller\":\"TopicsViewController\",\"Icon\":\"iconCustomer\",\"DisabledIcon\":\"iconCustomer\"},{\"IsPlace\":false,\"TopicId\":10268407,\"Name\":\"list\",\"Update\":\"Which New custom list test?\",\"Controller\":\"TopicsViewController\",\"Icon\":\"iconCustomer\",\"DisabledIcon\":\"iconCustomer\"},{\"IsPlace\":false,\"TopicId\":10268400,\"Name\":\"list\",\"Update\":\"Which Test custom new?\",\"Controller\":\"TopicsViewController\",\"Icon\":\"iconCustomer\",\"DisabledIcon\":\"iconCustomer\"},{\"IsPlace\":false,\"TopicId\":10268397,\"Name\":\"list\",\"Update\":\"Which New speaker test?\",\"Controller\":\"TopicsViewController\",\"Icon\":\"iconCustomer\",\"DisabledIcon\":\"iconCustomer\"},{\"IsPlace\":false,\"TopicId\":10268335,\"Name\":\"list\",\"Update\":\"Which New cutom?\",\"Controller\":\"TopicsViewController\",\"Icon\":\"iconCustomer\",\"DisabledIcon\":\"iconCustomer\"},{\"IsPlace\":false,\"TopicId\":10268329,\"Name\":\"list\",\"Update\":\"Which Speaker folder?\",\"Controller\":\"TopicsViewController\",\"Icon\":\"iconCustomer\",\"DisabledIcon\":\"iconCustomer\"},{\"IsPlace\":false,\"TopicId\":10268209,\"Name\":\"list\",\"Update\":\"Which Custom List?\",\"Controller\":\"TopicsViewController\",\"Icon\":\"iconCustomer\",\"DisabledIcon\":\"iconCustomer\"},{\"IsPlace\":false,\"TopicId\":10268199,\"Name\":\"list\",\"Update\":\"Which Custom Lists?\",\"Controller\":\"TopicsViewController\",\"Icon\":\"iconCustomer\",\"DisabledIcon\":\"iconCustomer\"},{\"IsPlace\":false,\"TopicId\":10268203,\"Name\":\"list\",\"Update\":\"Which Speakers?\",\"Controller\":\"TopicsViewController\",\"Icon\":\"iconCustomer\",\"DisabledIcon\":\"iconCustomer\"}]"
+                    }
+                ],
+                "Grid": [
+                    {
+                        "Icon": "activity_FC1414",
+                        "Title": "Activity",
+                        "Url": {
+                            "Android": "dd://activityfeed/",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://activityfeed/"
+                        }
+                    },
+                    {
+                        "Icon": "key_FC1414",
+                        "Title": "Channels ",
+                        "Url": {
+                            "Android": "dd://channels/",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://channels/"
+                        }
+                    },
+                    {
+                        "Icon": "game-controller_FC1414",
+                        "Title": "Agenda ",
+                        "Url": {
+                            "Android": "dd://agenda/10268404",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://agenda/10268404"
+                        }
+                    },
+                    {
+                        "Icon": "01_FC1414",
+                        "Title": "   G's Folder",
+                        "Url": {
+                            "Android": "dd://subjects/194",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://subjects/194"
+                        }
+                    },
+                    {
+                        "Icon": "07_FC1414",
+                        "Title": "Info view - 19 Aug",
+                        "Url": {
+                            "Android": "dd://item/333348",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://item/333348"
+                        }
+                    },
+                    {
+                        "Icon": "07_FC1414",
+                        "Title": "Info view -16 aug",
+                        "Url": {
+                            "Android": "dd://item/333342",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://item/333342"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "Web 3",
+                        "Url": {
+                            "Android": "dd://web?url=https%3A%2F%2Fwww.faceboookkk.com&externalBrowser=true",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://web?url=https%3A%2F%2Fwww.faceboookkk.com&externalBrowser=true"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "Webview 2 - aug 14",
+                        "Url": {
+                            "Android": "dd://web?url=https%3A%2F%2Fwww.faceboookkk.com&externalBrowser=true",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://web?url=https%3A%2F%2Fwww.faceboookkk.com&externalBrowser=true"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "Webview -14 aug",
+                        "Url": {
+                            "Android": "dd://web?url=http%3A%2F%2Fdoubledutch.me&externalBrowser=true",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://web?url=http%3A%2F%2Fdoubledutch.me&externalBrowser=true"
+                        }
+                    },
+                    {
+                        "Icon": "21_FC1414",
+                        "Title": "Agenda JS",
+                        "Url": {
+                            "Android": "dd://agenda/10269264",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://agenda/10269264"
+                        }
+                    },
+                    {
+                        "Icon": "03_FC1414",
+                        "Title": "Exhibitors",
+                        "Url": {
+                            "Android": "dd://topic/168",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://topic/168"
+                        }
+                    },
+                    {
+                        "Icon": "07_FC1414",
+                        "Title": "Info view 1",
+                        "Url": {
+                            "Android": "dd://item/329093",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://item/329093"
+                        }
+                    },
+                    {
+                        "Icon": "03_FC1414",
+                        "Title": "New exhi",
+                        "Url": {
+                            "Android": "dd://topic/10268408",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://topic/10268408"
+                        }
+                    },
+                    {
+                        "Icon": "21_FC1414",
+                        "Title": "js custom.exe",
+                        "Url": {
+                            "Android": "dd://topic/10269259",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://topic/10269259"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "Native new",
+                        "Url": {
+                            "Android": "dd://web?url=https%3A%2F%2Fwww.linkedin.com&useNativeApp=true",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://web?url=https%3A%2F%2Fwww.linkedin.com&useNativeApp=true"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "JSSDK 1",
+                        "Url": {
+                            "Android": "dd://web?url=https%3A%2F%2Fwww.google.com&jssdk=true",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://web?url=https%3A%2F%2Fwww.google.com&jssdk=true"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "testapp",
+                        "Url": {
+                            "Android": "dd://extensions/testapp",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/testapp"
+                        }
+                    },
+                    {
+                        "Icon": "21_FC1414",
+                        "Title": "Test Agenda",
+                        "Url": {
+                            "Android": "dd://agenda/10269158",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://agenda/10269158"
+                        }
+                    },
+                    {
+                        "Icon": "21_FC1414",
+                        "Title": "Micro-Sessions Agenda ",
+                        "Url": {
+                            "Android": "dd://agenda/10269077",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://agenda/10269077"
+                        }
+                    },
+                    {
+                        "Icon": "07_FC1414",
+                        "Title": "Info view - june 10",
+                        "Url": {
+                            "Android": "dd://item/328729",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://item/328729"
+                        }
+                    },
+                    {
+                        "Icon": "07_FC1414",
+                        "Title": "Info view JS 4",
+                        "Url": {
+                            "Android": "dd://item/328718",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://item/328718"
+                        }
+                    },
+                    {
+                        "Icon": "accessibility_FC1414",
+                        "Title": "Info view JS 3",
+                        "Url": {
+                            "Android": "dd://item/328717",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://item/328717"
+                        }
+                    },
+                    {
+                        "Icon": "link_FC1414",
+                        "Title": "Files & External Links",
+                        "Url": {
+                            "Android": "dd://topicinfo/10268138",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://topicinfo/10268138"
+                        }
+                    },
+                    {
+                        "Icon": "hashtag_FC1414",
+                        "Title": "Polls",
+                        "Url": {
+                            "Android": "dd://poll/",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://poll/"
+                        }
+                    },
+                    {
+                        "Icon": "clock_FC1414",
+                        "Title": "Magic Hour",
+                        "Url": {
+                            "Android": "dd://extensions/magichour",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/magichour"
+                        }
+                    },
+                    {
+                        "Icon": "01_FC1414",
+                        "Title": "Surveys",
+                        "Url": {
+                            "Android": "dd://survey/",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://survey/"
+                        }
+                    },
+                    {
+                        "Icon": "attendees_FC1414",
+                        "Title": "ATTENDEES",
+                        "Url": {
+                            "Android": "dd://users/",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://users/"
+                        }
+                    },
+                    {
+                        "Icon": "21_FC1414",
+                        "Title": "Speaker - 5 April",
+                        "Url": {
+                            "Android": "dd://topic/10268405",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://topic/10268405"
+                        }
+                    },
+                    {
+                        "Icon": "03_FC1414",
+                        "Title": "Exhibitors - 5 April",
+                        "Url": {
+                            "Android": "dd://topic/10268406",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://topic/10268406"
+                        }
+                    },
+                    {
+                        "Icon": "apparel-attire_FC1414",
+                        "Title": "new custom  JS",
+                        "Url": {
+                            "Android": "dd://topic/10268420",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://topic/10268420"
+                        }
+                    },
+                    {
+                        "Icon": "07_FC1414",
+                        "Title": "Test info view 2 ",
+                        "Url": {
+                            "Android": "dd://item/315421",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://item/315421"
+                        }
+                    },
+                    {
+                        "Icon": "07_FC1414",
+                        "Title": "Test JS info view",
+                        "Url": {
+                            "Android": "dd://item/315420",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://item/315420"
+                        }
+                    },
+                    {
+                        "Icon": "agenda_FC1414",
+                        "Title": "Amit - Info View",
+                        "Url": {
+                            "Android": "dd://item/315418",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://item/315418"
+                        }
+                    },
+                    {
+                        "Icon": "01_FC1414",
+                        "Title": "Folder",
+                        "Url": {
+                            "Android": "dd://subjects/192",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://subjects/192"
+                        }
+                    },
+                    {
+                        "Icon": "07_FC1414",
+                        "Title": "Info view - April 17",
+                        "Url": {
+                            "Android": "dd://item/315383",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://item/315383"
+                        }
+                    },
+                    {
+                        "Icon": "26_FC1414",
+                        "Title": "Map",
+                        "Url": {
+                            "Android": "dd://map/",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://map/"
+                        }
+                    },
+                    {
+                        "Icon": "clipboard-lines_FC1414",
+                        "Title": "Survey JS - 1.4.10",
+                        "Url": {
+                            "Android": "dd://extensions/surveys",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/surveys"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "Webview.com",
+                        "Url": {
+                            "Android": "dd://web?url=https%3A%2F%2Fwww.google.com&externalBrowser=true",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://web?url=https%3A%2F%2Fwww.google.com&externalBrowser=true"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "My Info 2.2.2",
+                        "Url": {
+                            "Android": "dd://extensions/personalizedcontent",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/personalizedcontent"
+                        }
+                    },
+                    {
+                        "Icon": "07_FC1414",
+                        "Title": "info View - April 9",
+                        "Url": {
+                            "Android": "dd://item/315222",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://item/315222"
+                        }
+                    },
+                    {
+                        "Icon": "60b69275-bab1-471d-a609-f712a183abfe",
+                        "Title": "New speaker ",
+                        "Url": {
+                            "Android": "dd://topic/10268409",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://topic/10268409"
+                        }
+                    },
+                    {
+                        "Icon": "lightbulb_FC1414",
+                        "Title": "RN Client-AM",
+                        "Url": {
+                            "Android": "dd://extensions/clientdemo",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/clientdemo"
+                        }
+                    },
+                    {
+                        "Icon": "21_FC1414",
+                        "Title": "New custom list test",
+                        "Url": {
+                            "Android": "dd://topic/10268407",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://topic/10268407"
+                        }
+                    },
+                    {
+                        "Icon": "21_FC1414",
+                        "Title": "Test custom new",
+                        "Url": {
+                            "Android": "dd://topic/10268400",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://topic/10268400"
+                        }
+                    },
+                    {
+                        "Icon": "21_FC1414",
+                        "Title": "New speaker test",
+                        "Url": {
+                            "Android": "dd://topic/10268397",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://topic/10268397"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "Travel Info",
+                        "Url": {
+                            "Android": "dd://extensions/travelinfocsv",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/travelinfocsv"
+                        }
+                    },
+                    {
+                        "Icon": "drinks_FC1414",
+                        "Title": "QR Hunt-2.2.5",
+                        "Url": {
+                            "Android": "dd://extensions/qrhunt",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/qrhunt"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "My badge new",
+                        "Url": {
+                            "Android": "dd://web?url=https%3A%2F%2Fwebapp.doubledutch.me%2Ftemplates%2FEventBadge.aspx&jssdk=true",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://web?url=https%3A%2F%2Fwebapp.doubledutch.me%2Ftemplates%2FEventBadge.aspx&jssdk=true"
+                        }
+                    },
+                    {
+                        "Icon": "21_FC1414",
+                        "Title": "New cutom",
+                        "Url": {
+                            "Android": "dd://topic/10268335",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://topic/10268335"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "My web view JSSDK",
+                        "Url": {
+                            "Android": "dd://web?url=https%3A%2F%2Fvcia.cnf.io%2F&jssdk=true",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://web?url=https%3A%2F%2Fvcia.cnf.io%2F&jssdk=true"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "My external web view ",
+                        "Url": {
+                            "Android": "dd://web?url=https%3A%2F%2Fww.linkedinnnnn.commmm&externalBrowser=true",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://web?url=https%3A%2F%2Fww.linkedinnnnn.commmm&externalBrowser=true"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "Native web view ",
+                        "Url": {
+                            "Android": "dd://web?url=https%3A%2F%2Fwww.facebookkkkkkkkkkkkkkkkkkkkk.com%2Fpg%2Fqasource%2Fevents%2F%3Fref%3Dpage_internal&useNativeApp=true",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://web?url=https%3A%2F%2Fwww.facebookkkkkkkkkkkkkkkkkkkkk.com%2Fpg%2Fqasource%2Fevents%2F%3Fref%3Dpage_internal&useNativeApp=true"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "My web view default",
+                        "Url": {
+                            "Android": "dd://web?url=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fqasource%2F",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://web?url=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fqasource%2F"
+                        }
+                    },
+                    {
+                        "Icon": "01_FC1414",
+                        "Title": "Folder ",
+                        "Url": {
+                            "Android": "dd://subjects/190",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://subjects/190"
+                        }
+                    },
+                    {
+                        "Icon": "leaderboard_FC1414",
+                        "Title": "Team Leaderboard",
+                        "Url": {
+                            "Android": "dd://extensions/leaderboard",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/leaderboard"
+                        }
+                    },
+                    {
+                        "Icon": "chair_FC1414",
+                        "Title": "Ice Breaker 1.2.2",
+                        "Url": {
+                            "Android": "dd://extensions/assassins",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/assassins"
+                        }
+                    },
+                    {
+                        "Icon": "qrscanner_FC1414",
+                        "Title": "Digital Business Cards 1.3.6",
+                        "Url": {
+                            "Android": "dd://extensions/personalleads",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/personalleads"
+                        }
+                    },
+                    {
+                        "Icon": "leaderboard_FC1414",
+                        "Title": "Trivia-2.3.4",
+                        "Url": {
+                            "Android": "dd://extensions/trivia",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/trivia"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "Lost and Found 1.2.3",
+                        "Url": {
+                            "Android": "dd://extensions/lostfound",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/lostfound"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "Offers Extension 1.2.0",
+                        "Url": {
+                            "Android": "dd://extensions/Offers",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/Offers"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "Custom experience- 0.4.1",
+                        "Url": {
+                            "Android": "dd://extensions/customexperiences",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/customexperiences"
+                        }
+                    },
+                    {
+                        "Icon": "alert_FC1414",
+                        "Title": "Question and Answer 2.2.6",
+                        "Url": {
+                            "Android": "dd://extensions/questionanswer",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/questionanswer"
+                        }
+                    },
+                    {
+                        "Icon": "book_FC1414",
+                        "Title": "Safety Check 1.2.2",
+                        "Url": {
+                            "Android": "dd://extensions/safeapp",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/safeapp"
+                        }
+                    },
+                    {
+                        "Icon": "bb272588-0a30-466d-b007-2c1b1f34be09",
+                        "Title": "Leaderboard",
+                        "Url": {
+                            "Android": "dd://leaderboard/",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://leaderboard/"
+                        }
+                    },
+                    {
+                        "Icon": "flag_FC1414",
+                        "Title": "Live Scoring",
+                        "Url": {
+                            "Android": "dd://extensions/livescoring",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/livescoring"
+                        }
+                    },
+                    {
+                        "Icon": "07_FC1414",
+                        "Title": "New info",
+                        "Url": {
+                            "Android": "dd://item/299470",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://item/299470"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "hosts",
+                        "Url": {
+                            "Android": "dd://extensions/hosts",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/hosts"
+                        }
+                    },
+                    {
+                        "Icon": "clock_FC1414",
+                        "Title": "Custom List",
+                        "Url": {
+                            "Android": "dd://topic/10268209",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://topic/10268209"
+                        }
+                    },
+                    {
+                        "Icon": "cloudupload_FC1414",
+                        "Title": "Custom Lists",
+                        "Url": {
+                            "Android": "dd://topic/10268199",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://topic/10268199"
+                        }
+                    },
+                    {
+                        "Icon": "21_FC1414",
+                        "Title": "Speakersqa",
+                        "Url": {
+                            "Android": "dd://topic/10268203",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://topic/10268203"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "PDF Test",
+                        "Url": {
+                            "Android": "dd://web?url=https%3A%2F%2Favantgarde-guestmanagement.de%2Fwp-content%2Fuploads%2F2018%2F08%2FTest-Fleet-2019-Mazda-MX-5.pdf",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://web?url=https%3A%2F%2Favantgarde-guestmanagement.de%2Fwp-content%2Fuploads%2F2018%2F08%2FTest-Fleet-2019-Mazda-MX-5.pdf"
+                        }
+                    },
+                    {
+                        "Icon": "07_FC1414",
+                        "Title": "Info view",
+                        "Url": {
+                            "Android": "dd://item/299379",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://item/299379"
+                        }
+                    },
+                    {
+                        "Icon": "07_FC1414",
+                        "Title": "Welcome",
+                        "Url": {
+                            "Android": "dd://item/299362",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://item/299362"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "Linkedin",
+                        "Url": {
+                            "Android": "dd://web?url=https%3A%2F%2Fwww.linkedin.com%2F&jssdk=true",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://web?url=https%3A%2F%2Fwww.linkedin.com%2F&jssdk=true"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "External 1",
+                        "Url": {
+                            "Android": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fromainguy%2F%3Fhl%3Den&externalBrowser=true",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fromainguy%2F%3Fhl%3Den&externalBrowser=true"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "Native app",
+                        "Url": {
+                            "Android": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fbarackobama%2F%3Fhl%3Den&useNativeApp=true",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://web?url=https%3A%2F%2Fwww.instagram.com%2Fbarackobama%2F%3Fhl%3Den&useNativeApp=true"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "default",
+                        "Url": {
+                            "Android": "dd://web?url=https%3A%2F%2Ftwitter.com%2F",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://web?url=https%3A%2F%2Ftwitter.com%2F"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "external",
+                        "Url": {
+                            "Android": "dd://web?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FURL&jssdk=true",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://web?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FURL&jssdk=true"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "dd-extension",
+                        "Url": {
+                            "Android": "dd://extensions/ddtest",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/ddtest"
+                        }
+                    },
+                    {
+                        "Icon": "07_FC1414",
+                        "Title": "Info 25 June",
+                        "Url": {
+                            "Android": "dd://item/298995",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://item/298995"
+                        }
+                    },
+                    {
+                        "Icon": "23_FC1414",
+                        "Title": "Bookmarks",
+                        "Url": {
+                            "Android": "dd://favorites/",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://favorites/"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "msnextsteps",
+                        "Url": {
+                            "Android": "dd://extensions/msnextsteps",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/msnextsteps"
+                        }
+                    },
+                    {
+                        "Icon": "attendees_FC1414",
+                        "Title": "Clearbit",
+                        "Url": {
+                            "Android": "dd://web?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fbazaar-179323.appspot.com%2Fo%2Fextensions%252FddTestClearbit%252F0.0.1%252Fmobile%252Findex.__platform__.0.46.4.manifest.bundle%3Fmodule%3DddTestClearbit%26alt%3Dmedia%23plugin",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://web?url=https%3A%2F%2Ffirebasestorage.googleapis.com%2Fv0%2Fb%2Fbazaar-179323.appspot.com%2Fo%2Fextensions%252FddTestClearbit%252F0.0.1%252Fmobile%252Findex.__platform__.0.46.4.manifest.bundle%3Fmodule%3DddTestClearbit%26alt%3Dmedia%23plugin"
+                        }
+                    },
+                    {
+                        "Icon": "map_FC1414",
+                        "Title": "Custom Page",
+                        "Url": {
+                            "Android": "dd://extensions/custompage",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/custompage"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "Where in the World?",
+                        "Url": {
+                            "Android": "dd://extensions/whereintheworld",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/whereintheworld"
+                        }
+                    },
+                    {
+                        "Icon": "clipboard-lines_FC1414",
+                        "Title": "Registration Test",
+                        "Url": {
+                            "Android": "dd://extensions/ddEGEvents",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/ddEGEvents"
+                        }
+                    },
+                    {
+                        "Icon": "17_FC1414",
+                        "Title": "QR Scanner",
+                        "Url": {
+                            "Android": "dd://qrcodescanner/",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://qrcodescanner/"
+                        }
+                    },
+                    {
+                        "Icon": "clipboard-lines_FC1414",
+                        "Title": "Meetings",
+                        "Url": {
+                            "Android": "dd://meetings/",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://meetings/"
+                        }
+                    },
+                    {
+                        "Icon": "03_FC1414",
+                        "Title": "Lead Scanning (old)",
+                        "Url": {
+                            "Android": "dd://leads/",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://leads/"
+                        }
+                    },
+                    {
+                        "Icon": "chair_FC1414",
+                        "Title": "hub 1.0",
+                        "Url": {
+                            "Android": "dd://extensions/hub",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/hub"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "el sub campeonisimo",
+                        "Url": {
+                            "Android": "dd://web?url=https%3A%2F%2Fcruzazulfc.com.mx%2F",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://web?url=https%3A%2F%2Fcruzazulfc.com.mx%2F"
+                        }
+                    },
+                    {
+                        "Icon": "hand_FC1414",
+                        "Title": "Concierge 2.0",
+                        "Url": {
+                            "Android": "dd://extensions/concierge",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/concierge"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "Code of Conduct 2.1.2",
+                        "Url": {
+                            "Android": "dd://extensions/codeofconduct",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/codeofconduct"
+                        }
+                    },
+                    {
+                        "Icon": "education_FC1414",
+                        "Title": "knowledgeShare!",
+                        "Url": {
+                            "Android": "dd://extensions/knowledgeshare",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/knowledgeshare"
+                        }
+                    },
+                    {
+                        "Icon": "target_FC1414",
+                        "Title": "MSOffers 0.1.3",
+                        "Url": {
+                            "Android": "dd://extensions/msoffers",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/msoffers"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "Test",
+                        "Url": {
+                            "Android": "dd://web?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DcF0EfKPwt3k",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://web?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DcF0EfKPwt3k"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "default 2",
+                        "Url": {
+                            "Android": "dd://web?url=https%3A%2F%2Fwww.cdkeys.com%2F&useNativeApp=true",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://web?url=https%3A%2F%2Fwww.cdkeys.com%2F&useNativeApp=true"
+                        }
+                    },
+                    {
+                        "Icon": "travel_FC1414",
+                        "Title": "Maritz MyTravel & MyAgenda",
+                        "Url": {
+                            "Android": "dd://extensions/maritztravelinfo",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/maritztravelinfo"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "Adam test2",
+                        "Url": {
+                            "Android": "dd://web?url=https%3A%2F%2F192.168.0.94%3A8081%2F0.46.4%2Fios%2Findex.bundle%3Fplatform%3Dios%26dev%3Dfalse%26minify%3Dtrue%26module%3Dqrhunt%23plugin",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://web?url=https%3A%2F%2F192.168.0.94%3A8081%2F0.46.4%2Fios%2Findex.bundle%3Fplatform%3Dios%26dev%3Dfalse%26minify%3Dtrue%26module%3Dqrhunt%23plugin"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "My Badge",
+                        "Url": {
+                            "Android": "dd://extensions/mybadge",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/mybadge"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "My Badge2",
+                        "Url": {
+                            "Android": "dd://web?url=https%3A%2F%2Fwebapp.doubledutch.me%2Ftemplates%2FEventBadge.aspx&jssdk=true",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://web?url=https%3A%2F%2Fwebapp.doubledutch.me%2Ftemplates%2FEventBadge.aspx&jssdk=true"
+                        }
+                    },
+                    {
+                        "Icon": "lightbulb_FC1414",
+                        "Title": "Info view JS",
+                        "Url": {
+                            "Android": "dd://item/328714",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://item/328714"
+                        }
+                    },
+                    {
+                        "Icon": "notepad_FC1414",
+                        "Title": "webview",
+                        "Url": {
+                            "Android": "dd://web?url=http%3A%2F%2Fdoubledutch.me",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://web?url=http%3A%2F%2Fdoubledutch.me"
+                        }
+                    },
+                    {
+                        "Icon": "photo-feed_FC1414",
+                        "Title": "Photo Feed",
+                        "Url": {
+                            "Android": "dd://photofeed/",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://photofeed/"
+                        }
+                    },
+                    {
+                        "Icon": "activity_FC1414",
+                        "Title": "Info view JS 2",
+                        "Url": {
+                            "Android": "dd://item/328716",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://item/328716"
+                        }
+                    },
+                    {
+                        "Icon": "globe_FC1414",
+                        "Title": "Offers (old)",
+                        "Url": {
+                            "Android": "dd://extensions/offers",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://extensions/offers"
+                        }
+                    },
+                    {
+                        "Icon": "21_FC1414",
+                        "Title": "Speaker-10 june",
+                        "Url": {
+                            "Android": "dd://topic/10269075",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://topic/10269075"
+                        }
+                    },
+                    {
+                        "Icon": "02_FC1414",
+                        "Title": "Messages",
+                        "Url": {
+                            "Android": "dd://messages/",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "dd://messages/"
+                        }
+                    },
+                    {
+                        "Icon": "zdd",
+                        "Title": "App By DoubleDutch",
+                        "Url": {
+                            "Android": "https://doubledutch.me/about-doubledutch-app/",
+                            "Web": null,
+                            "WindowsPhone": null,
+                            "iPhone": "https://doubledutch.me/about-doubledutch-app/"
+                        }
+                    }
+                ],
+                "UpdateObjects": [
+                    {
+                        "Controller": "TopicsViewController",
+                        "Description": "Which Agendaz?",
+                        "Icon": "iconCustomer",
+                        "IsPlace": false,
+                        "Name": "list",
+                        "TopicId": 10268404
+                    },
+                    {
+                        "Controller": "TopicsViewController",
+                        "Description": "Which Exhibitors?",
+                        "Icon": "iconCustomer",
+                        "IsPlace": false,
+                        "Name": "list",
+                        "TopicId": 168
+                    },
+                    {
+                        "Controller": "TopicsViewController",
+                        "Description": "Which New exhi?",
+                        "Icon": "iconCustomer",
+                        "IsPlace": false,
+                        "Name": "list",
+                        "TopicId": 10268408
+                    },
+                    {
+                        "Controller": "TopicsViewController",
+                        "Description": "Which Speaker - 5 April?",
+                        "Icon": "iconCustomer",
+                        "IsPlace": false,
+                        "Name": "list",
+                        "TopicId": 10268405
+                    },
+                    {
+                        "Controller": "TopicsViewController",
+                        "Description": "Which Exhibitors - 5 April?",
+                        "Icon": "iconCustomer",
+                        "IsPlace": false,
+                        "Name": "list",
+                        "TopicId": 10268406
+                    },
+                    {
+                        "Controller": "TopicsViewController",
+                        "Description": "Which new custom ?",
+                        "Icon": "iconCustomer",
+                        "IsPlace": false,
+                        "Name": "list",
+                        "TopicId": 10268420
+                    },
+                    {
+                        "Controller": "TopicsViewController",
+                        "Description": "Which New speaker 112?",
+                        "Icon": "iconCustomer",
+                        "IsPlace": false,
+                        "Name": "list",
+                        "TopicId": 10268409
+                    },
+                    {
+                        "Controller": "TopicsViewController",
+                        "Description": "Which New custom list test?",
+                        "Icon": "iconCustomer",
+                        "IsPlace": false,
+                        "Name": "list",
+                        "TopicId": 10268407
+                    },
+                    {
+                        "Controller": "TopicsViewController",
+                        "Description": "Which Test custom new?",
+                        "Icon": "iconCustomer",
+                        "IsPlace": false,
+                        "Name": "list",
+                        "TopicId": 10268400
+                    },
+                    {
+                        "Controller": "TopicsViewController",
+                        "Description": "Which New speaker test?",
+                        "Icon": "iconCustomer",
+                        "IsPlace": false,
+                        "Name": "list",
+                        "TopicId": 10268397
+                    },
+                    {
+                        "Controller": "TopicsViewController",
+                        "Description": "Which New cutom?",
+                        "Icon": "iconCustomer",
+                        "IsPlace": false,
+                        "Name": "list",
+                        "TopicId": 10268335
+                    },
+                    {
+                        "Controller": "TopicsViewController",
+                        "Description": "Which Speaker folder?",
+                        "Icon": "iconCustomer",
+                        "IsPlace": false,
+                        "Name": "list",
+                        "TopicId": 10268329
+                    },
+                    {
+                        "Controller": "TopicsViewController",
+                        "Description": "Which Custom List?",
+                        "Icon": "iconCustomer",
+                        "IsPlace": false,
+                        "Name": "list",
+                        "TopicId": 10268209
+                    },
+                    {
+                        "Controller": "TopicsViewController",
+                        "Description": "Which Custom Lists?",
+                        "Icon": "iconCustomer",
+                        "IsPlace": false,
+                        "Name": "list",
+                        "TopicId": 10268199
+                    },
+                    {
+                        "Controller": "TopicsViewController",
+                        "Description": "Which Speakers?",
+                        "Icon": "iconCustomer",
+                        "IsPlace": false,
+                        "Name": "list",
+                        "TopicId": 10268203
+                    }
+                ]
+            },
+            "Extensions": [
+                {
+                    "Name": "testapp",
+                    "Version": "0.0.2",
+                    "BaseVersions": [
+                        "0.46.4",
+                        "0.59.3"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Ftestapp%2F0.0.2%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=testapp&alt=media#plugin"
+                },
+                {
+                    "Name": "magichour",
+                    "Version": "4.0.1",
+                    "BaseVersions": [
+                        "0.46.4",
+                        "0.59.3"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fmagichour%2F4.0.1%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=magichour&alt=media#plugin"
+                },
+                {
+                    "Name": "surveys",
+                    "Version": "1.4.10",
+                    "BaseVersions": [
+                        "0.46.4",
+                        "0.59.3"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fsurveys%2F1.4.10%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=surveys&alt=media#plugin"
+                },
+                {
+                    "Name": "personalizedcontent",
+                    "Version": "2.2.2",
+                    "BaseVersions": [
+                        "0.46.4",
+                        "0.59.3"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fpersonalizedcontent%2F2.2.2%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=personalizedcontent&alt=media#plugin"
+                },
+                {
+                    "Name": "clientdemo",
+                    "Version": "0.0.10",
+                    "BaseVersions": [
+                        "0.46.4",
+                        "0.59.3"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fclientdemo%2F0.0.10%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=clientdemo&alt=media#plugin"
+                },
+                {
+                    "Name": "travelinfocsv",
+                    "Version": "0.0.5",
+                    "BaseVersions": [
+                        "0.46.4",
+                        "0.59.3"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Ftravelinfocsv%2F0.0.5%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=travelinfocsv&alt=media#plugin"
+                },
+                {
+                    "Name": "qrhunt",
+                    "Version": "2.2.9",
+                    "BaseVersions": [
+                        "0.46.4",
+                        "0.59.3"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fqrhunt%2F2.2.9%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=qrhunt&alt=media#plugin"
+                },
+                {
+                    "Name": "leaderboard",
+                    "Version": "1.0.5",
+                    "BaseVersions": [
+                        "0.46.4",
+                        "0.59.3"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fleaderboard%2F1.0.5%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=leaderboard&alt=media#plugin"
+                },
+                {
+                    "Name": "assassins",
+                    "Version": "1.2.2",
+                    "BaseVersions": [
+                        "0.46.4",
+                        "0.59.3"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fassassins%2F1.2.2%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=assassins&alt=media#plugin"
+                },
+                {
+                    "Name": "personalleads",
+                    "Version": "1.3.6",
+                    "BaseVersions": [
+                        "0.46.4",
+                        "0.59.3"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fpersonalleads%2F1.3.6%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=personalleads&alt=media#plugin"
+                },
+                {
+                    "Name": "trivia",
+                    "Version": "2.3.4",
+                    "BaseVersions": [
+                        "0.46.4",
+                        "0.59.3"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Ftrivia%2F2.3.4%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=trivia&alt=media#plugin"
+                },
+                {
+                    "Name": "lostfound",
+                    "Version": "1.2.4",
+                    "BaseVersions": [
+                        "0.46.4",
+                        "0.59.3"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Flostfound%2F1.2.4%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=lostfound&alt=media#plugin"
+                },
+                {
+                    "Name": "Offers",
+                    "Version": "0.2.2",
+                    "BaseVersions": [
+                        "0.46.4",
+                        "0.59.3"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2FOffers%2F0.2.2%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=Offers&alt=media#plugin"
+                },
+                {
+                    "Name": "customexperiences",
+                    "Version": "0.4.1",
+                    "BaseVersions": [
+                        "0.46.4",
+                        "0.59.3"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fcustomexperiences%2F0.4.1%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=customexperiences&alt=media#plugin"
+                },
+                {
+                    "Name": "questionanswer",
+                    "Version": "2.2.6",
+                    "BaseVersions": [
+                        "0.46.4",
+                        "0.59.3"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fquestionanswer%2F2.2.6%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=questionanswer&alt=media#plugin"
+                },
+                {
+                    "Name": "safeapp",
+                    "Version": "1.2.2",
+                    "BaseVersions": [
+                        "0.46.4",
+                        "0.59.3"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fsafeapp%2F1.2.2%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=safeapp&alt=media#plugin"
+                },
+                {
+                    "Name": "livescoring",
+                    "Version": "1.1.2",
+                    "BaseVersions": [
+                        "0.46.4",
+                        "0.59.3"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Flivescoring%2F1.1.2%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=livescoring&alt=media#plugin"
+                },
+                {
+                    "Name": "hosts",
+                    "Version": "0.0.4",
+                    "BaseVersions": [
+                        "0.46.4"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fhosts%2F0.0.4%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=hosts&alt=media#plugin"
+                },
+                {
+                    "Name": "ddtest",
+                    "Version": "0.0.13",
+                    "BaseVersions": [
+                        "0.46.4"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fddtest%2F0.0.13%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=ddtest&alt=media#plugin"
+                },
+                {
+                    "Name": "msnextsteps",
+                    "Version": "0.0.2",
+                    "BaseVersions": [
+                        "0.46.4"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fmsnextsteps%2F0.0.2%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=msnextsteps&alt=media#plugin"
+                },
+                {
+                    "Name": "custompage",
+                    "Version": "0.0.5",
+                    "BaseVersions": [
+                        "0.46.4"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fcustompage%2F0.0.5%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=custompage&alt=media#plugin"
+                },
+                {
+                    "Name": "whereintheworld",
+                    "Version": "0.0.1",
+                    "BaseVersions": [
+                        "0.46.4"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fwhereintheworld%2F0.0.1%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=whereintheworld&alt=media#plugin"
+                },
+                {
+                    "Name": "ddEGEvents",
+                    "Version": "0.1.25",
+                    "BaseVersions": [
+                        "0.46.4",
+                        "0.59.2"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2FddEGEvents%2F0.1.25%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=ddEGEvents&alt=media#plugin"
+                },
+                {
+                    "Name": "hub",
+                    "Version": "0.0.9",
+                    "BaseVersions": [
+                        "0.46.4"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fhub%2F0.0.9%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=hub&alt=media#plugin"
+                },
+                {
+                    "Name": "concierge",
+                    "Version": "0.0.3",
+                    "BaseVersions": [
+                        "0.46.4"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fconcierge%2F0.0.3%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=concierge&alt=media#plugin"
+                },
+                {
+                    "Name": "codeofconduct",
+                    "Version": "0.1.3",
+                    "BaseVersions": [
+                        "0.46.4",
+                        "0.59.3"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fcodeofconduct%2F0.1.3%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=codeofconduct&alt=media#plugin"
+                },
+                {
+                    "Name": "knowledgeshare",
+                    "Version": "1.4.3",
+                    "BaseVersions": [
+                        "0.46.4",
+                        "0.59.3"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fknowledgeshare%2F1.4.3%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=knowledgeshare&alt=media#plugin"
+                },
+                {
+                    "Name": "msoffers",
+                    "Version": "0.1.3",
+                    "BaseVersions": [
+                        "0.46.4"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fmsoffers%2F0.1.3%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=msoffers&alt=media#plugin"
+                },
+                {
+                    "Name": "maritztravelinfo",
+                    "Version": "0.0.1",
+                    "BaseVersions": [
+                        "0.46.4",
+                        "0.59.3"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fmaritztravelinfo%2F0.0.1%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=maritztravelinfo&alt=media#plugin"
+                },
+                {
+                    "Name": "mybadge",
+                    "Version": "0.0.2",
+                    "BaseVersions": [
+                        "0.46.4"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fmybadge%2F0.0.2%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=mybadge&alt=media#plugin"
+                },
+                {
+                    "Name": "offers",
+                    "Version": "0.0.1",
+                    "BaseVersions": [
+                        "0.46.4"
+                    ],
+                    "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Foffers%2F0.0.1%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=offers&alt=media#plugin"
+                }
+            ],
+            "Icon": "https://d27z76th86wcg3.cloudfront.net/config/assets/d32b1ca4-89ab-4f75-ae45-15cf7779eea9/cdae030c-c9f2-48a8-af36-08c8ee5b2b87/icon.png",
+            "AssetPackageUrl": "https://d27z76th86wcg3.cloudfront.net/config/assets/d32b1ca4-89ab-4f75-ae45-15cf7779eea9/b377976c-00d0-4ea7-9de3-735457cb97e1_XHigh.zip",
+            "AssetPackageUpdated": "2019-09-04T12:49:22.990Z",
+            "StartDate": "2019-07-15T00:00:00.000Z",
+            "EndDate": "2020-01-25T00:00:00.000Z",
+            "IsLinkedWithCurrentUser": true,
+            "Location": null,
+            "TimeZoneOffset": 330,
+            "TimeZone": "Asia/Calcutta",
+            "ShortName": "ddqa",
+            "ContextId": "wggEs4XehGh3Rb87YVx6wB",
+            "EventId": "vq2TbEAEJhSQmY2u7zT3AnUigMuSm3tof57GogfGHpGz",
+            "EventIdentifierId": "DDQAwesomeSauce"
+        }
+    ],
+    "IsSuccess": true,
+    "Message": null,
+    "ErrorCode": 0,
+    "Purge": false
+}
