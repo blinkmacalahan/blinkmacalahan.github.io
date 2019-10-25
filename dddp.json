@@ -7,7 +7,8 @@
         "0.46.4",
         "0.59.3"
       ],
-      "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Ficebreakers%2F0.3.0%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=icebreakers&alt=media#plugin"
+      "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Ficebreakers%2F0.3.0%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=icebreakers&alt=media#plugin",
+      "UseMockData": true
     },
     {
       "Name": "testapp",
