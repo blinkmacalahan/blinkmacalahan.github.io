@@ -1,6 +1,16 @@
 {
   "Extensions": [
     {
+      "Name": "signals",
+      "Version": "0.0.1",
+      "BaseVersions": [
+        "0.46.4",
+        "0.59.3"
+      ],
+      "Url": "https://firebasestorage.googleapis.com/v0/b/bazaar-179323.appspot.com/o/extensions%2Fsignals%2F0.0.1%2Fmobile%2Findex.__platform__.__baseBundle__.manifest.bundle?module=signals&alt=media#plugin",
+      "UseMockData": false
+    },
+    {
       "Name": "icebreakers",
       "Version": "0.3.0",
       "BaseVersions": [
