@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bardcode Generator</title>
+	<script type="text/javascript">
+		const barcodeTypes = ["QRCode", "MobileQRCode", "Aztec", "Code128", "Code39", "Code93", "EAN8", "EAN13", "UPCA", "Code25IL", "PDF417", "UPC"];
+		document.addEventListener("DOMContentLoaded", function(event) { 
+		  let barcodeInput = document.getElementById("barcodeInput");
+		  let submitButton = document.getElementById("submit")
+		  submit.addEventListener('click', function(event) {
+
+		  		barcodeTable.innerHTML = "";
+		  		for (let element of barcodeTypes) {
+		  			let row = barcodeTable.insertRow();
+		  			let cell1 = row.insertCell();
+		  			cell1.innerHTML = element;
+
+		  			let cell2 = row.insertCell();
+		  			cell2.innerHTML = getBarcodeImgSource(barcodeInput.value, element);
+		  		}
+		  })
+
+		  let barcodeTable = document.getElementById("barcodeTable");
+		});
+
+		function getBarcodeImgSource(data, code) {
+			return `<img alt='Barcode Generator TEC-IT'
+       src='https://barcode.tec-it.com/barcode.ashx?data=${data}&code=${code}&multiplebarcodes=false&translate-esc=false&unit=Fit&dpi=96&imagetype=Gif&rotation=0&color=%23000000&bgcolor=%23ffffff&qunit=Mm&quiet=0'/>`;
+			// return `https://barcode.tec-it.com/barcode.ashx?data=${data}&code=${code}&multiplebarcodes=false&translate-esc=false&unit=Fit&dpi=96&imagetype=Gif&rotation=0&color=%23000000&bgcolor=%23ffffff&qunit=Mm&quiet=0`
+		}
+	</script>
+	<style type="text/css">
+		table {
+		  border-collapse: separate;
+		  border-spacing: 0em 1em;
+		  margin-top: 1em;
+		  margin-bottom: 1em;
+		}
+
+		th, td {
+		  text-align: left;
+		  padding: 8px;
+		}
+		tr:nth-child(even) {background-color: #f2f2f2;}
+		tr td:nth-child(2) {
+			opacity: 0;
+		}
+
+		tr:hover td:nth-child(2) {
+			opacity: 1;
+		}
+	</style>
+</head>
+<body>
+<div>
+<label for="barcodeInput">Barcode Data</label>
+<input type="text" name="barcodeInput" id="barcodeInput">
+<input type="button" name="submit" id="submit" value="Submit">	
+
+<p>Provide the bardoce data and hit "Submit" to generate barcodes of various formats. Hover over each row to reveal the barcode</p>
+</div>
+<div style='text-align: center;'>
+  <table id="barcodeTable">
+  </table>
+</div>
+<div style='padding-top:8px; text-align:center; font-size:15px; font-family: Source Sans Pro, Arial, sans-serif;'>
+  <!-- back-linking to www.tec-it.com is required -->
+  <a href='https://www.tec-it.com' title='Barcode Software by TEC-IT' target='_blank'>
+    TEC-IT Barcode Generator<br/>
+    <!-- logos are optional -->
+    <img alt='TEC-IT Barcode Software' border='0'
+         src='http://www.tec-it.com/pics/banner/web/TEC-IT_Logo_75x75.gif'>
+  </a>
+</div>
+</body>
+</html>
