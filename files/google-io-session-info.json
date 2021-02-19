@@ -28,5 +28,3383 @@
       "reserved": 33
     },
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-4.png"
+  },
+  {
+    "name": "[SP a T i AL] Ian Chang, Sensory Percussion Live",
+    "date": "Tue. May 7, 8:20pm - 9:00pm",
+    "startTime": "2021-03-01T20:20-08:00",
+    "endTime": "2021-03-01T21:00-08:00",
+    "location": "Stage 4",
+    "description": "Drummer Ian Chang makes electronic music physical. Using Sunhouse's Sensory Percussion (a machine learning software that can identify timbral shifts in drumming), Chang improvises a hypnotic, multimedia experience. The result is a unique marriage of raw performative intensity and sophisticated sound and lighting design. SP a T i AL is an immersive 4DSOUND audio environment dedicated to multi-sensory and multimedia performances. All artists featured in the space have incorporated A.I. & M.L. as a collaborative tool in their creations, showcasing classical disciplines reimagined through the use of pioneering technology.",
+    "tags": [
+      {
+        "name": "After Dark",
+        "color": "#999999"
+      },
+      {
+        "name": "Misc",
+        "color": "#e8bc4f"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 86,
+      "checkedIn": 10,
+      "reserved": 96
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ab.png"
+  },
+  {
+    "name": "[SP a T i AL] Monom, A Recalibration in 4DSOUND",
+    "date": "Tue. May 7, 6:00pm - 6:20pm",
+    "startTime": "2021-03-01T18:00-08:00",
+    "endTime": "2021-03-01T18:20-08:00",
+    "location": "Stage 4",
+    "description": "MONOM - a collective based in Berlin exploring the potential of spatial sound as an expressive medium - will demonstrate the 4DSOUND technology installed in the space. It will serve as a sonic recalibration of your senses, tuning you in to the special performances of the night ahead. SP a T i AL is an immersive 4DSOUND audio environment dedicated to multi-sensory and multimedia performances. All artists featured in the space have incorporated A.I. & M.L. as a collaborative tool in their creations, showcasing classical disciplines reimagined through the use of pioneering technology.",
+    "tags": [
+      {
+        "name": "After Dark",
+        "color": "#999999"
+      },
+      {
+        "name": "Misc",
+        "color": "#e8bc4f"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 1,
+      "checkedIn": 78,
+      "reserved": 78
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/qr.png"
+  },
+  {
+    "name": "[SP a T i AL] Sougwen Chung, Drawing Operations",
+    "date": "Tue. May 7, 6:20pm - 6:45pm",
+    "startTime": "2021-03-01T18:20-08:00",
+    "endTime": "2021-03-01T18:45-08:00",
+    "location": "Stage 4",
+    "description": "Drawing Operations (Duet) is a performance centered on an improvised drawing collaboration between human and machine. In this duet, Sougwen and Drawing Operations Units: Generation 1&2 create a drawing corresponding to three themes related to human and robotic co-creation: Mimicry, Memory and Future Speculations. SP a T i AL is an immersive 4DSOUND audio environment dedicated to multi-sensory and multimedia performances. All artists featured in the space have incorporated A.I. & M.L. as a collaborative tool in their creations, showcasing classical disciplines reimagined through the use of pioneering technology.",
+    "tags": [
+      {
+        "name": "After Dark",
+        "color": "#999999"
+      },
+      {
+        "name": "Misc",
+        "color": "#e8bc4f"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 62,
+      "checkedIn": 9,
+      "reserved": 71
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/st.png"
+  },
+  {
+    "name": "[SP a T i AL] Sougwen Chung, Drawing Operations",
+    "date": "Tue. May 7, 7:00pm - 7:25pm",
+    "startTime": "2021-03-01T19:00-08:00",
+    "endTime": "2021-03-01T19:25-08:00",
+    "location": "Stage 4",
+    "description": "Drawing Operations (Duet) is a performance centered on an improvised drawing collaboration between human and machine. In this duet, Sougwen and Drawing Operations Units: Generation 1&2 create a drawing corresponding to three themes related to human and robotic co-creation: Mimicry, Memory and Future Speculations. SP a T i AL is an immersive 4DSOUND audio environment dedicated to multi-sensory and multimedia performances. All artists featured in the space have incorporated A.I. & M.L. as a collaborative tool in their creations, showcasing classical disciplines reimagined through the use of pioneering technology.",
+    "tags": [
+      {
+        "name": "Misc",
+        "color": "#e8bc4f"
+      },
+      {
+        "name": "After Dark",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 1,
+      "checkedIn": 38,
+      "reserved": 38
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ij.png"
+  },
+  {
+    "name": "Accessible Audio: Android Hearing Aid Support and the Audio Framework",
+    "date": "Tue. May 7, 4:00pm - 5:00pm",
+    "startTime": "2021-03-01T16:00-08:00",
+    "endTime": "2021-03-01T17:00-08:00",
+    "location": "Stage 7",
+    "description": "This talk is for media developers, audio hardware makers and hearing aid manufacturers interested in making audio on Android more accessible using built-in capabilities such as the dynamics processing effect (DPE) and Android Streaming Hearing Aid Support (ASHA). You'll see examples of audio equalization using DPE to adjust for hard-to-hear situations using a reference application and learn implementation steps for hearing aid developer-manufacturers who want to implement ASHA.",
+    "tags": [
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      },
+      {
+        "name": "Accessibility",
+        "color": "#4768fd"
+      },
+      {
+        "name": "Advanced",
+        "color": null
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Brian Kemler",
+        "img": "https://lh3.googleusercontent.com/oeNn9EhBkGbXlV61qfkKZ678PIQkCX_uYJEnE2_6z9zIJeqMCW5Y-tp0bNctPO06ue2d7A4OjnnVxcKpFacpG0yWkw",
+        "company": "Google",
+        "description": "Brian leads product management for Android Accessibility.\nHe joined Google in 2007 as one of Google Enterprise’s first sales engineers. Brian started Waymo’s privacy product development program and bootstrapped Google’s expansion of Search and Gmail in Myanmar (Burma). He created Google News Next Billion launching 9 new editions in underserved markets and then went on advance meetings experiences on Chromebox for meetings. In 2017, Brian began working on helping apply in machine learning make Android more accessible and inclusive.\n\nBrian Kemler graduated from the George Washington University in Washington, DC with degrees in Economics and Political Science as well as a minor in Photography. Brian’s extracurricular activities include; international travel, photography, writing, yoga, meditation, snowboarding and mountain biking.",
+        "socialLinks": [
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/briankemler/"
+          },
+          {
+            "name": "Website",
+            "url": "https://www.briankemler.com/"
+          }
+        ]
+      },
+      {
+        "name": "Ricardo Garcia",
+        "img": "https://lh3.googleusercontent.com/L8lPbCcDm285dtupjqqUq1TTdNH36utXx7D5RYxLieYmUYkTKoioZsQULmr8yVZ0YqDCxK5mNugzIbjVyUT8U-SJMg",
+        "company": "Google",
+        "description": "Ricardo Garcia (rago) is a Staff Software Engineer in Android Audio Framework team and Tech Lead of Sound Amplifier project. He holds a BSEE from his native Colombia and two MS in Music Engineering (U. of Miami) and Media Arts & Sciences (MIT). Has worked on low bitrate audio codecs (Chaoticom), audio watermarking, psychoacoustic models, genetic programming, hearing health and Founded Base 10 Labs.",
+        "socialLinks": [
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/ragomusic"
+          },
+          {
+            "name": "GitHub",
+            "url": "https://github.com/ragomusic"
+          },
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/ragomusic/"
+          }
+        ]
+      },
+      {
+        "name": "Stanley Tng",
+        "img": "https://lh3.googleusercontent.com/_AXUUavILIsL1IZRqYT8lm9uNtw8tlonpTB2KF8wMFOKglzcNC-aSdH53xSS7MPD1Nqx8wz8-82GgE8eSPntS7qc4Q",
+        "company": "Google",
+        "description": "Stanley is the technical lead for Android Hearing Aid Audio Support Using Bluetooth LE.\nStanley graduated from University of Illinois, Urbana-Champaign (UIUC) with a Masters of Science in Computer Science. He earned a bachelor's degree in Computer Engineer at UIUC and a bronze tablet recipient.",
+        "socialLinks": []
+      },
+      {
+        "name": "Jonathan Hurwitz",
+        "img": "https://lh3.googleusercontent.com/Bl_tJrxBOHISO96Zs0hgXya1U6C8UCV4eD3BBTBmqJhI1WskbGGx0j-ua7KL1d2UldkxDHbU84MvZZ8E3n0F9f6o",
+        "company": "Google",
+        "description": "Jon is the android bluetooth product manager. Prior to Google, he worked at Apple designing circuits for apple watch and macbooks, and at Tesla designing DC-DC circuits for chargers. He has a BS in electrical engineering & computer science from UCLA, and an MS in computer science also from UCLA.",
+        "socialLinks": []
+      }
+    ],
+    "seatingInfo": {
+      "open": 44,
+      "checkedIn": 0,
+      "reserved": 20
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-5.png"
+  },
+  {
+    "name": "After Glow",
+    "date": "Tue. May 7, 6:00pm - 9:00pm",
+    "startTime": "2021-03-01T18:00-08:00",
+    "endTime": "2021-03-01T21:00-08:00",
+    "location": "Stage 5",
+    "description": "An imaginative and exciting performance space that blends cirque nouveau and technology. Featuring the talents of Quixotic.",
+    "tags": [
+      {
+        "name": "After Dark",
+        "color": "#999999"
+      },
+      {
+        "name": "Misc",
+        "color": "#e8bc4f"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 25,
+      "checkedIn": 30,
+      "reserved": 6
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/office-hours.png"
+  },
+  {
+    "name": "Android Activities & Windows Office Hour",
+    "date": "Tue. May 7, 2:00pm - 3:00pm",
+    "startTime": "2021-03-01T14:00-08:00",
+    "endTime": "2021-03-01T15:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Have questions about Android WindowManager and ActivityManager? Want to get additional details on some of the features we are introducing in Q? Come chat with members of the Android Windows and Activity team.",
+    "tags": [
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      },
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 3,
+      "checkedIn": 98,
+      "reserved": 96
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-6.png"
+  },
+  {
+    "name": "Android App Reviews",
+    "date": "Tue. May 7, 1:00pm - 6:00pm",
+    "startTime": "2021-03-01T13:00-08:00",
+    "endTime": "2021-03-01T18:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Android is a moving target! Whether you’re working in a seasoned codebase or starting a shiny new project in Kotlin, there’s always room for growth and improvement. Schedule time to talk with an expert Android Googler about your app, concentrating on the following areas: Migrating to P & Q features, Jetpack & Architecture, Material Design Components & Theming, Testing on Android and Android Security. Walk-ins are welcome.",
+    "tags": [
+      {
+        "name": "App Reviews",
+        "color": "#999999"
+      },
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 6,
+      "checkedIn": 53,
+      "reserved": 59
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/kl.png"
+  },
+  {
+    "name": "Android Authentication & Autofill",
+    "date": "Tue. May 7, 2:00pm - 3:00pm",
+    "startTime": "2021-03-01T14:00-08:00",
+    "endTime": "2021-03-01T15:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Developers will be able to ask questions related to Android authentication and identity, app sign-in (Google Sign-in vs. SmartLock for passwords vs. Autofill), SMS OTP autofill using SMS Retriever and the new SMS User Consent APIs, and Autofill Framework/Autofill with Google. These Office Hours can provide insight into the different sign-in options available to developers, as well as best practices.",
+    "tags": [
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      },
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 25,
+      "checkedIn": 73,
+      "reserved": 95
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/uvw.png"
+  },
+  {
+    "name": "Android Privacy Office Hours",
+    "date": "Tue. May 7, 5:00pm - 6:00pm",
+    "startTime": "2021-03-01T17:00-08:00",
+    "endTime": "2021-03-01T18:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Office hours to answer questions about all Android Privacy related features. Walk-ins are welcome.",
+    "tags": [
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      },
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 113,
+      "checkedIn": 31,
+      "reserved": 35
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ef.png"
+  },
+  {
+    "name": "Android Security office hours",
+    "date": "Tue. May 7, 1:00pm - 2:00pm",
+    "startTime": "2021-03-01T13:00-08:00",
+    "endTime": "2021-03-01T14:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Do you have questions about Android Security? Come meet the team!",
+    "tags": [
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      },
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 1,
+      "checkedIn": 63,
+      "reserved": 63
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/cd.png"
+  },
+  {
+    "name": "Android Studio Profilers Office Hours",
+    "date": "Tue. May 7, 4:00pm - 5:00pm",
+    "startTime": "2021-03-01T16:00-08:00",
+    "endTime": "2021-03-01T17:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Meet with members of the Android Studio Profilers team to get help on profiling and optimizing your app.",
+    "tags": [
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      },
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 66,
+      "checkedIn": 82,
+      "reserved": 16
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/mn.png"
+  },
+  {
+    "name": "Android System UI (Notifications, Navigation, Multitasking, Sharing)",
+    "date": "Tue. May 7, 1:00pm - 2:00pm",
+    "startTime": "2021-03-01T13:00-08:00",
+    "endTime": "2021-03-01T14:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Meet the team that works on Android System UI including features like Notifications, Navigations, Sharing and Multitasking.",
+    "tags": [
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      },
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 0,
+      "checkedIn": 77,
+      "reserved": 77
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/op.png"
+  },
+  {
+    "name": "ARcade",
+    "date": "Tue. May 7, 6:00pm - 9:00pm",
+    "startTime": "2021-03-01T18:00-08:00",
+    "endTime": "2021-03-01T21:00-08:00",
+    "location": "Stage 6",
+    "description": "All the original arcade games you could imagine with a special AR tribute to a Google classic, Dino Runner.",
+    "tags": [
+      {
+        "name": "Augmented Reality",
+        "color": "#94dd6b"
+      },
+      {
+        "name": "After Dark",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 65,
+      "checkedIn": 28,
+      "reserved": 93
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/amphitheatre.png"
+  },
+  {
+    "name": "ARCore office hours",
+    "date": "Tue. May 7, 5:00pm - 6:00pm",
+    "startTime": "2021-03-01T17:00-08:00",
+    "endTime": "2021-03-01T18:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Ask the AR team everything you want to know about ARCore and AR viewer for web.",
+    "tags": [
+      {
+        "name": "Misc",
+        "color": "#e8bc4f"
+      },
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 79,
+      "checkedIn": 88,
+      "reserved": 9
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/gh.png"
+  },
+  {
+    "name": "Best Practices for Developing on Android TV",
+    "date": "Tue. May 7, 3:00pm - 4:00pm",
+    "startTime": "2021-03-01T15:00-08:00",
+    "endTime": "2021-03-01T16:00-08:00",
+    "location": "Stage 2",
+    "description": "Be successful building on Android TV with insight into integrations, streaming best practices, UHD support and key libraries to increase velocity, success metrics, and lessons learned along the way. Reach more people on a platform that has grown 2x year over year and has over 4,000 apps in its ecosystem.",
+    "tags": [
+      {
+        "name": "Intermediate",
+        "color": null
+      },
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      },
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Lilian Katic",
+        "img": "https://lh3.googleusercontent.com/B3ZFxDKClVE-waQPWIOuj4MBTrgnbQBx6CXSPe6kWvxrwqiB18CTEsSFeb9Ys4kJ3_DGVviZjVTBw0vD1K7mpFU",
+        "company": "CANAL+",
+        "description": "Lilian has spent his professional career at CANAL+ since the end of 1999. He began in the security department to fight against piracy. In 2008 he joined the innovation team and began to develop services around connected devices and the CANAL+ set top boxes. It was the beginning of his journey in the Android world and his hard work lead to the creation of the Android development team at CANAL+.",
+        "socialLinks": [
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/katiclilian"
+          },
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/lilian-katic-2b69a2a4/"
+          }
+        ]
+      },
+      {
+        "name": "Benjamin Baxter",
+        "img": "https://lh3.googleusercontent.com/-Z4UG9_8I1cwZmvfuyvOEbkrIe7P4jOwVmI7mZw6ufHlLRcymi__-4X8h4X_6kgKrqcyEVbBxLT3w1uWsxSUl5lo",
+        "company": "Google",
+        "description": "Benjamin is a software engineer on Android TV team. Previously, Benjamin was in Developer Relations working with large media partners to help them integrate their apps with the TV launcher and the Google Assistant on Android TV. Before Google, Benjamin built web and Android apps for insurance, banking, and grocery industries. In his free time he loves tinkering with new technologies, playing board games, cooking, and eating bacon.",
+        "socialLinks": [
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/benjamintravels"
+          },
+          {
+            "name": "GitHub",
+            "url": "https://github.com/benbaxter/"
+          }
+        ]
+      },
+      {
+        "name": "Anwar Haneef",
+        "img": "https://lh3.googleusercontent.com/18zAc7p1wXx4Aj9hPQ7S1HMwma9hcnnF15UG_W81gO_1zDwBysSD9KYBg35eW8wRHWM3KhPjgHBUpYlBhUhXYCj8DQ",
+        "company": "Google",
+        "description": "Anwar is the product lead for the developer ecosystem and Google services (including Google Assistant) on Android TV. Prior to joining Android TV, Anwar led various leadership roles at Google, IBM Watson, PwC and Motorola where he built and scaled products and businesses in the areas of artificial intelligence, media & entertainment, analytics and mobile computing. Anwar has an MBA from the University of Chicago Booth School of Business, MS from the University of Massachusetts Amherst, and a BTech (Hons) from the Indian Institute of Technology Kharagpur.",
+        "socialLinks": []
+      },
+      {
+        "name": "Shalini GovilPai‎",
+        "img": "https://lh3.googleusercontent.com/DeOcDL1Q9MgHs7gyhDXDM_ibZ0aeAdia-RjhkRuqd2igFxctFCy8m1Ap2E-DalVmyQrp4adDeUK8NHyIKXBWQ_iL",
+        "company": "Google",
+        "description": "Shalini GovilPai is currently head of Android TV. She was previously Sr. Director at YouTube where she headed up technology solutions globally for YouTube creators. Prior to that she has been PM on Adwords and GoogleTV, where she was awarded the Google OC Award. \nPrior to Google, Shalini was Technical Director at Pixar Animation, where she led technical efforts for block-buster films ‘A Bug’s Life’ and ‘Toy Story’. She is the author of two internationally-published books in Computer Graphics – Principles of Computer Graphics and Learning Computer Graphics.\nShalini has a BS and MS in Computer Science.",
+        "socialLinks": []
+      }
+    ],
+    "seatingInfo": {
+      "open": 22,
+      "checkedIn": 38,
+      "reserved": 59
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/xyz.png"
+  },
+  {
+    "name": "Best Practices in Using the Android Emulator",
+    "date": "Tue. May 7, 2:00pm - 3:00pm",
+    "startTime": "2021-03-01T14:00-08:00",
+    "endTime": "2021-03-01T15:00-08:00",
+    "location": "Stage 3",
+    "description": "This session will cover what’s new in the Android Emulator. It will also explain how to take full advantage of the new features, how to validate apps with foldable Emulator, and best practices to boost productivity with multiple Emulator instances.",
+    "tags": [
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      },
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      },
+      {
+        "name": "Intermediate",
+        "color": null
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Lingfeng Yang",
+        "img": "https://lh3.googleusercontent.com/nMagBatS_4blhXHeoI09XC4-r2ws9fyddiBZvu7wIm25ynwv2UzFhQ1h6IKamMiXYcyeVJ-_wlatyO6MShUN6bQI",
+        "company": "Google",
+        "description": "Lingfeng (Frank) Yang is a technical lead on Google's Android Emulator. Frank works on core virtualization features such as snapshots and graphics acceleration. He has a background in programming languages / computer graphics, with a Ph. D in computer science from Stanford.",
+        "socialLinks": [
+          {
+            "name": "GitHub",
+            "url": "https://github.com/741g"
+          }
+        ]
+      },
+      {
+        "name": "Sam Lin",
+        "img": "https://lh3.googleusercontent.com/Fru71JpvguwSVu1n8tkfoc6cbr5EyO5sBZmlhf_d0CYZaIZFoBAESADFdmnL1-66-bFx7fKsFuUsRS0iZltRZ2o",
+        "company": "Google",
+        "description": "Sam Lin\nProduct Manager, Android Studio Team\n\nSam is a product manager on the Android Studio team. In this role, he focuses on Android Emulator. \n\nSam has been working on mobile platform development for a decade. He is a passionate supporter of open platform and ecosystem.",
+        "socialLinks": []
+      }
+    ],
+    "seatingInfo": {
+      "open": 24,
+      "checkedIn": 43,
+      "reserved": 53
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-4.png"
+  },
+  {
+    "name": "Beyond Mobile: Material Design, Adaptable UIs, and Flutter",
+    "date": "Tue. May 7, 1:00pm - 2:00pm",
+    "startTime": "2021-03-01T13:00-08:00",
+    "endTime": "2021-03-01T14:00-08:00",
+    "location": "Stage 5",
+    "description": "The Material Components library has grown since Flutter's launch. Learn what's new, how to use it with our iOS Design Language library Cupertino, and how to apply it across varying screen sizes, interaction models, and viewing distances.",
+    "tags": [
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      },
+      {
+        "name": "Beginner",
+        "color": null
+      },
+      {
+        "name": "Flutter",
+        "color": "#ff4081"
+      },
+      {
+        "name": "Design",
+        "color": "#69f86"
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Will Larche",
+        "img": "https://lh3.googleusercontent.com/MAUUzlxRf4Hmr0liktxpHg8GBZqgerH3f0Mup0Cf6ljrS-oRhrUUaei8eZpfxJkFQh79zceu-ZRwzhmmyuIHFt34",
+        "company": "Google",
+        "description": "Will is the lead Flutter engineer on the Material Design team. He earned his bachelor of fine arts from the Boston Conservatory ('08), was previously the chief product officer of a startup in fashion and e-commerce, and led iOS engineering at multiple companies. His husband is also a software engineer.",
+        "socialLinks": []
+      },
+      {
+        "name": "Anthony Robledo",
+        "img": "https://lh3.googleusercontent.com/YXceu2BspPl6HvR8rFK52ryOIhwcN3cHgspJaQQImAZqxX8x_F3T129TNC2e49wGOEBL6bGGKAc_EeRV_UDUqWmk",
+        "company": "Google",
+        "description": "Anthony is a Flutter engineer on the Material Design team. He has worked on other Google projects in infrastructure, cloud, and search for 6 years prior to joining Material. He holds degrees in physics and computer science from the University of Central Florida and Georgia Tech. His wife also works in software.",
+        "socialLinks": []
+      }
+    ],
+    "seatingInfo": {
+      "open": 0,
+      "checkedIn": 80,
+      "reserved": 80
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ab.png"
+  },
+  {
+    "name": "Boardwalk",
+    "date": "Tue. May 7, 5:30pm - 9:00pm",
+    "startTime": "2021-03-01T17:30-08:00",
+    "endTime": "2021-03-01T21:00-08:00",
+    "location": "Boardwalk",
+    "description": "To experience the community and culture of I/O, take a stroll down the Boardwalk to check out I/O's own broadcast studio, lightning sessions, and our new I/O Arts program.",
+    "tags": [
+      {
+        "name": "After Dark",
+        "color": "#999999"
+      },
+      {
+        "name": "Misc",
+        "color": "#e8bc4f"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 13,
+      "checkedIn": 94,
+      "reserved": 81
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/qr.png"
+  },
+  {
+    "name": "Build a Modular Android App Architecture",
+    "date": "Tue. May 7, 2:00pm - 3:00pm",
+    "startTime": "2021-03-01T14:00-08:00",
+    "endTime": "2021-03-01T15:00-08:00",
+    "location": "Stage 2",
+    "description": "Finding the right architecture for the problem sets we face as Android developers still feels like a complicated task, even with all the libraries that promise to fix a lot of them. This talk covers best practices and patterns you can apply in different use cases to ensure you’re building a robust, solid, and extensible Android architecture.",
+    "tags": [
+      {
+        "name": "Intermediate",
+        "color": null
+      },
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      },
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Florina Muntenescu",
+        "img": "https://lh3.googleusercontent.com/y7dQNgOEo3ZYGerr9CEV7FuzJoi06CzFWkGhQwQpcaQnVryq_csRrigYNv2wlw3SgDp-r1QfW8Ty0WNNwK--ECvl",
+        "company": "Google",
+        "description": "Florina is working as an Android Developer Advocate at Google, helping developers build beautiful, clean and testable apps. She has been working with Android for 8 years, previous work covering news at upday, payment solutions at payleven and navigation services at Garmin.",
+        "socialLinks": [
+          {
+            "name": "Website",
+            "url": "https://medium.com/@florina.muntenescu"
+          },
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/fmuntenescu"
+          }
+        ]
+      }
+    ],
+    "seatingInfo": {
+      "open": 0,
+      "checkedIn": 59,
+      "reserved": 59
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/st.png"
+  },
+  {
+    "name": "Build Apps for Foldable, Multi-Display, and Large-Screen Devices",
+    "date": "Tue. May 7, 4:00pm - 5:00pm",
+    "startTime": "2021-03-01T16:00-08:00",
+    "endTime": "2021-03-01T17:00-08:00",
+    "location": "Stage 8",
+    "description": "Learn about foldable displays, multi-display devices, and large screen device support on Android and how to get your apps ready for these environments.",
+    "tags": [
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      },
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      },
+      {
+        "name": "Intermediate",
+        "color": null
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Adrian Roos",
+        "img": "https://lh3.googleusercontent.com/7h4idCCAwfhB8Xsg3AwXJkbGmcbS2rznRgPGbGnlXz0cjZ6BR_z1o5vaYG2avV0LdWHoPn90h5qrc889DfdC6TNl",
+        "company": "Google",
+        "description": "Adrian Roos is a Senior Software Engineer at Google where he is working on the Android Framework team. He is currently leading the effort to launch foldable devices on Android. Before joining Google, Adrian founded the startup Bitspin, and studied Computer Science at ETH Zürich.",
+        "socialLinks": [
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/adrianroos"
+          },
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/adrian_roos"
+          }
+        ]
+      },
+      {
+        "name": "Alok Chandel",
+        "img": "https://lh3.googleusercontent.com/RfYG0nXKKJ-HZ05DuAyQCABaRcqzpGsEAU0adzK0DBXra1V4OSKWagwasi5ZRqhfI819BVU6JUjSYzxgyW4Q6W5iiw",
+        "company": "Google",
+        "description": "Alok is the Android user experience lead for the foldable phones. He has been at Google for more than 10 years and previously worked on Google Search, Google Glass, and Chromecast amongst other projects. \n\nAlok is a graduate of Institute of Design, Chicago and Indian Institute of Technology, Guwahati specializing in Product Design.",
+        "socialLinks": []
+      },
+      {
+        "name": "Andrii Kulian",
+        "img": "https://lh3.googleusercontent.com/leATexQoDjBOv4LlsASAG92vf7N_kWZr7Glgm3MceeFyANMBAMnPvio8or3nu2UXw2H4FEuwGVT5djZSaOi2aeiy",
+        "company": "Google",
+        "description": "Andrii is a software engineer on Android framework team. He is currently leading the Multi-Display engineering efforts and works on activity lifecycle. Before joining Google Andrii studied applied mathematics at Taras Shevchenko National University of Kyiv.",
+        "socialLinks": []
+      }
+    ],
+    "seatingInfo": {
+      "open": 1,
+      "checkedIn": 77,
+      "reserved": 77
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ij.png"
+  },
+  {
+    "name": "Building Powerful Checkout Experiences with Google Pay",
+    "date": "Tue. May 7, 2:00pm - 3:00pm",
+    "startTime": "2021-03-01T14:00-08:00",
+    "endTime": "2021-03-01T15:00-08:00",
+    "location": "Stage 7",
+    "description": "Online payment should be seamless for users, and simple to implement for developers. Google Pay can help improve your checkout experience and increase conversions in-app and on the web. Learn about the latest updates to Google Pay API, ease of implementation through direct use or eCommerce platform partners who have adopted Google Pay for checkout. This session will address the importance of great design, development best practices and insight into the simplicity of enabling Google Pay for all consumers, everywhere.",
+    "tags": [
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      },
+      {
+        "name": "Web",
+        "color": "#fabfa9"
+      },
+      {
+        "name": "Payments",
+        "color": "#ff9e80"
+      },
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      },
+      {
+        "name": "Intermediate",
+        "color": null
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Avnish Miduthuri",
+        "img": "https://lh3.googleusercontent.com/LMPsjz-WknIKKCHtneruiMxkBf2-BnK3zFAtj_wmGRloFAfMolUJRHAz6tyK2pVdr7RElBNIClUDP3lKFakYRXENgQ",
+        "company": "Google",
+        "description": "Avnish Miduthuri is a product manager on the Payments team at Google, focusing on mobile commerce and online payments. He is focused on improving online checkout for web and in-app developers, and has launched payment APIs for physical commerce integrated with key ecosystem partners including card issuers, payment networks, processors and e-commerce merchants. Avnish earned his bachelor’s degree from the Indian Institute of Technology, Madras and a masters degree in Computer Engineering from the University of Texas at Austin.",
+        "socialLinks": []
+      },
+      {
+        "name": "Jenny Gove",
+        "img": "https://lh3.googleusercontent.com/sL2Oq9C6ktukANOu-XDVRIvMCK7PTYfqO1Pa_hwMTIh8QRDzjRVWbZIrtpY09YYNEJttpjIfZGAMPaj34RO-cW3CgA",
+        "company": "Google",
+        "description": "Jenny Gove is a user experience research lead at Google, where she conducts research on device use. Jenny's current area of focus is online Payments. Previously Jenny managed the Apps, Social, and Ads Design Research teams at Google. Prior affiliations includes Sun Microsystems, Zadu, and the Open University, UK. She received her Ph.D. from the University of Southampton in the UK.",
+        "socialLinks": [
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/jennylg/"
+          },
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/jennylg"
+          }
+        ]
+      }
+    ],
+    "seatingInfo": {
+      "open": 89,
+      "checkedIn": 1,
+      "reserved": 14
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-5.png"
+  },
+  {
+    "name": "Building Successful Websites: Case Studies for Mature and Emerging Markets",
+    "date": "Tue. May 7, 3:00pm - 4:00pm",
+    "startTime": "2021-03-01T15:00-08:00",
+    "endTime": "2021-03-01T16:00-08:00",
+    "location": "Stage 8",
+    "description": "Investing in the web has led to broader reach, meaningful engagement, and business impact for companies around the world. Come hear directly from them on how they are building successful websites for users in different network conditions, on a wide range of device-types, platforms and operating systems.",
+    "tags": [
+      {
+        "name": "Intermediate",
+        "color": null
+      },
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      },
+      {
+        "name": "Web",
+        "color": "#fabfa9"
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Aanchal Bahadur",
+        "img": "https://lh3.googleusercontent.com/fDwhy8CdN8tAfW8kIE3MpwCLTXYtYEkwAZm8BfH9-RP2CiIHa5g0hBYZmArQbxH8uLHIbnNbqGsvrwGeDG0ElssM",
+        "company": "Google",
+        "description": "Aanchal is the global product partnerships lead for Chrome and Web Platform, responsible for adoption of new web technologies like Progressive Web Apps by strategic partners in key verticals and markets. Prior to Chrome, Aanchal led creator content partnership efforts for YouTube in India.",
+        "socialLinks": [
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/aanchalbahadur"
+          },
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/aanchal-bahadur-4016b016/"
+          }
+        ]
+      },
+      {
+        "name": "Charlie Croom",
+        "img": "https://lh3.googleusercontent.com/mzr9l497b27cBeQ37QxgTgyceHJLsIX1W6CzbsiVqypZROSCFBsI0o8tmIF9kmCJiwXJILUCnCk-ccRnZ1QMBnKW",
+        "company": "Twitter",
+        "description": "Charlie has been at Twitter for 7 years and is a Staff Software Engineer. Currently, he is one of the Web Tech Leads on the client team and focuses on helping to bring Twitter's Progressive Web App to more app stores, devices, and users around the world.",
+        "socialLinks": []
+      },
+      {
+        "name": "Jesar Shah",
+        "img": "https://lh3.googleusercontent.com/Nq4aztC4TSpBJ9EoATzvkiFtIkU63Axi5aHRdUoJkUFPmVAys_UJsSa9dZvKb8-ZkMURW-Qptg0PRtDatzKa8jLM",
+        "company": "Twitter",
+        "description": "Jesar has been at Twitter for three years and is the product manager for the web team. During her time at Twitter she has focused on making Twitter more accessible across the globe through the distribution and development of the Progressive Web App and previously the Twitter for Android app. She is passionate about learning about and developing for customers who are data, device and network constrained",
+        "socialLinks": []
+      },
+      {
+        "name": "Matt Doyle",
+        "img": "https://lh3.googleusercontent.com/DwyBHAYqgG6OMiqlhF99jm2kRT3QVAms0-zAxH-P3jg0MVEe0QejDqBFDOLMvgfbbv2U-04d8HAJK59hI9IxGlk",
+        "company": "Hulu",
+        "description": "Matt Doyle is a Principal Product Manager at Hulu where he is responsible for the streaming service’s subscriber web experience. Hulu is the leading premium streaming service offering live and on-demand TV and movies with more than 25 million subscribers in the U.S. Prior to joining Hulu, Doyle was a Product Manager at Apple, where he worked on the Apple Store app, and international expansion projects.",
+        "socialLinks": []
+      },
+      {
+        "name": "Rudra Kasturi",
+        "img": "https://lh3.googleusercontent.com/MH7HA1j5nUnbbRGjPuvYHa6gg240fbbAK5JvxIoE_09H6nhwisaLBGViJ3zAzXmziLXLRasJHulnKnYk78g3JFSlpw",
+        "company": "Times Internet",
+        "description": "Rudra has been with Times Internet for the past 3 years and heads the organic growth (user and revenue) for websites at Times Group India & global. Prior to this, he was head of organic growth for web at Yahoo!, Amazon India & Snapdeal.",
+        "socialLinks": []
+      }
+    ],
+    "seatingInfo": {
+      "open": 20,
+      "checkedIn": 31,
+      "reserved": 51
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/office-hours.png"
+  },
+  {
+    "name": "Chrome OS Enterprise/Education Office Hours",
+    "date": "Tue. May 7, 4:00pm - 5:00pm",
+    "startTime": "2021-03-01T16:00-08:00",
+    "endTime": "2021-03-01T17:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Get 1-1 time with Chrome OS Enterprise/Education specialists who can help you solve specific technical issues and answer any questions you may have.",
+    "tags": [
+      {
+        "name": "Web",
+        "color": "#fabfa9"
+      },
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 31,
+      "checkedIn": 20,
+      "reserved": 20
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-6.png"
+  },
+  {
+    "name": "Code, Build, Run, and Observe with Google Cloud",
+    "date": "Tue. May 7, 1:00pm - 2:00pm",
+    "startTime": "2021-03-01T13:00-08:00",
+    "endTime": "2021-03-01T14:00-08:00",
+    "location": "Stage 3",
+    "description": "In this session, attendees will learn how Google Cloud is enabling developers to focus on their code by providing better tools and infrastructure for their backend services. Come learn about the investments made in the past year that make it easy to code, build, run, and observe your applications and services with Google Cloud.",
+    "tags": [
+      {
+        "name": "Beginner",
+        "color": null
+      },
+      {
+        "name": "Location / Maps",
+        "color": "#feebb6"
+      },
+      {
+        "name": "ML / AI",
+        "color": "#fcd230"
+      },
+      {
+        "name": "Cloud",
+        "color": "#1db8d2"
+      },
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Dale Markowitz",
+        "img": "https://lh3.googleusercontent.com/sJL2uPl-WMN8QMmg_lVSlOE1Axi4Yr4ECGxAb6D1q-yXdgbeuYnL5grvICJiyCvv44pv5sY3r7p6_Tx7wbqEo68",
+        "company": "Google",
+        "description": "Dale is a developer advocate for Google Cloud ML. Previously, she worked as a software engineer for google research and the online dating site OkCupid. She holds a degree in computer science from Princeton University.",
+        "socialLinks": [
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/dale-markowitz-40a9a852/"
+          },
+          {
+            "name": "GitHub",
+            "url": "https://github.com/dalequark"
+          },
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/dalequark"
+          }
+        ]
+      },
+      {
+        "name": "Seth Vargo",
+        "img": "https://lh3.googleusercontent.com/DeEAGkNEIioof71hsTZcsehgv_lrPd9GIrflGaCm6WwfegB77aghyUdFTkPublhkMo5eOuxZJ5Ho7jF-xoSaO_WO",
+        "company": "Google",
+        "description": "Seth Vargo is an engineer at Google Cloud. Previously he worked at HashiCorp, Chef Software, CustomInk, and some Pittsburgh-based startups. He is the author of Learning Chef and is passionate about reducing inequality in technology. When he is not writing, working on open source, teaching, or speaking at conferences, Seth advises non-profits.",
+        "socialLinks": [
+          {
+            "name": "Website",
+            "url": "https://www.sethvargo.com/"
+          },
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/sethvargo/"
+          },
+          {
+            "name": "GitHub",
+            "url": "https://github.com/sethvargo"
+          },
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/sethvargo"
+          }
+        ]
+      }
+    ],
+    "seatingInfo": {
+      "open": 21,
+      "checkedIn": 66,
+      "reserved": 87
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/kl.png"
+  },
+  {
+    "name": "Design App Reviews",
+    "date": "Tue. May 7, 1:00pm - 6:00pm",
+    "startTime": "2021-03-01T13:00-08:00",
+    "endTime": "2021-03-01T18:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Design can make or break your product. Get 1-on-1 feedback on your app and learn how to use Material’s open-source components to build even better and faster—all from expert members of Google’s Material Design team. Reserve a spot and swing by with your design-related questions, on topics like: UX principles, accessibility, color, navigation, typography, customizing Material Design, and more. Walk-ins are welcome.",
+    "tags": [
+      {
+        "name": "App Reviews",
+        "color": "#999999"
+      },
+      {
+        "name": "Design",
+        "color": "#69f86"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 37,
+      "checkedIn": 1,
+      "reserved": 38
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/uvw.png"
+  },
+  {
+    "name": "Developer Keynote",
+    "date": "Tue. May 7, 11:45am - 12:45pm",
+    "startTime": "2021-03-01T11:45-08:00",
+    "endTime": "2021-03-01T24:45-08:00",
+    "location": "Amphitheatre",
+    "description": "Learn about the latest updates to our developer products and platforms at Google from Google Developers.",
+    "tags": [
+      {
+        "name": "Keynote",
+        "color": "#31e7b6"
+      },
+      {
+        "name": "Keynotes",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 23,
+      "checkedIn": 46,
+      "reserved": 68
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ef.png"
+  },
+  {
+    "name": "Dynamic AMP emails",
+    "date": "Tue. May 7, 5:00pm - 6:00pm",
+    "startTime": "2021-03-01T17:00-08:00",
+    "endTime": "2021-03-01T18:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Come join us to talk about AMP for email, a new innovation that allows email senders to create emails that deliver real time information and allows consumers to take interactive actions.",
+    "tags": [
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      },
+      {
+        "name": "Misc",
+        "color": "#e8bc4f"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 73,
+      "checkedIn": 41,
+      "reserved": 36
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/cd.png"
+  },
+  {
+    "name": "ExoPlayer office hours",
+    "date": "Tue. May 7, 5:00pm - 6:00pm",
+    "startTime": "2021-03-01T17:00-08:00",
+    "endTime": "2021-03-01T18:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Bring your questions about ExoPlayer, the open source media library for Android.",
+    "tags": [
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      },
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 28,
+      "checkedIn": 62,
+      "reserved": 34
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/mn.png"
+  },
+  {
+    "name": "Firebase Predictions, Dynamic Links and In-app Messaging office hours",
+    "date": "Tue. May 7, 1:00pm - 2:00pm",
+    "startTime": "2021-03-01T13:00-08:00",
+    "endTime": "2021-03-01T14:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "The Firebase team will be available to answer questions, and to listen to your concerns and feedback about Firebase Predictions, Dynamic Links and In-app Messaging.",
+    "tags": [
+      {
+        "name": "Firebase",
+        "color": "#39c79d"
+      },
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 39,
+      "checkedIn": 64,
+      "reserved": 25
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/op.png"
+  },
+  {
+    "name": "Fireside Chat with Google Payments Team",
+    "date": "Tue. May 7, 3:20pm - 4:00pm",
+    "startTime": "2021-03-01T15:20-08:00",
+    "endTime": "2021-03-01T16:00-08:00",
+    "location": "Community Lounge",
+    "description": "",
+    "tags": [
+      {
+        "name": "Meetups",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 27,
+      "checkedIn": 43,
+      "reserved": 36
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/amphitheatre.png"
+  },
+  {
+    "name": "Fungineers",
+    "date": "Tue. May 7, 6:00pm - 9:00pm",
+    "startTime": "2021-03-01T18:00-08:00",
+    "endTime": "2021-03-01T21:00-08:00",
+    "location": "Boardwalk",
+    "description": "The Fungineers are a super-surreal performance group, freestyling, improvising, and serving up ice cream.",
+    "tags": [
+      {
+        "name": "After Dark",
+        "color": "#999999"
+      },
+      {
+        "name": "Misc",
+        "color": "#e8bc4f"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 1,
+      "checkedIn": 84,
+      "reserved": 84
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/gh.png"
+  },
+  {
+    "name": "G Suite Developer Office Hours",
+    "date": "Tue. May 7, 3:00pm - 4:00pm",
+    "startTime": "2021-03-01T15:00-08:00",
+    "endTime": "2021-03-01T16:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Meet with G Suite Developer experts and ask questions about Apps Script, App Maker, and APIs.",
+    "tags": [
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      },
+      {
+        "name": "Cloud",
+        "color": "#1db8d2"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 92,
+      "checkedIn": 23,
+      "reserved": 19
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/xyz.png"
+  },
+  {
+    "name": "Game development with Google Cloud",
+    "date": "Tue. May 7, 1:00pm - 2:00pm",
+    "startTime": "2021-03-01T13:00-08:00",
+    "endTime": "2021-03-01T14:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Meet the team behind the Google Cloud Gaming products such as Agones & OpenMatch and ask us anything.",
+    "tags": [
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      },
+      {
+        "name": "Cloud",
+        "color": "#1db8d2"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 76,
+      "checkedIn": 14,
+      "reserved": 90
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-4.png"
+  },
+  {
+    "name": "Game Reviews",
+    "date": "Tue. May 7, 1:00pm - 6:00pm",
+    "startTime": "2021-03-01T13:00-08:00",
+    "endTime": "2021-03-01T18:00-08:00",
+    "location": "The Garage (Game Reviews)",
+    "description": "Game developers have a lot to keep up with, from development, through launch, and in live-ops. Here to help is Google's gaming team, ready to review and provide recommendations for your game, no matter what state it's in! Schedule time with these experts to review your game and ask for advice on tools,tips on developing, launching, protecting, optimizing, and monetizing your game. These game industry vets are happy to discuss all things related to game development. Walk-ins are welcome.",
+    "tags": [
+      {
+        "name": "Gaming",
+        "color": "#4768fd"
+      },
+      {
+        "name": "Game Reviews",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 6,
+      "checkedIn": 61,
+      "reserved": 56
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ab.png"
+  },
+  {
+    "name": "Getting Started with TensorFlow 2.0",
+    "date": "Tue. May 7, 5:00pm - 6:00pm",
+    "startTime": "2021-03-01T17:00-08:00",
+    "endTime": "2021-03-01T18:00-08:00",
+    "location": "Amphitheatre",
+    "description": "TensorFlow 2.0 is here! Understand new user-friendly APIs for beginners and experts through code examples to help you create different flavors of neural networks (Dense, Convolutional, and Recurrent) and understand when to use the Keras Sequential, Functional, and Subclassing APIs for your projects.",
+    "tags": [
+      {
+        "name": "ML / AI",
+        "color": "#fcd230"
+      },
+      {
+        "name": "Intermediate",
+        "color": null
+      },
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Josh Gordon",
+        "img": "https://lh3.googleusercontent.com/oSlZqvlZdj5aaBwooCqOwgISlCdDrqVkhIqzUzPer2A1UbbEZAXueZS7UaaBw2YEMRBwg7tHE7zFN0h7O_chMXDF",
+        "company": "Google",
+        "description": "Josh Gordon is a Developer Advocate for TensorFlow, and teaches Applied Deep Learning at Columbia University, and Machine Learning at Pace University. He has over fifteen years of machine learning experience to share.",
+        "socialLinks": [
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/random_forests"
+          }
+        ]
+      },
+      {
+        "name": "Paige Bailey",
+        "img": "https://lh3.googleusercontent.com/7A9pITIS5KH-1mg_e9UCqe4m61TVeJ666PT7mIkjMjR6WhUrdjI6Ha3vlmSe8VeZGw8TUTxZaCIadBek_bY6eNuIow",
+        "company": "Google",
+        "description": "Paige Bailey is a TensorFlow Developer Advocate at Google.",
+        "socialLinks": [
+          {
+            "name": "Twitter",
+            "url": "https://www.twitter.com/dynamicwebpaige"
+          },
+          {
+            "name": "Website",
+            "url": "https://paigevie.ws/"
+          },
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/dynamicwebpaige"
+          },
+          {
+            "name": "GitHub",
+            "url": "https://www.github.com/dynamicwebpaige"
+          }
+        ]
+      }
+    ],
+    "seatingInfo": {
+      "open": 56,
+      "checkedIn": 67,
+      "reserved": 12
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/qr.png"
+  },
+  {
+    "name": "Google Assistant & Smart Home Office Hours",
+    "date": "Tue. May 7, 2:00pm - 3:00pm",
+    "startTime": "2021-03-01T14:00-08:00",
+    "endTime": "2021-03-01T15:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Need help building your Action for the Google Assistant? Or looking for design advice to help you get started? Want to learn about the Review process? Drop by our office hours for consultation on how to develop, design, deploy, or improve your Actions.",
+    "tags": [
+      {
+        "name": "Assistant",
+        "color": "#27e5fd"
+      },
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 1,
+      "checkedIn": 35,
+      "reserved": 35
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/st.png"
+  },
+  {
+    "name": "Google Assistant Office Hours",
+    "date": "Tue. May 7, 3:00pm - 4:00pm",
+    "startTime": "2021-03-01T15:00-08:00",
+    "endTime": "2021-03-01T16:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Need help building your Action for the Google Assistant? Or looking for design advice to help you get started? Want to learn about the Review process? Drop by our office hours for consultation on how to develop, design, deploy, or improve your Actions.",
+    "tags": [
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      },
+      {
+        "name": "Assistant",
+        "color": "#27e5fd"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 18,
+      "checkedIn": 23,
+      "reserved": 40
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ij.png"
+  },
+  {
+    "name": "Google Developer Experts",
+    "date": "Tue. May 7, 2:30pm - 3:10pm",
+    "startTime": "2021-03-01T14:30-08:00",
+    "endTime": "2021-03-01T15:10-08:00",
+    "location": "Community Lounge",
+    "description": "Meetup of Googlers, GDEs and developers interested in the program on to share mentoring, and workshop best practices, plus learning how to become a tech-mentor.",
+    "tags": [
+      {
+        "name": "Meetups",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 1,
+      "checkedIn": 62,
+      "reserved": 62
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-5.png"
+  },
+  {
+    "name": "Google Keynote",
+    "date": "Tue. May 7, 9:00am - 10:30am",
+    "startTime": "2021-03-01T9:00-08:00",
+    "endTime": "2021-03-01T10:30-08:00",
+    "location": "Amphitheatre",
+    "description": "Learn about the latest product and platform innovations at Google.",
+    "tags": [
+      {
+        "name": "Keynote",
+        "color": "#31e7b6"
+      },
+      {
+        "name": "Keynotes",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 12,
+      "checkedIn": 34,
+      "reserved": 22
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/office-hours.png"
+  },
+  {
+    "name": "Google Maps Platform: A Deep Dive on Building for Performance and Scale",
+    "date": "Tue. May 7, 3:00pm - 4:00pm",
+    "startTime": "2021-03-01T15:00-08:00",
+    "endTime": "2021-03-01T16:00-08:00",
+    "location": "Stage 7",
+    "description": "Over the past 10+ years, the technologies that drive how we build (and how you use) the Google Maps Platform have changed dramatically. In this session, you'll be reintroduced to building with the Google Maps Platform by taking a deep look at implementations that exemplify best practices. You'll learn strategies for how to use the Maps APIs to work with large-scale data, and tips to implement our improvements to custom styling.",
+    "tags": [
+      {
+        "name": "Intermediate",
+        "color": null
+      },
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      },
+      {
+        "name": "Location / Maps",
+        "color": "#feebb6"
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Travis McPhail",
+        "img": "https://lh3.googleusercontent.com/dSlp2oP_hKp5bVz_-0-T1JPFcG8mO8HNaOu-SJ5EMvQ-Y8p7Ff3RuXIpocQqHldYGSIyk9AVUFIgeRbCXsvS01vx",
+        "company": "Google",
+        "description": "Travis McPhail, PhD. is the engineering lead for Google Maps Enterprise Teams in Seattle, WA. \n\nHe was originally hired to help rebuild the technical infrastructure for Google Maps on Android around the time Apple launched it's Maps product. Travis has worked on Google Maps, Google Earth, and Streetview across all major platforms including watches and infotainment systems. Travis has led map rendering in Google’s Maps across Android, Web, 3rd-party APIs, as well as led rendering for Streetview on Android/iOS. Travis also focuses on Google's engagement with communities of color across the world. He champions expanding access to computer science education and partners with Google in fostering tech talent at HBCUs. In 2018, Travis unveiled his interactive at National Museum of African-American History and Culture (NMAAHC) that allows visitors to explore artifacts managed by the Smithsonian but not shown within the museum. Travis joined the board of the Urban League in Seattle where he desires to establish more partnerships between the Urban League and tech companies to work on challenges facing underrepresented communities.\n\nTravis was born in Dallas, TX and later attended Rice University in Houston, TX to double major in Computer Science and Electrical Engineering. He would later complete his Master’s and Ph.D. degrees in Computer Science from Rice contributing research to the specials effect, biomedical, gaming communities.\n\nTravis would later work with M.D. Anderson Cancer Center, Schlumberger, and IHS before moving to California and joining Google. He strives to help people move toward their calling and encourages people to take advantage of every opportunity and not accept limitations placed on them.",
+        "socialLinks": [
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/travis-mcphail-ph-d-21677b1b/"
+          }
+        ]
+      }
+    ],
+    "seatingInfo": {
+      "open": 23,
+      "checkedIn": 37,
+      "reserved": 59
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-6.png"
+  },
+  {
+    "name": "Google Pay",
+    "date": "Tue. May 7, 1:00pm - 2:00pm",
+    "startTime": "2021-03-01T13:00-08:00",
+    "endTime": "2021-03-01T14:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Come join us to talk about Google Pay and how to leverage its APIs to improve the payment experience in sites, applications and other elements in the ecosystem such as tickets and passes, loyalty programs and discounts.",
+    "tags": [
+      {
+        "name": "Payments",
+        "color": "#ff9e80"
+      },
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 29,
+      "checkedIn": 79,
+      "reserved": 50
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/kl.png"
+  },
+  {
+    "name": "I/O Ink Tattoo Studio",
+    "date": "Tue. May 7, 6:00pm - 9:00pm",
+    "startTime": "2021-03-01T18:00-08:00",
+    "endTime": "2021-03-01T21:00-08:00",
+    "location": "Boardwalk",
+    "description": "Get tatted at the I/O Ink Studio! Take a seat, choose your ink, and show off your new (but temporary) tattoos!",
+    "tags": [
+      {
+        "name": "Misc",
+        "color": "#e8bc4f"
+      },
+      {
+        "name": "After Dark",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 50,
+      "checkedIn": 2,
+      "reserved": 52
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/uvw.png"
+  },
+  {
+    "name": "I/O Landmark Stage",
+    "date": "Tue. May 7, 5:45pm - 9:00pm",
+    "startTime": "2021-03-01T17:45-08:00",
+    "endTime": "2021-03-01T21:00-08:00",
+    "location": "I/O Landmark",
+    "description": "See the I/O Landmark come to life in AR. Celebrate by sharing your photos with #io19. Evening performances by NVO and East Bay Brass Band.",
+    "tags": [
+      {
+        "name": "After Dark",
+        "color": "#999999"
+      },
+      {
+        "name": "Misc",
+        "color": "#e8bc4f"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 92,
+      "checkedIn": 47,
+      "reserved": 8
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ef.png"
+  },
+  {
+    "name": "Intro to the Google Assistant: Build Your First Action",
+    "date": "Tue. May 7, 4:00pm - 5:00pm",
+    "startTime": "2021-03-01T16:00-08:00",
+    "endTime": "2021-03-01T17:00-08:00",
+    "location": "Amphitheatre",
+    "description": "The Google Assistant is here to change the way users get things done. This intro session will cover the fundamentals of the Google Assistant and what you can build for the assistive future. See which development journeys to take as a web developer, Android app developer, or as you're building an Action from scratch. Learn how to make your existing content easily available on the Assistant and how to create new immersive Assistant experiences.",
+    "tags": [
+      {
+        "name": "Web",
+        "color": "#fabfa9"
+      },
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      },
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      },
+      {
+        "name": "Assistant",
+        "color": "#27e5fd"
+      },
+      {
+        "name": "Beginner",
+        "color": null
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Naomi Makofsky",
+        "img": "https://lh3.googleusercontent.com/v3nMly_vYiQ1bITLelNBusiq3UEghCf1hk-K3gR_HvGjvt-3a1cfV-3ufy_5FLUmp65ff921KaawExifi0TA-hg",
+        "company": "Google",
+        "description": "Naomi Makofsky works on Global Product Partnerships for the Google Assistant. Her focus is on launching new platform capabilities, helping developers with discovery and reengagement, and delivering great user experiences. Naomi studied Organizational Studies and Psychology at the University of Michigan. She currently resides in NYC.",
+        "socialLinks": [
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/naomak"
+          },
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/naomimakofsky/"
+          }
+        ]
+      },
+      {
+        "name": "Brad Abrams",
+        "img": "https://lh3.googleusercontent.com/jZbeohpCxQf4cZ6RWiMTeGgQj5Al3SAPamGknbD1twkun8yzojzc91c5jBrs9aEjUuJcda6HUkoaDmj4eSTrVWVZ",
+        "company": "Google",
+        "description": "Brad Abrams is Group Product Manager at Google on the Actions on Google team which is the platform for the Google Assistant where he is responsible for the developer experiences on the platform. \nBrad has been at Google since 2010 and has led platform efforts in Google Cloud and Chrome and now on the Google Assistant team. Prior to Google, Brad led many developer efforts at Microsoft on products. Brad published several books including the bestselling Framework Design Guidelines.",
+        "socialLinks": [
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/brabrams/"
+          },
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/brada"
+          }
+        ]
+      },
+      {
+        "name": "Daniel Myers",
+        "img": "https://lh3.googleusercontent.com/J3Lw27QJ-0cQuW97dICUSCjw4mJZCOkK7MWL3hLfuFa_cPTcXtdzeyyTJ9OLLJrBEo2RPD-fBpFyYniJHk50XjRw",
+        "company": "Google",
+        "description": "Daniel Myers is a Developer Advocate at Google on the Google Assistant and Actions on Google team. He's held roles in product development, engineering, product marketing, and business management from startups including LiveWire Hosting and PetroCloud to Fortune 500 companies like Google, Cisco, and Fujitsu. Daniel is an inventor of 3 patents and has a bachelor's degree in Computer Engineering plus an MBA from the University of Texas at Dallas. If you don’t find Daniel coding, you’ll probably find him talking about a new investment or business idea.",
+        "socialLinks": [
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/jdanielmyers"
+          },
+          {
+            "name": "LinkedIn",
+            "url": "https://linkedin.com/in/jdanielmyers"
+          }
+        ]
+      }
+    ],
+    "seatingInfo": {
+      "open": 33,
+      "checkedIn": 47,
+      "reserved": 79
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/cd.png"
+  },
+  {
+    "name": "Keynote pre-show",
+    "date": "Tue. May 7, 8:20am - 9:00am",
+    "startTime": "2021-03-01T8:20-08:00",
+    "endTime": "2021-03-01T9:00-08:00",
+    "location": "Amphitheatre",
+    "description": "Join us before the Google Keynote for The AI DJ Project, a unique listening experience in which an AI DJ using TensorFlow plays back-to-back with its human creator, DJ Nao Tokui, in a one of a kind set. Based on deep neural networks, this award-winning performance is a dialogue between humans and artificial intelligence through music.",
+    "tags": [
+      {
+        "name": "Keynotes",
+        "color": "#999999"
+      },
+      {
+        "name": "Keynote",
+        "color": "#31e7b6"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 0,
+      "checkedIn": 72,
+      "reserved": 72
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/mn.png"
+  },
+  {
+    "name": "Kotlin for Android Office Hours",
+    "date": "Tue. May 7, 4:00pm - 5:00pm",
+    "startTime": "2021-03-01T16:00-08:00",
+    "endTime": "2021-03-01T17:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Have questions about using Kotlin in your Android app? Stop by and learn about the latest best practices, including Kotlin coroutines!",
+    "tags": [
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      },
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 1,
+      "checkedIn": 84,
+      "reserved": 84
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/op.png"
+  },
+  {
+    "name": "Kotlin for Cloud Office Hours",
+    "date": "Tue. May 7, 2:00pm - 3:00pm",
+    "startTime": "2021-03-01T14:00-08:00",
+    "endTime": "2021-03-01T15:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Office hours to help developers learn more about using Kotlin for backend, running Kotlin backends in cloud, and also general help to better understand/utilize Google Cloud Platform.",
+    "tags": [
+      {
+        "name": "Cloud",
+        "color": "#1db8d2"
+      },
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 22,
+      "checkedIn": 42,
+      "reserved": 20
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/amphitheatre.png"
+  },
+  {
+    "name": "Live Coding A Machine Learning Model from Scratch",
+    "date": "Tue. May 7, 4:00pm - 5:00pm",
+    "startTime": "2021-03-01T16:00-08:00",
+    "endTime": "2021-03-01T17:00-08:00",
+    "location": "Stage 2",
+    "description": "Do you want to build a machine learning model, but not sure where to start? In this session, learn how to start with an empty Colab notebook, code a model using TensorFlow and Keras, train the model live, deploy it to Cloud AI Platform for serving, and use the deployed model to generate predictions from a web app.",
+    "tags": [
+      {
+        "name": "Cloud",
+        "color": "#1db8d2"
+      },
+      {
+        "name": "Web",
+        "color": "#fabfa9"
+      },
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      },
+      {
+        "name": "Beginner",
+        "color": null
+      },
+      {
+        "name": "ML / AI",
+        "color": "#fcd230"
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Sara Robinson",
+        "img": "https://lh3.googleusercontent.com/CTTHCqVlGn3J461BnNRnUhPLBEXRJ5BIT51vpY1PZcYZJRbGgwzQW6AZuvpewfssfO8e0kSr0xvTxWUa4I_cDgTV",
+        "company": "Google",
+        "description": "Sara is a developer advocate on the Google Cloud Platform team, focused on machine learning. She inspires developers and data scientists to integrate ML into their applications through demos, online content, and events. Sara has a bachelor’s degree from Brandeis University. Before Google, she was a Developer Advocate on the Firebase team. When she's not programming she can be found on a spin bike, listening to the Hamilton soundtrack, or eating froyo.",
+        "socialLinks": [
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/SRobTweets"
+          },
+          {
+            "name": "Website",
+            "url": "https://sararobinson.dev/"
+          },
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/sara-robinson-40377924/"
+          },
+          {
+            "name": "GitHub",
+            "url": "https://github.com/sararob"
+          }
+        ]
+      }
+    ],
+    "seatingInfo": {
+      "open": 102,
+      "checkedIn": 22,
+      "reserved": 36
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/gh.png"
+  },
+  {
+    "name": "Machine Learning on Your Device: The Options",
+    "date": "Tue. May 7, 2:00pm - 3:00pm",
+    "startTime": "2021-03-01T14:00-08:00",
+    "endTime": "2021-03-01T15:00-08:00",
+    "location": "Stage 8",
+    "description": "Developers have an often confusing plethora of options available to them in using machine learning to enhance their mobile apps and edge devices. This session will demystify these options, showing you how TensorFlow can be used to train models and how you can use these models across a variety of devices with TensorFlow Lite.",
+    "tags": [
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      },
+      {
+        "name": "ML / AI",
+        "color": "#fcd230"
+      },
+      {
+        "name": "Misc",
+        "color": "#e8bc4f"
+      },
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      },
+      {
+        "name": "Beginner",
+        "color": null
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Daniel Situnayake",
+        "img": "https://lh3.googleusercontent.com/ypUKOg_RW5CJkgUMU_IvcF0n20_fvML5RTNAhsxxcO2xDE73xUnjb4zeQAL2TR4VqCHUnI9lGs985jMlyAWKd7j22w",
+        "company": "Google",
+        "description": "Dan is a Developer Advocate for TensorFlow Lite. His passion is bringing machine learning and intelligence to tiny devices! He's spent time as the CEO of an agricultural technology startup, a software engineer in Silicon Valley and the financial industry, and a lecturer in data capture technologies at Birmingham City University.",
+        "socialLinks": [
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/situnayake/"
+          },
+          {
+            "name": "GitHub",
+            "url": "https://github.com/dansitu"
+          },
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/dansitu"
+          }
+        ]
+      }
+    ],
+    "seatingInfo": {
+      "open": 68,
+      "checkedIn": 5,
+      "reserved": 55
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/xyz.png"
+  },
+  {
+    "name": "Material Design Components: Android Office Hours",
+    "date": "Tue. May 7, 2:00pm - 3:00pm",
+    "startTime": "2021-03-01T14:00-08:00",
+    "endTime": "2021-03-01T15:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Have questions about Material Design Components Android library? Want to learn how to take advantage of Material Theming? Come chat with members of the Material Design Components Android team.",
+    "tags": [
+      {
+        "name": "Design",
+        "color": "#69f86"
+      },
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 43,
+      "checkedIn": 4,
+      "reserved": 47
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-4.png"
+  },
+  {
+    "name": "Material Design Components: Web/iOS/Flutter Office Hours",
+    "date": "Tue. May 7, 1:00pm - 2:00pm",
+    "startTime": "2021-03-01T13:00-08:00",
+    "endTime": "2021-03-01T14:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Have questions about creating a reliable development workflow? Want help integrating Material Design Components (MDC) into your Flutter, iOS, or web product? Come chat with cross-platform experts on Material Design and MDC.",
+    "tags": [
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      },
+      {
+        "name": "Design",
+        "color": "#69f86"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 62,
+      "checkedIn": 11,
+      "reserved": 1
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ab.png"
+  },
+  {
+    "name": "My First I/O",
+    "date": "Tue. May 7, 1:00pm - 1:30pm",
+    "startTime": "2021-03-01T13:00-08:00",
+    "endTime": "2021-03-01T13:30-08:00",
+    "location": "Community Lounge",
+    "description": "This meetup is for those who are attending their first I/O. We will talk about tips & tricks on navigating I/O and how to stay in touch with Google and related dev communities after I/O is over.",
+    "tags": [
+      {
+        "name": "Meetups",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 34,
+      "checkedIn": 25,
+      "reserved": 59
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/qr.png"
+  },
+  {
+    "name": "Office Hours with the AMP Story Team",
+    "date": "Tue. May 7, 5:00pm - 6:00pm",
+    "startTime": "2021-03-01T17:00-08:00",
+    "endTime": "2021-03-01T18:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Have questions about how to get started building fast, visually engaging AMP Stories? Wondering about the UX best practices for this new web format? Or need some tips on how to improve your Story's appearance in Google Search? Attend the AMP Story Office Hours to discuss these questions and more with the people who created the format.",
+    "tags": [
+      {
+        "name": "Web",
+        "color": "#fabfa9"
+      },
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 0,
+      "checkedIn": 74,
+      "reserved": 74
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/st.png"
+  },
+  {
+    "name": "Office hours with the Android Bazel team",
+    "date": "Tue. May 7, 4:00pm - 5:00pm",
+    "startTime": "2021-03-01T16:00-08:00",
+    "endTime": "2021-03-01T17:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Bazel is an open source build system developed by Google. The Android Bazel team is responsible for all Bazel Android Rules. The team will be happy to answer any questions around Android integration with Bazel, migration strategies and best practices to build Android apps at scale with Bazel.",
+    "tags": [
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      },
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 28,
+      "checkedIn": 6,
+      "reserved": 34
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ij.png"
+  },
+  {
+    "name": "Optimize Your Image Search Results",
+    "date": "Tue. May 7, 4:00pm - 5:00pm",
+    "startTime": "2021-03-01T16:00-08:00",
+    "endTime": "2021-03-01T17:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Get 1:1 guidance to optimize images on your sites for visual searching and learn how to monitor traffic metrics.",
+    "tags": [
+      {
+        "name": "Search",
+        "color": "#4768fd"
+      },
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 0,
+      "checkedIn": 25,
+      "reserved": 25
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-5.png"
+  },
+  {
+    "name": "Optimizing Android Games Performance",
+    "date": "Tue. May 7, 3:00pm - 4:00pm",
+    "startTime": "2021-03-01T15:00-08:00",
+    "endTime": "2021-03-01T16:00-08:00",
+    "location": "The Garage",
+    "description": "Learn solutions to the most common performance pitfalls affecting Android game development by exploring topics such as multi-threading, battery utilization, and thermal throttling.",
+    "tags": [
+      {
+        "name": "Advanced",
+        "color": null
+      },
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      },
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      },
+      {
+        "name": "Gaming",
+        "color": "#4768fd"
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 19,
+      "checkedIn": 63,
+      "reserved": 44
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/office-hours.png"
+  },
+  {
+    "name": "Play App Reviews",
+    "date": "Tue. May 7, 1:00pm - 6:00pm",
+    "startTime": "2021-03-01T13:00-08:00",
+    "endTime": "2021-03-01T18:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Now that your app is in the Google Play Store, it’s time to think about growing your business! Building and maintaining an app with excellent quality is important, but what else can you do to grow and optimize your business through Google Play? Sign up for an app review with Play experts. We can discuss launching your app in new countries, improving user experience, understanding Android vitals, optimizing in-app purchases, subscriptions and your Play store listing. Walk-ins are welcome.",
+    "tags": [
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      },
+      {
+        "name": "App Reviews",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 0,
+      "checkedIn": 31,
+      "reserved": 31
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-6.png"
+  },
+  {
+    "name": "Play Instant Apps Office Hours",
+    "date": "Tue. May 7, 3:00pm - 4:00pm",
+    "startTime": "2021-03-01T15:00-08:00",
+    "endTime": "2021-03-01T16:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Office hours to help developers 1:1 to build out their Instant Apps. This includes developers at all stages of development; from those who may have considered building an instant app and want to learn more, to those who already have an instant app in Play and would like to hear about next steps to make the experience even better.",
+    "tags": [
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      },
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 14,
+      "checkedIn": 69,
+      "reserved": 56
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/kl.png"
+  },
+  {
+    "name": "Play Policy App Reviews",
+    "date": "Tue. May 7, 1:00pm - 6:00pm",
+    "startTime": "2021-03-01T13:00-08:00",
+    "endTime": "2021-03-01T18:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "The world around us is constantly changing, and so are Play Policies. The Play Policy & Review Operations team wants to help you stay on top of our policies so you can provide an optimized experience to your users. Sign up for Policy App Reviews to ask questions on Permissions, Families, or other Play app policies. You can also give feedback on our communications and get help on Play Console features! Walk-ins are welcome.",
+    "tags": [
+      {
+        "name": "App Reviews",
+        "color": "#999999"
+      },
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 1,
+      "checkedIn": 35,
+      "reserved": 35
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/uvw.png"
+  },
+  {
+    "name": "Prototyping Voice Experiences: Design Sprints for the Google Assistant",
+    "date": "Tue. May 7, 1:00pm - 2:00pm",
+    "startTime": "2021-03-01T13:00-08:00",
+    "endTime": "2021-03-01T14:00-08:00",
+    "location": "Stage 7",
+    "description": "Design Sprints are well understood for prototyping traditional digital experiences, but when it comes to running a Sprint for a conversational design experience the format must be adjusted to include not just voice prototyping, but also training and improvisation methods. In this talk, learn the technical aspects of structuring and running a Conversation Design Sprint, highlighting partner Google Assistant experiences created with this format.",
+    "tags": [
+      {
+        "name": "Design",
+        "color": "#69f86"
+      },
+      {
+        "name": "Intermediate",
+        "color": null
+      },
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      },
+      {
+        "name": "Assistant",
+        "color": "#27e5fd"
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Kai Haley",
+        "img": "https://lh3.googleusercontent.com/Ox__PMHvSTKUEpjQN5JE7UKB9Jrjm6mTqrMH91ZGWfDTMEXNXY8Kw_K2HHKNe-m39q9s9ydGdazu0bjF-wLP89Mq5w",
+        "company": "Google",
+        "description": "Kai Haley is a UX designer leading the Design Relations team at Google, which supports design excellence for designers and developers building on Google's platforms. She is one of the founders and leads of the Sprint Master Academy, and has trained over 800 Sprint Masters to drive innovation across Google’s diverse product areas. She is passionate about design thinking and inspiring the UX community to effectively utilize Design Sprints for speed and innovation. Prior to starting the Design Relations team, she applied her UX expertise to create monetization opportunities in Google search for the Search Ads Team. She earned a Masters Degree in Design from CCA, where she focused sustainable design practices and creating positive impact in the world.",
+        "socialLinks": [
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/kaihaley/"
+          }
+        ]
+      },
+      {
+        "name": "Walter Brill",
+        "img": "https://lh3.googleusercontent.com/TFnqyb18X38HcxTPX8PgA6e1kjd1Ug9gIfwXvaFz8tetHs3pFctwl_t-lkKSEPqtXAdelIn_UAKUwGmBPsaMUM7n",
+        "company": "Google",
+        "description": "Wally helps internal groups and external partners maintain best practices of design for conversational speech systems. Previously as Google’s senior persona designer he helped bring the character of The Google Assistant to life. Prior to coming to Google, he designed persona driven, speech recognition systems for enterprises and governments from Allstate Insurance and British Airways to eBay and The U.S. Navy. Wally studied electronic music composition at The New School for Social Research.",
+        "socialLinks": []
+      }
+    ],
+    "seatingInfo": {
+      "open": 0,
+      "checkedIn": 90,
+      "reserved": 90
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ef.png"
+  },
+  {
+    "name": "Smart Home Office Hours",
+    "date": "Tue. May 7, 4:00pm - 5:00pm",
+    "startTime": "2021-03-01T16:00-08:00",
+    "endTime": "2021-03-01T17:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Come talk to Smart Home experts about integrating your device with Google Assistant. If you have questions about how to best leverage Smart Home types and traits to describe your device and what it does, we'd love to talk to you. Feature requests and feedback are also welcome.",
+    "tags": [
+      {
+        "name": "Assistant",
+        "color": "#27e5fd"
+      },
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 29,
+      "checkedIn": 34,
+      "reserved": 62
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/cd.png"
+  },
+  {
+    "name": "Sound Design and Sonic Brand",
+    "date": "Tue. May 7, 5:00pm - 6:00pm",
+    "startTime": "2021-03-01T17:00-08:00",
+    "endTime": "2021-03-01T18:00-08:00",
+    "location": "Stage 7",
+    "description": "Learn best practices for sound design, integrating sound design in products and experiences, and branding experiences with sound. You'll also get a sneak peak at the release of the Material Sound Design spec for designers and developers.",
+    "tags": [
+      {
+        "name": "Design",
+        "color": "#69f86"
+      },
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      },
+      {
+        "name": "Intermediate",
+        "color": null
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Conor O'Sullivan",
+        "img": "https://lh3.googleusercontent.com/ixv2ZA1v7FNe0jj6OHBTsSZsPiAsZMQEWAd56AWpf3Gq5rmjfSORjCsKwA8flMK-tM2qk2pgx-7xAiJUC9Vkhv4t",
+        "company": "Google",
+        "description": "Conor O’Sullivan is the Head of Sound Design at Google, where he leads a cross-product initiative to bring cohesion and brand identity to Google’s product sounds. He’s an industry leader in the field of sound design, sensory & sonic branding for consumer products. He designs for the human first, to push technological boundaries, enhance the brand, and most importantly provide empathy and delight to the listener. Some of Conor’s best known work includes the Google ‘G sound’, Xbox brand & UX sounds, and Motorola’s HELLOMOTO ringtone. Conor has authored publications on sound and sensory design, and holds multiple patents and awards in the field. He earned a Bachelor of Arts in music and mathematics from University College Dublin, and a Master of Science in music technology from the University of Limerick. He is from Ireland and lives in the SF Bay area.",
+        "socialLinks": [
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/conor"
+          }
+        ]
+      }
+    ],
+    "seatingInfo": {
+      "open": 60,
+      "checkedIn": 92,
+      "reserved": 33
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/mn.png"
+  },
+  {
+    "name": "Speechless Live",
+    "date": "Tue. May 7, 6:00pm - 7:00pm",
+    "startTime": "2021-03-01T18:00-08:00",
+    "endTime": "2021-03-01T19:00-08:00",
+    "location": "Amphitheatre",
+    "description": "Get ready for the hilarious show that The Wall Street Journal called 'comedic gold.' Back for its 6th I/O in a row, Speechless Live will put speakers from I/O sessions and keynotes to the test in the ultimate improvisational gauntlet--giving a presentation that they've never seen before. Speechless Live has been produced in multiple countries on 6 different continents and has been featured in The New York Times, The Wall Street Journal, Newsweek, San Francisco Chronicle, LA Weekly, and The Huffington Post. To learn more about Speechless, go to www.speechlessinc.com.",
+    "tags": [
+      {
+        "name": "Misc",
+        "color": "#e8bc4f"
+      },
+      {
+        "name": "Keynote",
+        "color": "#31e7b6"
+      },
+      {
+        "name": "Keynotes",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 1,
+      "checkedIn": 29,
+      "reserved": 29
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/op.png"
+  },
+  {
+    "name": "Stadia Streaming Tech: A Deep Dive",
+    "date": "Tue. May 7, 2:00pm - 3:00pm",
+    "startTime": "2021-03-01T14:00-08:00",
+    "endTime": "2021-03-01T15:00-08:00",
+    "location": "The Garage",
+    "description": "The landscape of how games are played is changing and the Stadia playability team is leading the way. This session provides technical details for the streaming technology that powers Stadia, from maximizing visual quality to minimizing latency for the end user at 60 frames per second.",
+    "tags": [
+      {
+        "name": "Intermediate",
+        "color": null
+      },
+      {
+        "name": "Gaming",
+        "color": "#4768fd"
+      },
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Guru Somadder",
+        "img": "https://lh3.googleusercontent.com/BESEM6v_eaSBPMwHVO0xiF62V3QBTPoh4WndTduIfSL4hY0sKTyMFqmatoZejPUu4aP066zbD0hqrW3CDZjkjNFd",
+        "company": "Google",
+        "description": "Guru Somadder is one of the eng. leads on Stadia, responsible for all aspects of game playability. He has over 2 decades of industry experience, including 15+ years building carrier grade networking products as well as 8+ years on cloud gaming.",
+        "socialLinks": [
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/guru-somadder-4622041"
+          }
+        ]
+      },
+      {
+        "name": "Rob McCool",
+        "img": "https://lh3.googleusercontent.com/JNMXuYDyPw4Vxn8eZbubmBKQ3Xu-vYmo2AYrJ-EtyHec8QIgswj71OcKWExdPX67VzK72F7V_Ctj50i3LhRvx3ek",
+        "company": "Google",
+        "description": "Rob McCool is the technical lead for Google's cloud gaming platform. He has nearly 25 years experience developing high performance networked software and has been working on game streaming since 2007.",
+        "socialLinks": []
+      },
+      {
+        "name": "Khaled Abdel Rahman",
+        "img": "https://lh3.googleusercontent.com/Rb7rSMoTWtRFtXr5_YJJ9Z7lBK8Zzv_dx7cBloQWSkE2FMVTngQDFBVab9ulU5Z2NMcXcR5UhWd671hBQyO3jt3h",
+        "company": "Google",
+        "description": "Khaled Abdel Rahman is a Product Manager on Google’s cloud gaming platform, focused on gameplay experience. He’s been working in the games industry for the past 5 years as a Product Manager and a game development lecturer at USC.",
+        "socialLinks": [
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/playwiz"
+          },
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/khaled-abdel-rahman-b25aa377"
+          }
+        ]
+      }
+    ],
+    "seatingInfo": {
+      "open": 10,
+      "checkedIn": 44,
+      "reserved": 34
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/amphitheatre.png"
+  },
+  {
+    "name": "Teaching a Car to Drive Itself by Imitation and Imagination",
+    "date": "Tue. May 7, 1:00pm - 2:00pm",
+    "startTime": "2021-03-01T13:00-08:00",
+    "endTime": "2021-03-01T14:00-08:00",
+    "location": "Stage 8",
+    "description": "Training a neural net to drive by pure observation requires ensuring that good behavior is being learned from the right signals and that test results in simulation can be transferred to the real world. This talk will walk you through the evolution of a deep network to deal with these challenges by incorporating techniques like data perturbation, input and loss dropout, and domain-specific losses. You’ll learn how input ablation can help debug what the network has really learned.",
+    "tags": [
+      {
+        "name": "ML / AI",
+        "color": "#fcd230"
+      },
+      {
+        "name": "Intermediate",
+        "color": null
+      },
+      {
+        "name": "Misc",
+        "color": "#e8bc4f"
+      },
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Mayank Bansal",
+        "img": "https://lh3.googleusercontent.com/4veib3VGVZ1TqouP5BQ4YU1XkRWvG3v2whdFd6ulXmkS0ExkUHvFkPXjyEhhjQA3VR1L3x8lOv8ZTikTvJ7k24HS",
+        "company": "Waymo",
+        "description": "Mayank Bansal is a research scientist at Waymo where he leads research efforts on deep-learning for planning and prediction. Before joining Waymo in 2015, he was a principal research scientist at the Center for Vision Technologies, SRI International where he spent 11 years leading computer vision and robotics R&D programs. Mayank has a PhD in Computer & Information Sciences from the University of Pennsylvania.",
+        "socialLinks": [
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/mayban"
+          },
+          {
+            "name": "Website",
+            "url": "https://mayban.firebaseapp.com/"
+          },
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/mayban/"
+          }
+        ]
+      }
+    ],
+    "seatingInfo": {
+      "open": 1,
+      "checkedIn": 37,
+      "reserved": 37
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/gh.png"
+  },
+  {
+    "name": "The Rink",
+    "date": "Tue. May 7, 6:00pm - 9:00pm",
+    "startTime": "2021-03-01T18:00-08:00",
+    "endTime": "2021-03-01T21:00-08:00",
+    "location": "Stage 1",
+    "description": "Skate back to the 70's in I/O's own roller disco! Show us your moves and we will provide the grooves, Funky DJ sets by Josette and YACHT.",
+    "tags": [
+      {
+        "name": "Misc",
+        "color": "#e8bc4f"
+      },
+      {
+        "name": "After Dark",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 31,
+      "checkedIn": 52,
+      "reserved": 22
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/xyz.png"
+  },
+  {
+    "name": "The State of Unity on Android",
+    "date": "Tue. May 7, 5:00pm - 6:00pm",
+    "startTime": "2021-03-01T17:00-08:00",
+    "endTime": "2021-03-01T18:00-08:00",
+    "location": "The Garage",
+    "description": "Unity is meaningfully improving on Android by leveraging Vulkan and multithreading to both improve performance and productivity on Android. In this session, you will learn about the latest improvements and how they impact day to day game development on Android.",
+    "tags": [
+      {
+        "name": "Gaming",
+        "color": "#4768fd"
+      },
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      },
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Francesco Carucci",
+        "img": "https://lh3.googleusercontent.com/qrTrpRoKltule24E3W_YSMWYPO0eTo-RU22wvkJAw_jA53snT76udWvE8ouAX5pMb3iYkVBKEfVTNUi5QJwNpe_n",
+        "company": "Google",
+        "description": "Francesco moved from Italy to England to make videogames and realized his childhood dream when he joined Peter Molyneux’ Lionhead Studios in 2003. Specializing in 3D real-time rendering and GPU Performance optimizations, Francesco worked on the graphics engines of titles such as Black&White 2 and Fable 2 before moving to Germany to work on Crysis 2 in Crytek: the number “2” being somehow of a constant in his career. After temporarily leaving the Game Industry to work on GPU Performance tools in Apple, Francesco joined Google and is now passing his extensive experience in the trenches down to the future generations of mobile game developers.\n\nIn his spare time, Francesco takes systraces in exchange of food.",
+        "socialLinks": [
+          {
+            "name": "Website",
+            "url": "https://carucci.us/"
+          },
+          {
+            "name": "GitHub",
+            "url": "https://github.com/fcarucci"
+          },
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/fcarucci/"
+          }
+        ]
+      },
+      {
+        "name": "JC Cimetiere",
+        "img": "",
+        "company": "Unity",
+        "description": "",
+        "socialLinks": []
+      },
+      {
+        "name": "Ben Gable",
+        "img": "https://lh3.googleusercontent.com/OZDy0OZtYuxCLd0cm6NFOR9FH0Z9WOF75-09d5h5wyWoLhzVBfMSPJsgXYFR6mb3FA9ngMFMQy-LvK0M-95hept-pw",
+        "company": "Google",
+        "description": "Ben is a partner developer advocate at Google. Specializing in game development and engineering, he works with game developers to make great games for both Android and Chrome OS. Prior to Google, Ben co-founded an indie game studio and shipped a game worldwide on PC, Mac, Linux, PS4, Xbox One and Nintendo Switch. Ben also worked as a full-stack developer at Zynga on titles like CityVille and Farmville 2. \n\nBen graduated from DigiPen Institute of Technology in Redmond, WA with a bachelor's degree in computer science in real-time interactive simulation.",
+        "socialLinks": [
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/bengable/"
+          }
+        ]
+      }
+    ],
+    "seatingInfo": {
+      "open": 86,
+      "checkedIn": 1,
+      "reserved": 19
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-4.png"
+  },
+  {
+    "name": "Understand Kotlin Coroutines on Android",
+    "date": "Tue. May 7, 5:00pm - 6:00pm",
+    "startTime": "2021-03-01T17:00-08:00",
+    "endTime": "2021-03-01T18:00-08:00",
+    "location": "Stage 2",
+    "description": "Coroutines are a feature of Kotlin that help convert callback-based code into sequential code, making code easier to read, write, and understand. This session will show you how to use coroutines on Android, and how the new androidx-concurrent library makes it easy to use them to get things off the main thread. You'll also learn how the new library helps coroutines work with Architecture Components. This session also covers coroutine patterns, best practices, and even how to test coroutines!",
+    "tags": [
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      },
+      {
+        "name": "Intermediate",
+        "color": null
+      },
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Sergey Vasilinetc",
+        "img": "https://lh3.googleusercontent.com/8jIEfGRJY1yfAN2BWQGF7DXgSjBdlQh4Q-GFyyorJNQVh7W5pEbcUEcE0zQJOXyP0U8ePwYu7p9dX7LWZs6XX0U",
+        "company": "Google",
+        "description": "Sergey is a software engineer working on the Android UI Toolkit team. His work focuses on Android Architecture Components. Prior to Google he worked at SPB Software. He earned his degree from Saint Petersburg State University.",
+        "socialLinks": [
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/ZelenetS"
+          }
+        ]
+      },
+      {
+        "name": "Yigit Boyar",
+        "img": "https://lh3.googleusercontent.com/8wVXe0OsY0Ny3syhBxfGC-4xQJaywoZHLQwBu0EXl88MrEqi-RpgcVV2YmXlmkXJlxGPdZ-eKIFG5hMHztIHTkux",
+        "company": "Google",
+        "description": "Yigit leads the Architecture Components for Android, focusing on the developer experience and dreams of making app development easy. Previously, he was working on Data Binding and RecyclerView in the Android Toolkit Team. Prior to Google, he was the Android engineering manager at Path.com. He received his B.S. in Computer Engineering from Middle East Technical University / Turkey.",
+        "socialLinks": [
+          {
+            "name": "Website",
+            "url": "https://www.birbit.com/"
+          },
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/yigitboyar"
+          }
+        ]
+      },
+      {
+        "name": "Sean McQuillan",
+        "img": "https://lh3.googleusercontent.com/0nmq6vHAGFpe9uZbHORBAthR1rxUDjdMQlyzH5_QujJ4MH-3Es2Tf126ZaTQWGsJFSnCDZHa7Q0hlFwoV_snvUA",
+        "company": "Google",
+        "description": "Sean McQuillan is a developer advocate at google. With a decade of experience at Twilio and other San Francisco startups he is an expert at building apps that scale. Sean is passionate about using great tooling to build high quality apps - quickly. When he is not working on Android you can find him fiddling on the piano or crocheting hats.",
+        "socialLinks": [
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/objcode"
+          },
+          {
+            "name": "GitHub",
+            "url": "https://github.com/objcode"
+          }
+        ]
+      }
+    ],
+    "seatingInfo": {
+      "open": 34,
+      "checkedIn": 69,
+      "reserved": 85
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ab.png"
+  },
+  {
+    "name": "Understanding the role of voice in your app for emerging markets",
+    "date": "Tue. May 7, 3:00pm - 4:00pm",
+    "startTime": "2021-03-01T15:00-08:00",
+    "endTime": "2021-03-01T16:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "As our apps grow their footprint globally, voice technology can be an enabler in bridging comprehension and literacy gaps. Learn how to effectively integrate voice into your product experience to better serve the needs of your users.\nObjective: To enable developers to have stronger voice stories for their products.",
+    "tags": [
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      },
+      {
+        "name": "Misc",
+        "color": "#e8bc4f"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 76,
+      "checkedIn": 23,
+      "reserved": 98
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/qr.png"
+  },
+  {
+    "name": "Unleash the Power of Play Store Discovery",
+    "date": "Tue. May 7, 4:00pm - 5:00pm",
+    "startTime": "2021-03-01T16:00-08:00",
+    "endTime": "2021-03-01T17:00-08:00",
+    "location": "The Garage",
+    "description": "In this talk, you'll see the breadth of the developer marketing tools and discovery opportunities on the store, and how to take advantage of them. The talk will cover new tools to customize and experiment with your store presence. You will also learn how Play can help you throughout the game lifecycle from the pre-launch phase to running your game as a service.",
+    "tags": [
+      {
+        "name": "Gaming",
+        "color": "#4768fd"
+      },
+      {
+        "name": "Beginner",
+        "color": null
+      },
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      },
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Benjamin Frenkel",
+        "img": "https://lh3.googleusercontent.com/-x1MUF6h-23aZvwNte1wTSwDxQkeApAExLtu9mSTsmdrdp6W-UwVmzWyb66NaN-2gVJIsl3oB1Uz_6qZiIlGX_9G",
+        "company": "Google",
+        "description": "Benjamin Frenkel is an Android product manager focused on Games. Prior to joining Google, Frenkel was a senior associate for McKinsey & Company. Frenkel holds an MBA from the MIT Sloan School of Management and bachelor’s in computer science frm the University of Arizona.",
+        "socialLinks": []
+      },
+      {
+        "name": "Andrew Giugliano",
+        "img": "https://lh3.googleusercontent.com/SFluq3iA5fqEixcQb2tKTpjTelI4qV0esWwCVnhlcmgYrlps6fP9EHKMPhOgagAUz06fYgyYxpGaHXzRdqIK1xTM",
+        "company": "Google",
+        "description": "Andrew is a developer advocate for Google Play Instant. He primarily focuses on helping partners build and launch high quality instant games. Before joining Google, he was an Android developer in the automotive space. Andrew holds a bachelor's degree in computer science from the University of Michigan.",
+        "socialLinks": [
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/andrew-giugliano-23052370"
+          }
+        ]
+      },
+      {
+        "name": "Jonathan Cheung",
+        "img": "https://lh3.googleusercontent.com/HCzCgUT1pw8QHUJrZ4ZAN-CHKwTyX3r3j-0zuUQZuI_P6i7VTegxyEt9RzIAtTN16cxXZISvSGjlca1-sByz-QRU",
+        "company": "Google",
+        "description": "Jonathan is a tech lead on the Play Console team based in London. He focuses specifically on go-to-market tools which help developers de-risk their launches for maximum success on the Play Store. Jonathan has a master's degree in computer engineering from Imperial College London where he graduated with first class honours.",
+        "socialLinks": []
+      },
+      {
+        "name": "Steve Suppe",
+        "img": "https://lh3.googleusercontent.com/CPnQcMlridSEffmqR6xVT4ltBvEmR6QR7nRZ963bjBlj8AhbHM2KHdOvuWkMb_DG6Lb0iYrT0VLG9Teb0Nd5CX9U",
+        "company": "Google",
+        "description": "Steve is a product manager on the Google Play Console. Steve is based in London and has lived in California, Colorado, Mississippi, New York, Israel and Switzerland. He's a Fulbright Scholar in Computer Science and holds an MBA from London Business School as well as a BSc in Computer Science from the US Air Force Academy. Steve's current favorite album is Hadestown by Anaïs Mitchell.",
+        "socialLinks": []
+      }
+    ],
+    "seatingInfo": {
+      "open": 1,
+      "checkedIn": 35,
+      "reserved": 35
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/st.png"
+  },
+  {
+    "name": "UX Research Office Hours",
+    "date": "Tue. May 7, 2:00pm - 3:00pm",
+    "startTime": "2021-03-01T14:00-08:00",
+    "endTime": "2021-03-01T15:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Come ask about methods Google researchers use to inform product direction, evaluate design docs, mocks, and PRDs, and report back on launched features. You can also learn about the value user-centered thinking and research can bring to your teams.",
+    "tags": [
+      {
+        "name": "Design",
+        "color": "#69f86"
+      },
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 48,
+      "checkedIn": 70,
+      "reserved": 22
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ij.png"
+  },
+  {
+    "name": "Vitals Q&A",
+    "date": "Tue. May 7, 5:00pm - 6:00pm",
+    "startTime": "2021-03-01T17:00-08:00",
+    "endTime": "2021-03-01T18:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "Enable developers to ask questions about Vitals in a more private setting",
+    "tags": [
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      },
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 122,
+      "checkedIn": 40,
+      "reserved": 12
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-5.png"
+  },
+  {
+    "name": "Web App Reviews",
+    "date": "Tue. May 7, 1:00pm - 6:00pm",
+    "startTime": "2021-03-01T13:00-08:00",
+    "endTime": "2021-03-01T18:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "If you're working on any type of web app—whether it's a new Progressive Web App using the latest web platform features, or a legacy app—there's always room for improvement. Schedule time at the Web App Review station and a SME from Google will be happy to do a deep dive about any of the following: service workers; speed, from loading to interactions; modern CSS and responsive design; authentication, payments, and identity; and anything else that web has to offer. Walk-ins are welcome.",
+    "tags": [
+      {
+        "name": "App Reviews",
+        "color": "#999999"
+      },
+      {
+        "name": "Web",
+        "color": "#fabfa9"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 14,
+      "checkedIn": 77,
+      "reserved": 63
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/office-hours.png"
+  },
+  {
+    "name": "What's changing in Android Q",
+    "date": "Tue. May 7, 3:00pm - 4:00pm",
+    "startTime": "2021-03-01T15:00-08:00",
+    "endTime": "2021-03-01T16:00-08:00",
+    "location": "Office Hours / App Reviews",
+    "description": "So your app runs great on Android 9 Pi, what do you need to change to work on Android Q? Come along and talk to a developer about what changes Android Q requires.",
+    "tags": [
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      },
+      {
+        "name": "Office Hours",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 14,
+      "checkedIn": 40,
+      "reserved": 54
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-6.png"
+  },
+  {
+    "name": "What's New in Android",
+    "date": "Tue. May 7, 1:00pm - 2:00pm",
+    "startTime": "2021-03-01T13:00-08:00",
+    "endTime": "2021-03-01T14:00-08:00",
+    "location": "Amphitheatre",
+    "description": "Get an overview of the latest developer features in Android.",
+    "tags": [
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      },
+      {
+        "name": "Beginner",
+        "color": null
+      },
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Romain Guy",
+        "img": "https://lh3.googleusercontent.com/8r6gQJsmILBaptbg5AqJ_222nZzlDtyJXYQX7WKhguxgLqcevmkrO8qoli95b77G99h-zpKdRk3_iuDx_nPmhak",
+        "company": "Google",
+        "description": "Romain manages the Android Toolkit team. The team's projects included AndroidX/Jetpack, the UI toolkit, Kotlin support and graphics.",
+        "socialLinks": [
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/romainguy/"
+          },
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/romainguy"
+          },
+          {
+            "name": "GitHub",
+            "url": "https://github.com/romainguy"
+          }
+        ]
+      },
+      {
+        "name": "Chet Haase",
+        "img": "https://lh3.googleusercontent.com/tlDJLIY2Xsd5G5eiun0ZXyYC7ENR_kWyw2EqyZ5FUYhs-Q9iAju2SVjoAroAR-JFLnuMGKt918Kp5Juv9LH3FSw",
+        "company": "Google",
+        "description": "Chet is an advocate on the Android Developer Relations team. His son said that 'advocate' makes the job sound like The Lorax, which is about right. He speaks for the geeks.",
+        "socialLinks": [
+          {
+            "name": "Website",
+            "url": "https://medium.com/@chethaase"
+          },
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/chethaase"
+          }
+        ]
+      },
+      {
+        "name": "Dan Sandler",
+        "img": "https://lh3.googleusercontent.com/pSWmjT5PbBry2FoQKl94XiKJ-0eKiSl5ZHlvkPtgnXHwRRpcKj9DVmyZexArnoSUzLS32wYCy17rwtqDS-DZmz49tA",
+        "company": "Google",
+        "description": "Dan helps lead the Android System UI engineering team, which is responsible for pretty much everything you see on the Android screen that isn't an app. Before Google he was a grad student researching distributed systems and security. And even before that, he worked at Palm and Be on the UI of their respective operating systems. (You can take the programmer out of the status bar, but you can't take the status bar out of the programmer.) Dan has a Ph.D. in computer science from Rice University.",
+        "socialLinks": []
+      }
+    ],
+    "seatingInfo": {
+      "open": 26,
+      "checkedIn": 1,
+      "reserved": 26
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/kl.png"
+  },
+  {
+    "name": "What's New in Android C++ Development",
+    "date": "Tue. May 7, 4:00pm - 5:00pm",
+    "startTime": "2021-03-01T16:00-08:00",
+    "endTime": "2021-03-01T17:00-08:00",
+    "location": "Stage 3",
+    "description": "This session will help Android C++ developers to understand improvements to the NDK, both recent and planned.",
+    "tags": [
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      },
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      },
+      {
+        "name": "Intermediate",
+        "color": null
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Elliott Hughes",
+        "img": "https://lh3.googleusercontent.com/iiOZ19R0X8GSgzAYc70i2RHuoBNBEserNTw_TjtIin9Y8NW12j7LD5UDDbo8-P7OdJc9m85Avm5MPLpvnLxRTQKG",
+        "company": "Google",
+        "description": "Elliott works on Android. He started on the core java.* libraries, followed by the then-new Android Runtime (ART). The need to get the core OS ready for 64-bit in Lollipop led him to switch from helping Java developers to helping C/C++ developers, first for the OS itself and more recently for apps via the Native Development Kit (NDK).",
+        "socialLinks": []
+      },
+      {
+        "name": "Dan Albert",
+        "img": "https://lh3.googleusercontent.com/3DOx2Zmkm8hkqPFn6rxZfxZgu6OZBPnojvo51zvCW0FzCStOsmanlskpsben9TdJKe115jaypUlmlOoJHBfGbFKFTw",
+        "company": "Google",
+        "description": "Dan is the lead software engineer on the Android Native Development Kit (NDK)\nteam, which is responsible for the toolchains, libraries, and build systems of\nthe NDK.",
+        "socialLinks": [
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/danalbert"
+          },
+          {
+            "name": "GitHub",
+            "url": "https://github.com/DanAlbert"
+          }
+        ]
+      }
+    ],
+    "seatingInfo": {
+      "open": 0,
+      "checkedIn": 77,
+      "reserved": 77
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/uvw.png"
+  },
+  {
+    "name": "What's New in Gaming at Google",
+    "date": "Tue. May 7, 1:00pm - 2:00pm",
+    "startTime": "2021-03-01T13:00-08:00",
+    "endTime": "2021-03-01T14:00-08:00",
+    "location": "Stage 2",
+    "description": "In this session, you'll learn about how Google is providing solutions for game developers. Whether you're building for console/desktop platforms, publishing on Google Play, or looking to improve your development toolchain, we have solutions for you.",
+    "tags": [
+      {
+        "name": "Beginner",
+        "color": null
+      },
+      {
+        "name": "Gaming",
+        "color": "#4768fd"
+      },
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Tian Lim",
+        "img": "https://lh3.googleusercontent.com/1We2v7oTZ8V9kemcRaz7z9WqVxMmP_R4lowijTqq03lZfZT5c9lsFNe-ZNkQX8lcG1_1xVo7yxiEPYrJvbdDR2j7",
+        "company": "Google",
+        "description": "Tian Lim runs UX and Product for Play. He was previously CTO of Hulu, and also helped build the Playstation 4, Xbox 360 and Nintendo GAMECUBE. He holds degrees in computer science & engineering from Carnegie Mellon University and the University of Washington.",
+        "socialLinks": [
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/tian-lim-9049017/"
+          },
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/hellfire360"
+          }
+        ]
+      },
+      {
+        "name": "Sunil Rayan",
+        "img": "",
+        "company": "Google",
+        "description": "",
+        "socialLinks": []
+      },
+      {
+        "name": "John Justice",
+        "img": "",
+        "company": "Google",
+        "description": "",
+        "socialLinks": []
+      }
+    ],
+    "seatingInfo": {
+      "open": 1,
+      "checkedIn": 42,
+      "reserved": 42
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ef.png"
+  },
+  {
+    "name": "What's New with Android for Cars",
+    "date": "Tue. May 7, 3:00pm - 4:00pm",
+    "startTime": "2021-03-01T15:00-08:00",
+    "endTime": "2021-03-01T16:00-08:00",
+    "location": "Stage 3",
+    "description": "Come hear about different in-car experiences powered by Android. In this session, you’ll learn about new design improvements and the latest cars that support Android Auto. You’ll also hear more about the new, Android-based infotainment systems that are built into cars and hear more directly from Thomas Ingenlath, CEO of Polestar. If you’re looking to reach even more drivers, the road ahead leads to exciting destinations.",
+    "tags": [
+      {
+        "name": "Beginner",
+        "color": null
+      },
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      },
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Ian Barlow",
+        "img": "",
+        "company": "Google",
+        "description": "Ian is a UX design manager on Android Auto. Before joining the automotive space, he worked on Google Fiber where he led the design of TV, phone and IoT services. Prior to Google, Ian worked on Firefox for Android at Mozilla, and a cross-platform suite of eReading software at Kobo. He studied Graphic Design at Georgian College in Ontario, Canada.",
+        "socialLinks": []
+      },
+      {
+        "name": "Mickey Kataria",
+        "img": "https://lh3.googleusercontent.com/GHcKg_zq2tYuG9aD3kIYaXSVBr-agNAe_o8dk6nY1QnRIR3YmYEYxGm_S4AzPcMIMVkX1iaxpmuND1RvS5c7emQC",
+        "company": "Google",
+        "description": "Mickey Kataria is the Director of Product Management for Android Auto. He joined Google in 2002 and has been leading several automotive and mapping initiatives for 10+ years. He's based in Mountain View and has also worked for Google in Zurich, Switzerland and Sydney, Australia. Prior to Google, he worked at Inktomi and Hewlett-Packard. He graduated from Yale University with degrees in Computer Science and Economics.",
+        "socialLinks": [
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/mickey"
+          }
+        ]
+      },
+      {
+        "name": "Thomas Ingenlath",
+        "img": "https://lh3.googleusercontent.com/fUNDfqktbmTryXe1kKonH_FpVVg8MuczmSI2N86mcLPNpO7LVWiJ49cOLdWpfKODEwnUAJTZX2umkthokPWQrjry",
+        "company": "Polestar",
+        "description": "Thomas Ingenlath was appointed Chief Executive Officer of Polestar on 17 June 2017, and he leads the Polestar management team. He also holds the dual-role of Chief Design Officer for the Volvo Car Group. Thomas joined Volvo Car Corporation on 1 July 2012 as Vice President Design, arriving from a position as head of the Volkswagen Design Centre in Potsdam, Germany. Prior to joining Volvo, he has 20 years’ experience from the automotive industry, after completion of design studies at the Fachhochschule für Gestaltung in Pforzheim and the Royal College of Art in London. He worked in top design positions at Audi (1991-1994), Volkswagen (1995-2000) and Skoda (2000-2006). As from 2006 he was the Director for Design at the Volkswagen Design Centre in Potsdam, designing for all brands of the Volkswagen Group.",
+        "socialLinks": []
+      }
+    ],
+    "seatingInfo": {
+      "open": 26,
+      "checkedIn": 39,
+      "reserved": 13
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/cd.png"
+  },
+  {
+    "name": "What's New with Chrome and the Web",
+    "date": "Tue. May 7, 2:00pm - 3:00pm",
+    "startTime": "2021-03-01T14:00-08:00",
+    "endTime": "2021-03-01T15:00-08:00",
+    "location": "Amphitheatre",
+    "description": "Learn Google’s vision for the Web Platform. This session will cover the latest updates across Chrome, as well as the tools and services that we’re building, across our teams, to help developers build great experiences. Looking further into the future, you'll also learn the evolving role of the Web across an increasing number of platforms and devices and what that could mean for users and developers.",
+    "tags": [
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      },
+      {
+        "name": "Web",
+        "color": "#fabfa9"
+      },
+      {
+        "name": "Intermediate",
+        "color": null
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Ben Galbraith",
+        "img": "",
+        "company": "Google",
+        "description": "Ben Galbraith is the product director for the Web Platform at Google. His past roles have included heading Product and Design for Walmart Global eCommerce as well as leadership roles at HP / Palm, Mozilla, MediaOcean, and several startups. Ben has been writing code since he was six and starting businesses since he was ten; he's written books, given hundreds of presentations world-wide, produced several technical conferences, and sold three companies. He lives in Palo Alto with his wife and eight children.",
+        "socialLinks": []
+      },
+      {
+        "name": "Dion Almaer",
+        "img": "",
+        "company": "Google",
+        "description": "Dion works on the Web Developer Ecosystem, where he is responsible for developer products such as Chrome DevTools, Lighthouse, and web.dev, as well as Developer Relations teams across Chrome and Search.",
+        "socialLinks": [
+          {
+            "name": "Website",
+            "url": "https://blog.almaer.com/"
+          },
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/dalmaer"
+          }
+        ]
+      },
+      {
+        "name": "Dana Ritter",
+        "img": "",
+        "company": "Google",
+        "description": "",
+        "socialLinks": []
+      }
+    ],
+    "seatingInfo": {
+      "open": 27,
+      "checkedIn": 62,
+      "reserved": 89
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/mn.png"
+  },
+  {
+    "name": "What’s New in Android Accessibility",
+    "date": "Tue. May 7, 1:00pm - 2:00pm",
+    "startTime": "2021-03-01T13:00-08:00",
+    "endTime": "2021-03-01T14:00-08:00",
+    "location": "Stage 1",
+    "description": "Learn about what’s new in Android Accessibility, including capabilities and features in Android Q. This session will focus on core accessibility products like Android Accessibility Suite, TalkBack and Switch Access as well as new products for the deaf and hard-of-hearing such as Live Transcribe. Lastly, you'll learn actual examples of how Google uses qualitative research methods to inform product development.",
+    "tags": [
+      {
+        "name": "Accessibility",
+        "color": "#4768fd"
+      },
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      },
+      {
+        "name": "Intermediate",
+        "color": null
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Lauren Winston",
+        "img": "https://lh3.googleusercontent.com/5LdZDFiv8fomIGfu8eyG1IOTaP9XslHUamjbPopYwTuyCgh-i_L3I3o_fG68vpkdO3kSJSgJH0feAN6xE85i117Z",
+        "company": "Google",
+        "description": "Lauren is a software engineer on the Central Accessibility team. She primarily works on Switch Access for Android. She graduated from Georgia Tech in 2017 with a master’s degree in computer science with a specialization in human-computer interaction. She also received a bachelor’s degree in computer science from Georgia Tech in 2015.",
+        "socialLinks": []
+      },
+      {
+        "name": "Kelly Chen",
+        "img": "https://lh3.googleusercontent.com/6TCQWehtIoif0H2kRblmoJv6spaHrfCYtDL03gcFtj9zfZSehMiqmF-6bOd2XvyXIOcC9AHievY8EtI-Yh9qs6Otvw",
+        "company": "Google",
+        "description": "Kelly Chen has over a decade of experience in quality assurance, product and program management at Compal, LITE-ON, and HTC. Today, Kelly is leading accessibility programs at Google, focused on developing services for the visually impaired, the hard of hearing, and people with dexterity issues to make things accessible to everyone.\nKelly earned a bachelor’s degree in Industrial Management from National Taiwan University of Science and Technology.",
+        "socialLinks": []
+      },
+      {
+        "name": "Melissa Barnhart",
+        "img": "https://lh3.googleusercontent.com/klc9Ysz_8gUy7U_aVIGpJ_wh-Gl9iX8ohHzu23fKGnoL6m7A-HI9KLE_8bQG-KlVTs2YXKYjFvVd9abfdfg8Q5qBxg",
+        "company": "Google",
+        "description": "Melissa is a User Experience Researcher on Android, with a focus on Accessibility. Prior to Google, she worked at a London-based start-up called State.com. Melissa earned a Bachelor of Arts in Political Science from UC San Diego and a Master of Science in Urbanization and Development from the London School of Economics.",
+        "socialLinks": []
+      }
+    ],
+    "seatingInfo": {
+      "open": 5,
+      "checkedIn": 32,
+      "reserved": 37
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/op.png"
+  },
+  {
+    "name": "What’s New in Android Machine Learning",
+    "date": "Tue. May 7, 5:00pm - 6:00pm",
+    "startTime": "2021-03-01T17:00-08:00",
+    "endTime": "2021-03-01T18:00-08:00",
+    "location": "Stage 3",
+    "description": "Come and find out the latest development of Android on-device machine learning including, Android platform, ML Kit, and TensorFlow Lite.",
+    "tags": [
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      },
+      {
+        "name": "Firebase",
+        "color": "#39c79d"
+      },
+      {
+        "name": "ML / AI",
+        "color": "#fcd230"
+      },
+      {
+        "name": "Beginner",
+        "color": null
+      },
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Dong Chen",
+        "img": "https://lh3.googleusercontent.com/Er0TkJCeMmGfXLvcESjR18d6ggpmpQvkJHnMxA8KyIBrAURJ9AIvL03ig353GzQ2MF4ECSTxPFGm-PadD1Dsybw",
+        "company": "Google",
+        "description": "Dong is a tech lead of ML Kit engineering team, responsible for architecting the product and leading the development. For the past 13 years he has been leading several engineering teams across Gmail, Google Maps, and On-Device Machine Learning. Most recently, he helped starting and launching ML Kit at 2018 Google I/O. Dong calls Silicon Valley home for the last 24 years and enjoys full-stack development. Originally from Beijing. He holds a BECS from Tsinghua and MSCS from Purdue.",
+        "socialLinks": []
+      },
+      {
+        "name": "Hoi Lam",
+        "img": "https://lh3.googleusercontent.com/BTT306TaL5aCQgBaA_p5XOdjizRxQGgKSf9dK9kMvcFAAEhS4jIqaa0VtH0ZAvaF66RHzCxtYzN-YpkmzBkbwmB5",
+        "company": "Google",
+        "description": "Hoi is the Head of Developer Relations for Android Machine Learning and also a sector executive for the Institution of Engineering and Technology (IET). He was part of the launch team for Wear OS by Google (previously Android Wear), Chromecast, Google Glass Enterprise Edition, and the Google Beacon Platform. Prior to Google, he founded Exahive to disrupt the mobile commerce market place. Hoi was an Equity Research VP at Deutsche Bank and Citigroup covering technology companies. Before banking, he was a product manager / application architect at Accenture. Hoi holds a Master and Bachelor degree in Space Engineering from the University of Cambridge.",
+        "socialLinks": [
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/hoitab"
+          }
+        ]
+      },
+      {
+        "name": "Laurence Moroney",
+        "img": "https://lh3.googleusercontent.com/q1I_vGJgCDu5YAbOEX_inDVih6zx81E_1z6H-d9zljG6C7HQ8teY5enF7KhI51n9AL2Ll5nQGrATWxNrBkdlWBXe",
+        "company": "Google",
+        "description": "Laurence is a developer advocate at Google working on machine learning and artificial intelligence. He's the author of dozens of programming books, and hundreds of articles. When not Googling, he's author of a best-selling Science Fiction book series, and a produced screenwriter.",
+        "socialLinks": [
+          {
+            "name": "GitHub",
+            "url": "https://github.com/lmoroney"
+          },
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/laurence-moroney/"
+          },
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/lmoroney"
+          }
+        ]
+      },
+      {
+        "name": "Matej Pfajfar‎",
+        "img": "https://lh3.googleusercontent.com/75KkGhZgZ_is3OiGvTHkhy0kBHt_JdYm9ZTaMfk6NIe5A-lYiQS39LieBeVUWKOSjvg214MRY7zl_xI6ZgofyaM",
+        "company": "Google",
+        "description": "Matej joined Google in 2018 to lead our engineering efforts in the area of Machine Intelligence for mobile, working to help our ecosystem operate AI-first. Before Google, Matej had a successful career in the enterprise software space, particularly in the domains of risk management and insurance. In his previous position at Adacta, Matej led the development of one of the top rated core systems for the insurance industry, transforming the business from a local provider to a recognized international brand. In addition to his 15 years of experience in software engineering, Matej has a solid background in quantitative finance and actuarial sciences. Matej grew up in Slovenia and studied Computer Science at the University of Cambridge. He is a keen sailor, scuba diver and climber. In addition to his role at Google, Matej also serves as a Lego builder to two boys.",
+        "socialLinks": [
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/mpfajfar/"
+          }
+        ]
+      }
+    ],
+    "seatingInfo": {
+      "open": 12,
+      "checkedIn": 59,
+      "reserved": 47
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/amphitheatre.png"
+  },
+  {
+    "name": "What’s New in ARCore",
+    "date": "Tue. May 7, 2:00pm - 3:00pm",
+    "startTime": "2021-03-01T14:00-08:00",
+    "endTime": "2021-03-01T15:00-08:00",
+    "location": "Stage 1",
+    "description": "This session is a technical deep-dive into the newest AR features, how they work in each environment, and what opportunities they unlock for your users.",
+    "tags": [
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      },
+      {
+        "name": "Augmented Reality",
+        "color": "#94dd6b"
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Christina Tong",
+        "img": "https://lh3.googleusercontent.com/opkgWuqmIXw5NwJxZTdQv13ke5IXuk6G4QjtaIXXY7d_7tiIAlzZky4t6OAu-qir7YcaeAack3jzUhUjaP2HrvgX",
+        "company": "Google",
+        "description": "Christina is a product manager on ARCore. In this role, she focuses on bringing emerging computer vision technologies to market. Previously, she was a product manager on Google My Business.\n\nChristina earned a bachelor's degree in computer science with a minor in politics from Pomona College, where she graduated with honors.",
+        "socialLinks": [
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/christinamtong"
+          },
+          {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/christinatong/"
+          }
+        ]
+      },
+      {
+        "name": "Benjamin Schrom",
+        "img": "https://lh3.googleusercontent.com/fqeqd_z-YULR1J9Lwc23kbrKfC0iktp3Hsq1TimcarZDngmnAdLaHmA9Hk1sgE5Ogpo2IhfpXr01m7W8Hg7jslCrNQ",
+        "company": "Google",
+        "description": "Benjamin Schrom is a product manager working on augmented reality and computer perception within Google's Daydream team. He was previously the creator of Google Expeditions - a VR application for teachers and students that has brought VR to over 3 million students worldwide.",
+        "socialLinks": []
+      },
+      {
+        "name": "Leon Wong",
+        "img": "https://lh3.googleusercontent.com/h0oh9D-b9uPZ1vRVRhKzZ7rdKTVBkHsaPsVZnbHiEkSTLKLfvgXmV4TwI9D8hccJYCvi3ikAjpfmV7TPFQ6lqmVx",
+        "company": "Google",
+        "description": "Leon is an engineering manager on Google's Augmented Reality Platform team. His group develops motion tracking and scene perception algorithms for ARCore. Prior to Google, Leon worked as an engineering manager at Microsoft, Facebook, and Pinterest. He holds B.S. and M.S. degrees in Computer Science from the Massachusetts Institute of Technology.",
+        "socialLinks": []
+      }
+    ],
+    "seatingInfo": {
+      "open": 11,
+      "checkedIn": 72,
+      "reserved": 61
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/gh.png"
+  },
+  {
+    "name": "Wi-Fries",
+    "date": "Tue. May 7, 7:00pm - 9:00pm",
+    "startTime": "2021-03-01T19:00-08:00",
+    "endTime": "2021-03-01T21:00-08:00",
+    "location": "Community Lounge",
+    "description": "Come down to Porch 1 to grab a bite while you dip, draw, and doodle!",
+    "tags": [
+      {
+        "name": "Misc",
+        "color": "#e8bc4f"
+      },
+      {
+        "name": "After Dark",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 14,
+      "checkedIn": 83,
+      "reserved": 96
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/xyz.png"
+  },
+  {
+    "name": "Women Techmakers Meetup",
+    "date": "Tue. May 7, 1:40pm - 2:20pm",
+    "startTime": "2021-03-01T13:40-08:00",
+    "endTime": "2021-03-01T14:20-08:00",
+    "location": "Community Lounge",
+    "description": "Gathering of the members of the Women Techmakers program.",
+    "tags": [
+      {
+        "name": "Meetups",
+        "color": "#999999"
+      }
+    ],
+    "isRecorded": false,
+    "speakers": [],
+    "seatingInfo": {
+      "open": 39,
+      "checkedIn": 31,
+      "reserved": 51
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-4.png"
+  },
+  {
+    "name": "Zero to App: Live Coding a Cross-Platform App on Firebase",
+    "date": "Tue. May 7, 3:00pm - 4:00pm",
+    "startTime": "2021-03-01T15:00-08:00",
+    "endTime": "2021-03-01T16:00-08:00",
+    "location": "Amphitheatre",
+    "description": "Firebase makes it easy to build a cross-platform app. How easy? Let's try it out together! In this session our team live-codes an app on stage for Android, iOS, and Web. Each platform will have the same functionality, built upon the same Firebase features. They will start with Firestore, Authentication, and Storage, and then show how to use Cloud Functions to integrate Google Cloud Platform's advanced APIs into the application.",
+    "tags": [
+      {
+        "name": "Firebase",
+        "color": "#39c79d"
+      },
+      {
+        "name": "Sessions",
+        "color": "#999999"
+      },
+      {
+        "name": "Beginner",
+        "color": null
+      },
+      {
+        "name": "Android / Play",
+        "color": "#8da0fc"
+      },
+      {
+        "name": "Web",
+        "color": "#fabfa9"
+      }
+    ],
+    "isRecorded": true,
+    "speakers": [
+      {
+        "name": "Mike McDonald",
+        "img": "https://lh3.googleusercontent.com/54SOFv4y-iWNGDpol0dtyTIiJ3Me0ui4WRTYmDOM7PtDr9YSOagvx6ZgN385OEHm1-J2WwmS0QbxrcsbLEslIJFe",
+        "company": "Google",
+        "description": "Mike helps developers build better mobile and web apps as a product manager on the Firebase team. Mike has been working on Firebase for four years, and has worked developing iOS apps at the Omni Group and building microprocessors at Texas Instruments. In his free time, he enjoys spending time in the outdoors, cooking, and hacking on embedded hardware.",
+        "socialLinks": []
+      },
+      {
+        "name": "Frank van Puffelen",
+        "img": "https://lh3.googleusercontent.com/Y_-SKYUWQW3posCStz6GAp603e4J2jIyYHqKSLfkJ0IRne_zpegyczoBn0jEj9NY-xm_96OcLcFvRI7qQVsBfnml",
+        "company": "Google",
+        "description": "Frank (or puf) is an engineer for Firebase at Google. He helps developers build extraordinary apps that use Firebase as their back-end. If you've ever asked a Firebase question on StackOverflow, you've probably met Frank already.",
+        "socialLinks": [
+          {
+            "name": "GitHub",
+            "url": "https://github.com/puf"
+          },
+          {
+            "name": "Twitter",
+            "url": "https://twitter.com/puf"
+          }
+        ]
+      },
+      {
+        "name": "Kat Fang",
+        "img": "https://lh3.googleusercontent.com/I5fp7_2VFHTr3n94Of3vVBV4e982kedPEv8FtJ41dUVvGVJNKKcS7t5SJP_sIjK4hNa_FoTT6MKd8MKFlqYvXYM",
+        "company": "Google",
+        "description": "Kat is a software engineer for Firebase focused on the intersection with Google Cloud, previously working on Cloud Storage for Firebase and the Realtime Database. Kat graduated from MIT with a bachelor's and master's degree in Electrical Engineering and Computer Science. When she's unplugged, she spends her time dancing, figure skating, and puzzling.",
+        "socialLinks": []
+      },
+      {
+        "name": "Jen Person",
+        "img": "https://lh3.googleusercontent.com/kWEEjBLgEkTsg8k-K_XV3DGRSJf6AGSdL8L95iY5Na9BNRZYfJrHR-Ifdr5q2dTFMeKTrzLrPZNeML1kCZ1KOLl8gQ",
+        "company": "Google",
+        "description": "Jen is a developer advocate for Firebase at Google. She is a training expert, loves building iOS apps, and recently has been teaching developers how to integrate Cloud Functions into their Firebase apps. Jen graduated Magna Cum Laude with a Bachelor's Degree in Mathematics from Central Connecticut State University.",
+        "socialLinks": [
+          {
+            "name": "Twitter",
+            "url": "https://www.twitter.com/thatjenperson"
+          },
+          {
+            "name": "GitHub",
+            "url": "https://www.github.com/jenperson"
+          }
+        ]
+      }
+    ],
+    "seatingInfo": {
+      "open": 148,
+      "checkedIn": 38,
+      "reserved": 2
+    },
+    "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ab.png"
   }
 ]
