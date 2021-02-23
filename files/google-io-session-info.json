@@ -1,5 +1,6 @@
 [
   {
+  	"id": "a8ca402e-c376-4daa-93df-6b5cf28b5537",
     "name": "[SP a T i AL] Atlas of Emotions, Experiment 1",
     "date": "Tue. May 7, 7:40pm - 8:20pm",
     "startTime": "2021-03-01T19:40-08:00",
@@ -30,6 +31,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-4.png"
   },
   {
+  	"id": "d3cfb54a-1da2-436d-9374-92933cabf4e5",
     "name": "[SP a T i AL] Ian Chang, Sensory Percussion Live",
     "date": "Tue. May 7, 8:20pm - 9:00pm",
     "startTime": "2021-03-01T20:20-08:00",
@@ -56,6 +58,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ab.png"
   },
   {
+  	"id": "f35f2f4b-459b-408a-9e3e-7a1d39fd2004",
     "name": "[SP a T i AL] Monom, A Recalibration in 4DSOUND",
     "date": "Tue. May 7, 6:00pm - 6:20pm",
     "startTime": "2021-03-01T18:00-08:00",
@@ -82,6 +85,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/qr.png"
   },
   {
+  	"id": "0fdabf99-5e04-400d-b413-5f88dbc6dbe3",
     "name": "[SP a T i AL] Sougwen Chung, Drawing Operations",
     "date": "Tue. May 7, 6:20pm - 6:45pm",
     "startTime": "2021-03-01T18:20-08:00",
@@ -108,6 +112,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/st.png"
   },
   {
+  	"id": "beb80185-8f3e-40ce-b90e-82670e1a8192",
     "name": "[SP a T i AL] Sougwen Chung, Drawing Operations",
     "date": "Tue. May 7, 7:00pm - 7:25pm",
     "startTime": "2021-03-01T19:00-08:00",
@@ -134,6 +139,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ij.png"
   },
   {
+  	"id": "3174aa0e-c62c-4c87-bf04-84d31921428e",
     "name": "Accessible Audio: Android Hearing Aid Support and the Audio Framework",
     "date": "Tue. May 7, 4:00pm - 5:00pm",
     "startTime": "2021-03-01T16:00-08:00",
@@ -215,6 +221,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-5.png"
   },
   {
+  	"id": "f0972649-2167-43d2-a14f-3bad560e0501",
     "name": "After Glow",
     "date": "Tue. May 7, 6:00pm - 9:00pm",
     "startTime": "2021-03-01T18:00-08:00",
@@ -241,6 +248,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/office-hours.png"
   },
   {
+  	"id": "8bb2dbc1-d8c9-4526-be47-c4118d1b5075",
     "name": "Android Activities & Windows Office Hour",
     "date": "Tue. May 7, 2:00pm - 3:00pm",
     "startTime": "2021-03-01T14:00-08:00",
@@ -267,6 +275,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-6.png"
   },
   {
+  	"id": "cd83f819-4a5f-4f3d-a612-9b533a31b6fa",
     "name": "Android App Reviews",
     "date": "Tue. May 7, 1:00pm - 6:00pm",
     "startTime": "2021-03-01T13:00-08:00",
@@ -293,6 +302,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/kl.png"
   },
   {
+  	"id": "6ac4caf5-10c0-485b-8df6-c30eae8ea0d6",
     "name": "Android Authentication & Autofill",
     "date": "Tue. May 7, 2:00pm - 3:00pm",
     "startTime": "2021-03-01T14:00-08:00",
@@ -319,6 +329,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/uvw.png"
   },
   {
+  	"id": "c39075ba-c866-4879-a770-805878858770",
     "name": "Android Privacy Office Hours",
     "date": "Tue. May 7, 5:00pm - 6:00pm",
     "startTime": "2021-03-01T17:00-08:00",
@@ -345,6 +356,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ef.png"
   },
   {
+  	"id": "edad4929-e712-4314-80ce-fcf640795542",
     "name": "Android Security office hours",
     "date": "Tue. May 7, 1:00pm - 2:00pm",
     "startTime": "2021-03-01T13:00-08:00",
@@ -371,6 +383,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/cd.png"
   },
   {
+  	"id": "418374e6-3525-4b07-bc1e-55cb8844e746",
     "name": "Android Studio Profilers Office Hours",
     "date": "Tue. May 7, 4:00pm - 5:00pm",
     "startTime": "2021-03-01T16:00-08:00",
@@ -397,6 +410,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/mn.png"
   },
   {
+  	"id": "1d01bb36-8304-4f0b-a115-aeb1a7283ac1",
     "name": "Android System UI (Notifications, Navigation, Multitasking, Sharing)",
     "date": "Tue. May 7, 1:00pm - 2:00pm",
     "startTime": "2021-03-01T13:00-08:00",
@@ -423,6 +437,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/op.png"
   },
   {
+  	"id": "e2551e6c-925d-4fa4-a6c4-26052c045162",
     "name": "ARcade",
     "date": "Tue. May 7, 6:00pm - 9:00pm",
     "startTime": "2021-03-01T18:00-08:00",
@@ -449,6 +464,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/amphitheatre.png"
   },
   {
+  	"id": "38bcf7db-9dbe-4cb9-b577-0d7461299d5d",
     "name": "ARCore office hours",
     "date": "Tue. May 7, 5:00pm - 6:00pm",
     "startTime": "2021-03-01T17:00-08:00",
@@ -475,6 +491,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/gh.png"
   },
   {
+  	"id": "8c351155-f523-4906-ae3d-35703edb35f5",
     "name": "Best Practices for Developing on Android TV",
     "date": "Tue. May 7, 3:00pm - 4:00pm",
     "startTime": "2021-03-01T15:00-08:00",
@@ -552,6 +569,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/xyz.png"
   },
   {
+  	"id": "209a710f-d743-4abe-8093-c83b483b51b2",
     "name": "Best Practices in Using the Android Emulator",
     "date": "Tue. May 7, 2:00pm - 3:00pm",
     "startTime": "2021-03-01T14:00-08:00",
@@ -602,6 +620,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-4.png"
   },
   {
+  	"id": "6720b5c1-f297-476e-82d0-38757890fa12",
     "name": "Beyond Mobile: Material Design, Adaptable UIs, and Flutter",
     "date": "Tue. May 7, 1:00pm - 2:00pm",
     "startTime": "2021-03-01T13:00-08:00",
@@ -651,6 +670,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ab.png"
   },
   {
+  	"id": "ff6ef58f-139c-442e-ae98-eceda5cf33fd",
     "name": "Boardwalk",
     "date": "Tue. May 7, 5:30pm - 9:00pm",
     "startTime": "2021-03-01T17:30-08:00",
@@ -677,6 +697,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/qr.png"
   },
   {
+  	"id": "5a13d1c7-c765-4292-a011-4a15ab437e27",
     "name": "Build a Modular Android App Architecture",
     "date": "Tue. May 7, 2:00pm - 3:00pm",
     "startTime": "2021-03-01T14:00-08:00",
@@ -724,6 +745,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/st.png"
   },
   {
+  	"id": "09dc82cd-3a70-4638-bb3f-c2f335a0d40d",
     "name": "Build Apps for Foldable, Multi-Display, and Large-Screen Devices",
     "date": "Tue. May 7, 4:00pm - 5:00pm",
     "startTime": "2021-03-01T16:00-08:00",
@@ -785,6 +807,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ij.png"
   },
   {
+  	"id": "77885b61-4c64-48a7-a06f-e35aae74a197",
     "name": "Building Powerful Checkout Experiences with Google Pay",
     "date": "Tue. May 7, 2:00pm - 3:00pm",
     "startTime": "2021-03-01T14:00-08:00",
@@ -847,6 +870,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-5.png"
   },
   {
+  	"id": "53c54e9f-8b00-42af-8ef9-635bf67fb683",
     "name": "Building Successful Websites: Case Studies for Mature and Emerging Markets",
     "date": "Tue. May 7, 3:00pm - 4:00pm",
     "startTime": "2021-03-01T15:00-08:00",
@@ -922,6 +946,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/office-hours.png"
   },
   {
+  	"id": "32f43886-0ab2-4981-8d03-7d17a0e4ca64",
     "name": "Chrome OS Enterprise/Education Office Hours",
     "date": "Tue. May 7, 4:00pm - 5:00pm",
     "startTime": "2021-03-01T16:00-08:00",
@@ -948,6 +973,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-6.png"
   },
   {
+  	"id": "c2c12d82-3739-448a-9d87-bb7897aeb9b0",
     "name": "Code, Build, Run, and Observe with Google Cloud",
     "date": "Tue. May 7, 1:00pm - 2:00pm",
     "startTime": "2021-03-01T13:00-08:00",
@@ -1031,6 +1057,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/kl.png"
   },
   {
+  	"id": "7c248221-f044-4cc5-abc6-a8d6aa2f6972",
     "name": "Design App Reviews",
     "date": "Tue. May 7, 1:00pm - 6:00pm",
     "startTime": "2021-03-01T13:00-08:00",
@@ -1057,6 +1084,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/uvw.png"
   },
   {
+  	"id": "0003e33b-7878-490f-96e6-8e27fe725182",
     "name": "Developer Keynote",
     "date": "Tue. May 7, 11:45am - 12:45pm",
     "startTime": "2021-03-01T11:45-08:00",
@@ -1083,6 +1111,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ef.png"
   },
   {
+  	"id": "2603ef43-3d0f-4ce0-b1df-c12570f1e69c",
     "name": "Dynamic AMP emails",
     "date": "Tue. May 7, 5:00pm - 6:00pm",
     "startTime": "2021-03-01T17:00-08:00",
@@ -1109,6 +1138,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/cd.png"
   },
   {
+  	"id": "21388f91-972a-4692-83b1-c4df289c0d58",
     "name": "ExoPlayer office hours",
     "date": "Tue. May 7, 5:00pm - 6:00pm",
     "startTime": "2021-03-01T17:00-08:00",
@@ -1135,6 +1165,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/mn.png"
   },
   {
+  	"id": "0f6de09a-2957-4962-992d-e485f8424737",
     "name": "Firebase Predictions, Dynamic Links and In-app Messaging office hours",
     "date": "Tue. May 7, 1:00pm - 2:00pm",
     "startTime": "2021-03-01T13:00-08:00",
@@ -1161,6 +1192,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/op.png"
   },
   {
+  	"id": "1cf3ead2-dced-45ea-9fd0-d9f1b7edaa0d",
     "name": "Fireside Chat with Google Payments Team",
     "date": "Tue. May 7, 3:20pm - 4:00pm",
     "startTime": "2021-03-01T15:20-08:00",
@@ -1183,6 +1215,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/amphitheatre.png"
   },
   {
+  	"id": "ee8d4594-608c-4917-9bbf-4f756199cbbe",
     "name": "Fungineers",
     "date": "Tue. May 7, 6:00pm - 9:00pm",
     "startTime": "2021-03-01T18:00-08:00",
@@ -1209,6 +1242,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/gh.png"
   },
   {
+  	"id": "4913e4ef-a231-4da0-b775-d861ec52f948",
     "name": "G Suite Developer Office Hours",
     "date": "Tue. May 7, 3:00pm - 4:00pm",
     "startTime": "2021-03-01T15:00-08:00",
@@ -1235,6 +1269,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/xyz.png"
   },
   {
+  	"id": "d04cf622-3c34-4022-b37e-a6c4022c6b0e",
     "name": "Game development with Google Cloud",
     "date": "Tue. May 7, 1:00pm - 2:00pm",
     "startTime": "2021-03-01T13:00-08:00",
@@ -1261,6 +1296,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-4.png"
   },
   {
+  	"id": "1834de36-270d-4050-ad74-beea420d647e",
     "name": "Game Reviews",
     "date": "Tue. May 7, 1:00pm - 6:00pm",
     "startTime": "2021-03-01T13:00-08:00",
@@ -1287,6 +1323,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ab.png"
   },
   {
+  	"id": "d91ff73d-b5eb-4392-807d-96e0714e7a80",
     "name": "Getting Started with TensorFlow 2.0",
     "date": "Tue. May 7, 5:00pm - 6:00pm",
     "startTime": "2021-03-01T17:00-08:00",
@@ -1354,6 +1391,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/qr.png"
   },
   {
+  	"id": "533e6380-38ef-472d-a3d2-f7fd24c83471",
     "name": "Google Assistant & Smart Home Office Hours",
     "date": "Tue. May 7, 2:00pm - 3:00pm",
     "startTime": "2021-03-01T14:00-08:00",
@@ -1380,6 +1418,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/st.png"
   },
   {
+  	"id": "cd576ceb-56f9-4b06-9a4e-4bb4858f1fea",
     "name": "Google Assistant Office Hours",
     "date": "Tue. May 7, 3:00pm - 4:00pm",
     "startTime": "2021-03-01T15:00-08:00",
@@ -1406,6 +1445,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ij.png"
   },
   {
+  	"id": "f0850c04-8488-47b9-8083-6234f4b31246",
     "name": "Google Developer Experts",
     "date": "Tue. May 7, 2:30pm - 3:10pm",
     "startTime": "2021-03-01T14:30-08:00",
@@ -1428,6 +1468,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-5.png"
   },
   {
+  	"id": "844b990d-3bfa-4169-82c4-0c02ea846c7c",
     "name": "Google Keynote",
     "date": "Tue. May 7, 9:00am - 10:30am",
     "startTime": "2021-03-01T9:00-08:00",
@@ -1454,6 +1495,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/office-hours.png"
   },
   {
+  	"id": "39b9ca1c-521a-42e8-9cce-5aa83172634e",
     "name": "Google Maps Platform: A Deep Dive on Building for Performance and Scale",
     "date": "Tue. May 7, 3:00pm - 4:00pm",
     "startTime": "2021-03-01T15:00-08:00",
@@ -1497,6 +1539,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-6.png"
   },
   {
+  	"id": "cf59c5f1-51a2-4017-a4d0-740ca8be3c58",
     "name": "Google Pay",
     "date": "Tue. May 7, 1:00pm - 2:00pm",
     "startTime": "2021-03-01T13:00-08:00",
@@ -1523,6 +1566,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/kl.png"
   },
   {
+  	"id": "3c682995-1d62-44b9-8059-80c30f926608",
     "name": "I/O Ink Tattoo Studio",
     "date": "Tue. May 7, 6:00pm - 9:00pm",
     "startTime": "2021-03-01T18:00-08:00",
@@ -1549,6 +1593,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/uvw.png"
   },
   {
+  	"id": "46019af2-ccca-4bbf-af1b-0c642a327d84",
     "name": "I/O Landmark Stage",
     "date": "Tue. May 7, 5:45pm - 9:00pm",
     "startTime": "2021-03-01T17:45-08:00",
@@ -1575,6 +1620,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ef.png"
   },
   {
+  	"id": "ef917603-d415-48e9-99de-49c68ef39eb8",
     "name": "Intro to the Google Assistant: Build Your First Action",
     "date": "Tue. May 7, 4:00pm - 5:00pm",
     "startTime": "2021-03-01T16:00-08:00",
@@ -1662,6 +1708,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/cd.png"
   },
   {
+  	"id": "8fc01ec0-3269-42f3-b8c4-f200441bf442",
     "name": "Keynote pre-show",
     "date": "Tue. May 7, 8:20am - 9:00am",
     "startTime": "2021-03-01T8:20-08:00",
@@ -1688,6 +1735,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/mn.png"
   },
   {
+  	"id": "d614bf4f-d82a-405f-997d-d1c1c65d08af",
     "name": "Kotlin for Android Office Hours",
     "date": "Tue. May 7, 4:00pm - 5:00pm",
     "startTime": "2021-03-01T16:00-08:00",
@@ -1714,6 +1762,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/op.png"
   },
   {
+  	"id": "3b9cdce3-d953-4092-aba6-30ce4e019507",
     "name": "Kotlin for Cloud Office Hours",
     "date": "Tue. May 7, 2:00pm - 3:00pm",
     "startTime": "2021-03-01T14:00-08:00",
@@ -1740,6 +1789,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/amphitheatre.png"
   },
   {
+  	"id": "811b88a3-9426-44f8-8a1b-837732d15604",
     "name": "Live Coding A Machine Learning Model from Scratch",
     "date": "Tue. May 7, 4:00pm - 5:00pm",
     "startTime": "2021-03-01T16:00-08:00",
@@ -1803,6 +1853,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/gh.png"
   },
   {
+  	"id": "501f4f7e-b3cd-4097-b329-6f462214116d",
     "name": "Machine Learning on Your Device: The Options",
     "date": "Tue. May 7, 2:00pm - 3:00pm",
     "startTime": "2021-03-01T14:00-08:00",
@@ -1862,6 +1913,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/xyz.png"
   },
   {
+  	"id": "420025f0-dac1-4a5d-b9c3-b663bbd06923",
     "name": "Material Design Components: Android Office Hours",
     "date": "Tue. May 7, 2:00pm - 3:00pm",
     "startTime": "2021-03-01T14:00-08:00",
@@ -1888,6 +1940,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-4.png"
   },
   {
+  	"id": "35fe7126-9302-4706-8c77-2654a6e5d8b6",
     "name": "Material Design Components: Web/iOS/Flutter Office Hours",
     "date": "Tue. May 7, 1:00pm - 2:00pm",
     "startTime": "2021-03-01T13:00-08:00",
@@ -1914,6 +1967,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ab.png"
   },
   {
+  	"id": "12a20d9f-cb3f-4de1-9f88-92f0609bb88b",
     "name": "My First I/O",
     "date": "Tue. May 7, 1:00pm - 1:30pm",
     "startTime": "2021-03-01T13:00-08:00",
@@ -1936,6 +1990,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/qr.png"
   },
   {
+  	"id": "95d25ecd-83b3-424f-84a7-d9aaa2d071b0",
     "name": "Office Hours with the AMP Story Team",
     "date": "Tue. May 7, 5:00pm - 6:00pm",
     "startTime": "2021-03-01T17:00-08:00",
@@ -1962,6 +2017,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/st.png"
   },
   {
+  	"id": "b8fed2ca-de33-4a01-8e06-1db423b0bd3a",
     "name": "Office hours with the Android Bazel team",
     "date": "Tue. May 7, 4:00pm - 5:00pm",
     "startTime": "2021-03-01T16:00-08:00",
@@ -1988,6 +2044,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ij.png"
   },
   {
+  	"id": "27cc209d-61ae-4c3e-b7b4-b082671a7c0e",
     "name": "Optimize Your Image Search Results",
     "date": "Tue. May 7, 4:00pm - 5:00pm",
     "startTime": "2021-03-01T16:00-08:00",
@@ -2014,6 +2071,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-5.png"
   },
   {
+  	"id": "389c006f-167a-41f9-9796-697f68ba44da",
     "name": "Optimizing Android Games Performance",
     "date": "Tue. May 7, 3:00pm - 4:00pm",
     "startTime": "2021-03-01T15:00-08:00",
@@ -2048,6 +2106,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/office-hours.png"
   },
   {
+  	"id": "2f4bfd73-831a-411d-af80-78b6e7c1c6c9",
     "name": "Play App Reviews",
     "date": "Tue. May 7, 1:00pm - 6:00pm",
     "startTime": "2021-03-01T13:00-08:00",
@@ -2074,6 +2133,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-6.png"
   },
   {
+  	"id": "6e87ddae-0693-4a7c-a795-3ed5ef79d164",
     "name": "Play Instant Apps Office Hours",
     "date": "Tue. May 7, 3:00pm - 4:00pm",
     "startTime": "2021-03-01T15:00-08:00",
@@ -2100,6 +2160,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/kl.png"
   },
   {
+  	"id": "d04462a6-76c6-4d49-8c81-bf78a70dd2fe",
     "name": "Play Policy App Reviews",
     "date": "Tue. May 7, 1:00pm - 6:00pm",
     "startTime": "2021-03-01T13:00-08:00",
@@ -2126,6 +2187,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/uvw.png"
   },
   {
+  	"id": "94d3466a-99ce-4c5a-8be2-cf1a632e83a8",
     "name": "Prototyping Voice Experiences: Design Sprints for the Google Assistant",
     "date": "Tue. May 7, 1:00pm - 2:00pm",
     "startTime": "2021-03-01T13:00-08:00",
@@ -2180,6 +2242,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ef.png"
   },
   {
+  	"id": "e9886e02-9e08-445e-be43-4801e0f98634",
     "name": "Smart Home Office Hours",
     "date": "Tue. May 7, 4:00pm - 5:00pm",
     "startTime": "2021-03-01T16:00-08:00",
@@ -2206,6 +2269,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/cd.png"
   },
   {
+  	"id": "1a112544-7bee-4098-a864-e7063c86cb89",
     "name": "Sound Design and Sonic Brand",
     "date": "Tue. May 7, 5:00pm - 6:00pm",
     "startTime": "2021-03-01T17:00-08:00",
@@ -2249,6 +2313,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/mn.png"
   },
   {
+  	"id": "16eb82fe-3cb5-4d84-8f7a-357a1a0dbd15",
     "name": "Speechless Live",
     "date": "Tue. May 7, 6:00pm - 7:00pm",
     "startTime": "2021-03-01T18:00-08:00",
@@ -2279,6 +2344,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/op.png"
   },
   {
+  	"id": "f4fb57e0-2f38-45dc-bb24-cc78d78b465e",
     "name": "Stadia Streaming Tech: A Deep Dive",
     "date": "Tue. May 7, 2:00pm - 3:00pm",
     "startTime": "2021-03-01T14:00-08:00",
@@ -2345,6 +2411,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/amphitheatre.png"
   },
   {
+  	"id": "59535547-1119-4f61-978e-e74d913c4590",
     "name": "Teaching a Car to Drive Itself by Imitation and Imagination",
     "date": "Tue. May 7, 1:00pm - 2:00pm",
     "startTime": "2021-03-01T13:00-08:00",
@@ -2400,6 +2467,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/gh.png"
   },
   {
+  	"id": "f203b2b8-b4c6-4034-810c-3436e4bd0dc7",
     "name": "The Rink",
     "date": "Tue. May 7, 6:00pm - 9:00pm",
     "startTime": "2021-03-01T18:00-08:00",
@@ -2426,6 +2494,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/xyz.png"
   },
   {
+  	"id": "6d19f7c0-9bf2-4a21-9afd-d1ad6cd3fc8d",
     "name": "The State of Unity on Android",
     "date": "Tue. May 7, 5:00pm - 6:00pm",
     "startTime": "2021-03-01T17:00-08:00",
@@ -2496,6 +2565,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-4.png"
   },
   {
+  	"id": "3887ee71-3017-4058-9d4c-491c0e5e97d6",
     "name": "Understand Kotlin Coroutines on Android",
     "date": "Tue. May 7, 5:00pm - 6:00pm",
     "startTime": "2021-03-01T17:00-08:00",
@@ -2571,6 +2641,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ab.png"
   },
   {
+  	"id": "431d4b2c-a2b0-4386-ab39-8154ab30fd2b",
     "name": "Understanding the role of voice in your app for emerging markets",
     "date": "Tue. May 7, 3:00pm - 4:00pm",
     "startTime": "2021-03-01T15:00-08:00",
@@ -2597,6 +2668,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/qr.png"
   },
   {
+  	"id": "ac6bbbcf-13fe-49c1-94d4-ab9d08f9ebfe",
     "name": "Unleash the Power of Play Store Discovery",
     "date": "Tue. May 7, 4:00pm - 5:00pm",
     "startTime": "2021-03-01T16:00-08:00",
@@ -2665,6 +2737,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/st.png"
   },
   {
+  	"id": "3f128bed-2f47-41a8-ae1a-08c29f4bb4c8",
     "name": "UX Research Office Hours",
     "date": "Tue. May 7, 2:00pm - 3:00pm",
     "startTime": "2021-03-01T14:00-08:00",
@@ -2691,6 +2764,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ij.png"
   },
   {
+  	"id": "3d067a75-61eb-4e72-9046-78dbe2d0c865",
     "name": "Vitals Q&A",
     "date": "Tue. May 7, 5:00pm - 6:00pm",
     "startTime": "2021-03-01T17:00-08:00",
@@ -2717,6 +2791,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-5.png"
   },
   {
+  	"id": "1fb2be4e-bbdb-43c1-bd34-c60a8397a9b1",
     "name": "Web App Reviews",
     "date": "Tue. May 7, 1:00pm - 6:00pm",
     "startTime": "2021-03-01T13:00-08:00",
@@ -2743,6 +2818,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/office-hours.png"
   },
   {
+  	"id": "226c92e4-c564-4b4f-b264-3eb25201bfac",
     "name": "What's changing in Android Q",
     "date": "Tue. May 7, 3:00pm - 4:00pm",
     "startTime": "2021-03-01T15:00-08:00",
@@ -2769,6 +2845,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-6.png"
   },
   {
+  	"id": "c5bda146-2693-4170-802e-511abdf6a3be",
     "name": "What's New in Android",
     "date": "Tue. May 7, 1:00pm - 2:00pm",
     "startTime": "2021-03-01T13:00-08:00",
@@ -2843,6 +2920,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/kl.png"
   },
   {
+  	"id": "a0006eeb-caf8-4d35-97cb-e96f28905267",
     "name": "What's New in Android C++ Development",
     "date": "Tue. May 7, 4:00pm - 5:00pm",
     "startTime": "2021-03-01T16:00-08:00",
@@ -2897,6 +2975,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/uvw.png"
   },
   {
+  	"id": "7a23ce2d-df1c-4112-8948-35e9fa73099a",
     "name": "What's New in Gaming at Google",
     "date": "Tue. May 7, 1:00pm - 2:00pm",
     "startTime": "2021-03-01T13:00-08:00",
@@ -2958,6 +3037,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/ef.png"
   },
   {
+  	"id": "13a16978-9087-4012-a95c-4c06b7012272",
     "name": "What's New with Android for Cars",
     "date": "Tue. May 7, 3:00pm - 4:00pm",
     "startTime": "2021-03-01T15:00-08:00",
@@ -3015,6 +3095,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/cd.png"
   },
   {
+  	"id": "318bac7d-8e4c-41b0-a0b1-c5f8214fe9ef",
     "name": "What's New with Chrome and the Web",
     "date": "Tue. May 7, 2:00pm - 3:00pm",
     "startTime": "2021-03-01T14:00-08:00",
@@ -3076,6 +3157,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/mn.png"
   },
   {
+  	"id": "c7e420d1-55c8-49d5-b54f-d09ac47aead9",
     "name": "What’s New in Android Accessibility",
     "date": "Tue. May 7, 1:00pm - 2:00pm",
     "startTime": "2021-03-01T13:00-08:00",
@@ -3128,6 +3210,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/op.png"
   },
   {
+  	"id": "4fda8a7a-897a-434b-9314-2c077ee794c7",
     "name": "What’s New in Android Machine Learning",
     "date": "Tue. May 7, 5:00pm - 6:00pm",
     "startTime": "2021-03-01T17:00-08:00",
@@ -3218,6 +3301,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/amphitheatre.png"
   },
   {
+  	"id": "c605fb4d-a601-4f4a-8003-b731c103be9e",
     "name": "What’s New in ARCore",
     "date": "Tue. May 7, 2:00pm - 3:00pm",
     "startTime": "2021-03-01T14:00-08:00",
@@ -3275,6 +3359,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/gh.png"
   },
   {
+  	"id": "44299e64-0cfd-4786-8f2a-08e09e23eac5",
     "name": "Wi-Fries",
     "date": "Tue. May 7, 7:00pm - 9:00pm",
     "startTime": "2021-03-01T19:00-08:00",
@@ -3301,6 +3386,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/speaker-details/xyz.png"
   },
   {
+  	"id": "20b79729-e16d-46b2-8622-9e433095ecab",
     "name": "Women Techmakers Meetup",
     "date": "Tue. May 7, 1:40pm - 2:20pm",
     "startTime": "2021-03-01T13:40-08:00",
@@ -3323,6 +3409,7 @@
     "bannerUrl": "https://storage.googleapis.com/io-19-assets/images/schedule/session-details/stage-4.png"
   },
   {
+  	"id": "edcd56aa-15f1-47af-bcd6-0eab21c3b1ba",
     "name": "Zero to App: Live Coding a Cross-Platform App on Firebase",
     "date": "Tue. May 7, 3:00pm - 4:00pm",
     "startTime": "2021-03-01T15:00-08:00",
