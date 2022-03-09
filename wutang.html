@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wu-Tang Sprint Name Generator</title>
+</head>
+<body>
+  <form>
+    <select id="letterSelector">
+      <option value="A">A</option>
+      <option value="B">B</option>
+      <option value="C">C</option>
+      <option value="D">D</option>
+      <option value="E">E</option>
+      <option value="F">F</option>
+      <option value="G">G</option>
+      <option value="H">H</option>
+      <option value="I">I</option>
+      <option value="J">J</option>
+      <option value="K">K</option>
+      <option value="L">L</option>
+      <option value="M">M</option>
+      <option value="N">N</option>
+      <option value="O">O</option>
+      <option value="P">P</option>
+      <option value="Q">Q</option>
+      <option value="R">R</option>
+      <option value="S">S</option>
+      <option value="T">T</option>
+      <option value="U">U</option>
+      <option value="V">V</option>
+      <option value="W">W</option>
+      <option value="X">X</option>
+      <option value="Y">Y</option>
+      <option value="Z">Z</option>
+    </select>
+    <input type="text" id="wutangName" name="wutangName">
+    <button type="button" id="wutangGenerator">Regenerate</button>
+  </form>
+</body>
+<script type="text/javascript">
+  const nouns = ["ace","adjudicator","adventurer","Ambassador","ape","argus","Artist","Assassin","assassin","attacker","authority","bachelor","bagman","Bandit","Beggar","believerwader","bell toad","big cat","block Warrior","brainiac","bravo","breaker","Buddist","cadger","cat","cavalier","chiliast","Commander","Conqueror","controller","corvus","coyote","Crane","creator","criminal","crooked alligator","crow","danger","Demon","designer","Desperado","Destroyer","devil","diplomatist","diviner","doge","Dominator","Dr.","Draco","Dragon","drifer","educator","enchanter","evil","expert","fiend","fighter","firedrake","fist","floater","freebooter","general","genius","genus Mustela","governor","Grus americana","hand","hoodoo","Hunter","illusionist","Iron Toad","jaguar","judge","killer","Killer pop","King","Knight","lamp eye ","lansquenet","leader","leopard","Lion","lord","Magician","magician","marten","master","Master","Mastermind","Menace","Mercenary","mercenary","mink","mitt","monal","monkey","monwhooper","moocher","mugger","murderer","nasty eagle ","needy","Ninja","ninja","nobility","occultist","officer","panther","panthera","parrot","paw","Pheasant","pioneer","plastic frog","predictor","Professional","prophesier","Prophet","Quack","Queen","Quince","Quid","Rascal","Raven","recorder","robber","romanticist","ruler","Samurai","scratch","Seeker","short ferret","simian","Sir","soldier","sorecerer","Specialist","spokesperson","stylist","superior","threat","thug","Tiger","Tiger fist","togue","Tormenter","tough","tough","Tracker","traveler","tree toad","turkey","Udder","Uncle","Underdog","Unicon","vanquisher","venturer","victor","villain","Wanderer","Warlock","warrior","waster","wildcat","witch","witch doctor","Wizard","wolf","wrecker","wyvern","X-Ray","X-Wing","Xyster","yellow peril","Zealot","Zebra","Zephyr","Zit","Zoot","Zoster"];
+
+  const adjectives = ["active","Aggressive","alarming","Amazing","angry","Annoying","Arrogant","awesome","awing","bad","barbed","beamish","bibulous","Bitter","blessedupleasant","bold","boozy","brave","brave","calloused","charitable","cheerful","chesty","chilly","chromatic","chromatic","common","crappy","Crazy","crazy","dark","deafening","dedicatedresentful","dopy","Drunken","Dynamic","educated","empathetic","energising","Erratic","Excessive","faineant","Fanatical","far","fast","Fearless","fickle","Foolish","foremost","fortunate","gallant","galling","gilded","gilt","golden","golden","goosy","governing","great","hard","hardy","heroic","hexed","holly","honored","hostile","hot","humble","illusional","imposing","impressive","indolent","Insane","insensitive","Intellectual","invasive","key","kind","Lazy-Assed","little","loco","long","loopy","loud","luckless","Lucky","mad","Mad Mad","Master","mean","mercurial","Midnight","Mighty","minatory","musty","mythic","niffy","nighttime","noetic","oblong","ocular","offtensive","optical","overweening","overzealous","passionate","pesky","pestering","Phantom","philosophic","philosophical","pinkie","pinkish","Pinky","powerful","proud","quick","Quiet","rabid","raging","rapid","rational","reputable","Respected","sanctity","Sarcastic","sardonic","satiric","savage","scrappy","self-important","sick","silent","silly","sinister","slashing","slothful","small","Smiling","sorrowful","sottish","speedy","spunky","stinky","strong","sturdy","sunset","sympathetic","tall","tame","teensy","thankless","Threatening ","Thunderous","thundery","tiny","tiptoe","Tough","tough","twinkly","unappreciative","undue","unemotional","unfortunable","Ungrateful","unhinged","Unlucky","unpleasant","unreal","unreasonable","Violent","visible","Visual","Vulgar","wacky","wandering","well-thought-of","wild"];
+
+  document.onreadystatechange = function () {
+
+    if (document.readyState === 'interactive') {
+      const wutangNameElement = document.querySelector("#wutangName");
+      const letterSelector = document.querySelector("#letterSelector");
+      const regenerateElement = document.querySelector("#wutangGenerator")
+      letterSelector.addEventListener('change', (event) => {
+        const letter = event.target.value;
+        generateNameFromLetter(letter);
+      });
+      regenerateElement.addEventListener('click', (event) => {
+        regenerateName();     
+      })
+      regenerateName();
+    }
+  }
+
+  function regenerateName() {
+    const selector = document.querySelector("#letterSelector");
+    const letter = selector.options[selector.selectedIndex].value;
+    generateNameFromLetter(letter);
+  }
+
+  function generateNameFromLetter(letter) {
+    const subsetNouns = nouns.filter(noun => noun.charAt(0).toUpperCase() === letter);
+    const wuname = subsetNouns[Math.floor(Math.random() * subsetNouns.length)] + ' ' + adjectives[Math.floor(Math.random() * adjectives.length)];
+    document.querySelector("#wutangName").value = wuname;
+  }
+
+</script>
+</html>
