@@ -1,0 +1,185 @@
+#playerTrains {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9%, 1fr));
+  grid-column: 1 / 4;
+  grid-row: 1;
+  overflow-y: scroll;
+}
+
+#gameboard {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 80% auto;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+
+#waitingRoom {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: min(24em,50vw);
+  margin: 0 auto;
+}
+
+#waitingRoomPlayers {
+  margin: 1em;
+  padding: .5em;
+  width: 100%;
+  transition: all 0.2s ease;
+  border-radius: 5px;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  margin-bottom: 12pt;
+  background-color: rgb(250, 250, 250);
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+  border-color: rgba(223,225,229,0);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1em;
+}
+
+.waitingRoomPlayer {
+  border: 1pt solid rgb(221, 221, 221);
+  border-radius: 0px;
+  box-shadow: none;
+  background: #fff;
+  padding: .8em;
+}
+
+#handControls {
+  background-color: rgba(255, 0, 0, .4);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+#gameControls {
+  background-color: rgba(255, 0, 0, .4);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column: 3;
+  grid-row: 2;
+}
+
+#hands {
+  background-color: rgba(0, 255, 0, .4);
+  overflow-x: scroll;
+}
+
+.playerDominos {
+  align-items: center;
+  display: grid;
+  grid-auto-flow: column;
+  padding-left: 2em;
+  padding-right: 2em;
+  height: 100%;
+}
+
+
+.player {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  padding: 1em;
+  color: #d9480f;
+  display: grid;
+  justify-items: center;
+  row-gap: 1em;
+  grid-auto-rows: min-content;
+}
+
+.player[selectable]:hover {
+    background-color: #f0f3f4;
+}
+
+.player[selectable].selected {
+  background-color: #e7f0fe;
+}
+
+.player[selectable].selected:hover {
+  background-color: #d2e3fc;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: #f00;
+}
+
+.domino {
+  width: 3rem;
+  border-radius: .5rem;
+  border: 0.05rem solid #000;
+  background-color: #FFF;
+  transition: transform 100ms;
+  position: relative;
+}
+
+.dText {
+  text-align: center;
+}
+
+.playerDominos > .domino:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.counter {
+  position: absolute;
+  top: -0.5em;
+  right: -0.5em;
+  background-color: #0f0;
+  border-radius: 2em;
+  width: 1.25em;
+  height: 1.25em;
+  text-align: center;
+  font-size: 1em;
+}
+
+.domino > .counter {
+  opacity: 0%;
+}
+
+.domino.selected {
+  background-color: #0f0;
+}
+
+.domino.selected > .counter {
+  opacity: 100%;
+}
+
+.playerInfoBlock {
+  display: flex;
+  align-items: center;
+}
+
+.playerName {
+  margin-left: 0.5em;
+}
+
+.openTrack {
+  display: none;
+}
+
+.player.open .openTrack {
+  display: inline;
+}
+
+.player.open .closedTrack {
+  display: none;
+}
+
+.player.current {
+  color: black;
+}
+
+.playerScore {
+  margin-left: 1em;
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   id="svg4"
+   sodipodi:docname="open-track.svg"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8">
+    <linearGradient
+       id="linearGradient13994"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="0"
+         id="stop13992" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="18.13141"
+     inkscape:cx="13.540039"
+     inkscape:cy="17.621354"
+     inkscape:window-width="1296"
+     inkscape:window-height="969"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer2"
+     showguides="false" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="go"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <ellipse
+       style="fill:#4caf50;fill-opacity:1;stroke-width:1.20035"
+       id="path847"
+       cx="12"
+       cy="12"
+       ry="10.820947"
+       rx="11.032945" />
+    <path
+       d="m 16.309147,9.8868259 h -1.436382 v -1.408782 h 1.436382 V 7.0692616 H 14.872765 V 5.6604803 h 1.436382 V 4.2516969 H 7.6908533 V 5.6604803 H 9.1272357 V 7.0692616 H 7.6908533 v 1.4087823 h 1.4363824 v 1.408782 H 7.6908533 V 11.295608 H 9.1272357 V 12.70439 H 7.6908533 v 1.408784 h 1.4363824 v 1.408782 H 7.6908533 v 1.408783 h 1.4363824 v 1.408782 H 7.6908533 v 1.408782 h 8.6182937 v -1.408782 h -1.436382 v -1.408782 h 1.436382 v -1.408783 h -1.436382 v -1.408782 h 1.436382 V 12.70439 h -1.436382 v -1.408782 h 1.436382 V 9.8868259 M 13.436383,5.6604803 V 7.0692616 H 10.563618 V 5.6604803 h 2.872765 m 0,2.8175636 v 1.408782 h -2.872765 v -1.408782 h 2.872765 m 0,2.8175641 v 1.408782 h -2.872765 v -1.408782 h 2.872765 m 0,2.817566 v 1.408782 h -2.872765 v -1.408782 h 2.872765 m 0,2.817565 v 1.408782 h -2.872765 v -1.408782 z"
+       id="path2"
+       style="fill:#ffffff;stroke-width:0.711258" />
+  </g>
+</svg>
