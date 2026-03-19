@@ -1,7 +1,9 @@
 
-# Day 1
+# Day 1 | Profile Scrreen
 
 ## Example Output
+I designed a profile screen that combined LinkedIn + Instagram. Feel free to design your own.
+
 ![Day 1 Example Output](https://blinkmacalahan.github.io/faang-android-ui-tech-screen/day1/day1.png)
 
 ## Code Solution
