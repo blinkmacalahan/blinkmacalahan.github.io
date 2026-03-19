@@ -1,288 +1,267 @@
-Prompt: For Android faang level tech screens where I'm asked to build a small app with jetpack compose, what are some expected examples to build. I'm looking to improve my compose skills so I'm more pointedly looking at UI designs to implement 
+Prompt: Design a 7-day focused Compose practice plan tailored to FAANG screens
 
 Response:
 
-For FAANG-level Android interviews (especially onsite or take-home UI rounds), the Compose task is usually **deceptively simple on the surface but designed to test depth**: state management, architecture, performance, and polish—not just “can you draw a screen.”
+Here’s a **focused 7-day Jetpack Compose plan** designed specifically for FAANG-style interview screens. It’s not about building big apps—it’s about **repeating the exact patterns interviewers test**, with increasing complexity.
 
-Here are the **most common UI patterns you should be ready to build in Jetpack Compose**, along with what they’re *really* testing.
+Each day is ~1.5–3 hours and deliberately scoped.
 
 ---
 
-# 🧩 1. List + Detail (Master/Detail UI)
+# 🗓️ Day 1 — Compose Fundamentals (Speed + Cleanliness)
 
-### Example
+### Goal: Build fast, clean, idiomatic UI
 
-* Feed of items → tap → detail screen
-* Think: Twitter, Reddit, email inbox
+### Build
 
-### What you might build
+* Profile screen:
 
-* LazyColumn with items
-* Click → navigate to detail
-* Load more / pagination
-* Pull-to-refresh
+  * Avatar
+  * Name + subtitle
+  * Stats row (followers, posts, etc.)
+  * Button (“Follow”)
 
-### What they’re testing
+### Focus
 
-* `LazyColumn` efficiency
+* `Column`, `Row`, `Box`
+* `Modifier` chains (padding, weight, alignment)
+* Extracting small composables
+
+### Constraints
+
+* No ViewModel yet
+* Everything stateless except button toggle
+
+### Stretch
+
+* Make the button toggle state (Follow ↔ Following)
+
+---
+
+# 🗓️ Day 2 — Lists + State
+
+### Goal: Master `LazyColumn` + state updates
+
+### Build
+
+* Scrollable list of items (e.g., tweets or posts)
+* Each item:
+
+  * Title
+  * Description
+  * Like button (toggle)
+
+### Focus
+
+* `LazyColumn`
 * State hoisting
+* Immutable list updates
+
+### Constraints
+
+* No navigation yet
+* State lives in parent composable
+
+### Stretch
+
+* Add “Load more” button at bottom
+
+---
+
+# 🗓️ Day 3 — Navigation + Multi-Screen
+
+### Goal: Clean screen separation
+
+### Build
+
+* List screen → Detail screen
+* Tap item → navigate → show details
+
+### Focus
+
 * Navigation (Compose Navigation or manual)
-* Handling loading/error states
+* Passing arguments
+* Screen-level composables
 
-👉 Practice idea:
+### Constraints
 
-* Build a **GitHub repo browser UI**
-* Or a **news feed with expandable cards**
+* Introduce a simple ViewModel
+* Keep UI stateless
 
----
+### Stretch
 
-# 🔍 2. Search + Filtering UI
-
-### Example
-
-* Search bar filtering a list in real time
-
-### What you might build
-
-* TextField at top
-* Filtered list updates as user types
-* Optional debounce
-
-### What they’re testing
-
-* State flows (`StateFlow`, `collectAsState`)
-* Recomposition efficiency
-* Separation of UI vs business logic
-
-👉 Practice idea:
-
-* Contacts list with search + sections (A–Z)
-* Product list with filters (chips/toggles)
+* Add back navigation + state preservation
 
 ---
 
-# 🛒 3. Shopping Cart / Selection State
+# 🗓️ Day 4 — Async Data + UI State Modeling
 
-### Example
+### Goal: Handle real-world UI states
 
-* Add/remove items, update totals
+### Build
 
-### What you might build
+* Fake API call (delay 1–2 seconds)
+* Show:
 
-* List with checkboxes or counters
-* Bottom bar showing total price
-* Dynamic updates
+  * Loading spinner
+  * Success list
+  * Error state with retry
 
-### What they’re testing
+### Focus
 
-* Derived state (`derivedStateOf`)
-* Immutable state patterns
-* UI reacting to state changes correctly
+* `StateFlow` + `collectAsState`
+* Sealed UI state:
 
-👉 Practice idea:
+  * `Loading`, `Success`, `Error`
 
-* Food ordering UI
-* Cart with quantity stepper (+ / -)
+### Constraints
 
----
+* Must separate UI + ViewModel
+* No direct mutable state in UI
 
-# 🧭 4. Multi-Screen Flow (Navigation)
+### Stretch
 
-### Example
-
-* Login → Home → Detail
-* Or onboarding flow
-
-### What you might build
-
-* Navigation graph
-* Passing arguments between screens
-
-### What they’re testing
-
-* Navigation architecture
-* ViewModel scoping
-* State persistence
-
-👉 Practice idea:
-
-* Simple onboarding flow (3 screens + pager)
-* Login form → dashboard
+* Add pull-to-refresh
 
 ---
 
-# 🧾 5. Form UI + Validation
+# 🗓️ Day 5 — Forms + Validation
 
-### Example
+### Goal: Input handling (very common in interviews)
 
-* Sign-up form
+### Build
 
-### What you might build
+* Sign-up form:
 
-* TextFields (email, password)
-* Validation errors
-* Submit button enabled/disabled
+  * Email
+  * Password
+  * Confirm password
+  * Submit button
 
-### What they’re testing
+### Focus
 
-* State + validation logic separation
-* UX polish (error messages, focus handling)
-* Keyboard + IME handling
+* TextField state handling
+* Validation logic
+* Derived state (`isFormValid`)
 
-👉 Practice idea:
+### Constraints
 
-* Signup screen with live validation
-* Payment form (card number formatting)
+* Disable button until valid
+* Show inline errors
 
----
+### Stretch
 
-# 🎞️ 6. Animations / UI Polish
-
-### Example
-
-* Expand/collapse card
-* Animated visibility
-* Transitions
-
-### What you might build
-
-* Expandable list item
-* Animated icon toggle
-
-### What they’re testing
-
-* Compose animation APIs
-* Thoughtfulness in UX
-
-👉 Practice idea:
-
-* Expandable FAQ list
-* Like button with animation
+* Add password visibility toggle
+* Keyboard actions (Next/Done)
 
 ---
 
-# 🧱 7. Custom Layout / Complex UI
+# 🗓️ Day 6 — UI Polish + Animations
 
-### Example
+### Goal: Show senior-level polish
 
-* Pinterest-style grid
-* Chat bubbles
-* Timeline UI
+### Build
 
-### What you might build
+* Expandable list (e.g., FAQ or messages)
+* Tap → expands with animation
 
-* Custom composables
-* ConstraintLayout or custom `Layout {}`
+### Focus
 
-### What they’re testing
+* `AnimatedVisibility`
+* `animateContentSize`
+* Subtle transitions
 
-* Deep Compose knowledge
-* Layout system understanding
+### Constraints
 
-👉 Practice idea:
+* Keep logic simple
+* Focus on UX smoothness
 
-* Chat screen (left/right bubbles)
-* Masonry grid (staggered layout)
+### Stretch
 
----
-
-# 🌐 8. Async Data + Loading States
-
-### Example
-
-* Fetch data and render UI
-
-### What you might build
-
-* Loading spinner
-* Error state with retry
-* Success UI
-
-### What they’re testing
-
-* Flow/coroutines integration
-* Proper UI state modeling (sealed classes)
-
-👉 Practice idea:
-
-* Fake API with delay
-* Show loading → success → error
+* Animate icon rotation (arrow up/down)
 
 ---
 
-# 🎯 What Interviewers REALLY Care About
+# 🗓️ Day 7 — Mock Interview Build (Full Integration)
 
-Even more than the UI itself:
+### Goal: Simulate real interview pressure
 
-### 1. State management
+### Build (Pick one)
 
-* Hoisted vs local state
-* Single source of truth
+#### Option A: “Mini Reddit Feed”
 
-### 2. Architecture
-
-* ViewModel + UI separation
-* Clean data flow
-
-### 3. Recomposition awareness
-
-* Avoid unnecessary recompositions
-* Use `remember`, `key`, etc correctly
-
-### 4. Readability
-
-* Small composables
-* Naming clarity
-
-### 5. Edge cases
-
-* Empty states
-* Error states
-* Rotation (if relevant)
-
----
-
-# 🧪 High-Value Practice Combos
-
-If you want to level up fast, build these **compound exercises**:
-
-### 🔥 1. “Mini Reddit Client”
-
-* Feed (LazyColumn)
+* Post list
 * Upvote toggle
-* Expand comments
+* Expandable content
 * Navigation to detail
-* Loading + error state
+* Loading state
 
-### 🔥 2. “E-commerce UI”
+#### Option B: “E-commerce UI”
 
 * Product list
-* Filters + search
-* Cart with totals
-* Checkout form
-
-### 🔥 3. “Chat App UI”
-
-* Message list (reverse layout)
-* Input box
-* Message bubbles
-* Typing indicator (optional)
+* Add to cart
+* Cart total at bottom
+* Simple checkout form
 
 ---
 
-# 💡 Pro Tip (This is what separates strong candidates)
+### Rules (important)
 
-Don’t just *build UI*—**talk while building**:
+* Timebox to **90–120 minutes**
+* Talk out loud (simulate interview)
+* Start with:
 
-* “I’m hoisting state here because…”
-* “This should be a stateless composable…”
-* “I’ll model UI state as a sealed class…”
+  > “I’ll model UI state like this…”
 
-That’s often the difference between mid-level and senior/FAANG-level performance.
+### Focus
+
+* Clean architecture
+* State flow clarity
+* Composable reuse
 
 ---
 
-If you want, I can:
+# 🧠 Daily “Interview Layer” (Do this every day)
 
-* Give you a **mock interview prompt** and evaluate your approach
-* Or design a **7-day focused Compose practice plan tailored to FAANG screens**
+After coding, spend 10–15 min answering:
+
+* Where is my state stored?
+* What recomposes unnecessarily?
+* What would I refactor with more time?
+* Is this composable reusable/testable?
+
+---
+
+# 🚀 How to Get Maximum ROI
+
+### 1. Repeat Days 2, 3, and 4
+
+Those are **80% of interview questions**
+
+### 2. Practice explaining while coding
+
+Say things like:
+
+* “This is a stateless composable…”
+* “I’m hoisting state to avoid duplication…”
+* “This prevents unnecessary recomposition…”
+
+### 3. Keep projects small
+
+Interviewers don’t care about completeness—they care about:
+
+* Decisions
+* Tradeoffs
+* Clarity
+
+---
+
+# 🎯 If you want next level prep
+
+I can:
+
+* Give you a **realistic FAANG-style prompt + timer**
+* Review your solution like an interviewer
+* Or give you a **“perfect answer” architecture template** you can reuse during interviews
+
+Just tell me 👍
