@@ -2,7 +2,7 @@
 # Day 1
 
 ## Example Output
-![Day 1 Example Output](https://https://blinkmacalahan.github.io/faang-android-ui-tech-screen/day1/day1.png)
+![Day 1 Example Output](https://blinkmacalahan.github.io/faang-android-ui-tech-screen/day1/day1.png)
 
 ## Code Solution
 
