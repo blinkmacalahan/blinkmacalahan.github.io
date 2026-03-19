@@ -1,5 +1,5 @@
 
-# Day 1 | Profile Scrreen
+# Day 1 | Profile Screen
 
 ## Example Output
 I designed a profile screen that combined LinkedIn + Instagram. Feel free to design your own.
